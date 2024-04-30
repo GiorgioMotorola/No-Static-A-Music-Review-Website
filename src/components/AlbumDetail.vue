@@ -4,7 +4,8 @@
             <div class="album-artist">
                 <div class="img-container">
                     <img :src="album.image" alt="Album Cover">
-                    <div class="genre">{{ album.genre }}, {{ album.subGenre }} {{ album.yearReleased }}</div>
+                    <div class="genre">{{ album.genre }}, {{ album.subGenre }} &nbsp;&#8226;&nbsp;{{ album.yearReleased
+                        }}</div>
                 </div>
                 <div class="details">
                     <div class="album">{{ album.album }}</div>
