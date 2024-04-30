@@ -175,13 +175,14 @@ export default {
 
 .review-section {
     margin-top: 0rem;
-    font-size: 50px;
-    padding: 10%;
-    line-height: 1.3;
+    font-size: 40px;
+    padding: 6%;
+    line-height: 1;
 }
 
 .review {
-    color: #B9B79D;
+    color: #c9c8c8;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
