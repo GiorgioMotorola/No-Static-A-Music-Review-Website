@@ -1,0 +1,1871 @@
+[
+  {
+    "id": 1,
+    "artist": "Fleetwood Mac",
+    "album": "Tusk",
+    "yearReleased": "1979",
+    "genre": "Rock",
+    "subGenre": "AOR",
+    "image": "fmtusk.png",
+    "recordedIn": "Radio",
+    "season": "Spring",
+    "drink": "Water",
+    "review": "This is, at the time, the biggest band attempting to experiment with their sound. It's a perfect example of artistic integrity being chaotically held within the frame of being the biggest band in the world. It's somehow a post-punk album that was raised by standard album-oriented rock music, who got to visit Uncle Byrne and Aunt Cocaine on the weekends. Stressful but peaceful like a hurricane on a paradisiacal island.\n\nIt starts out unassuming with \"Over & Over,\" which sounds exactly like sitting in an old person's Mercury Grand Prix with the air conditioning blowing. That old person is your grandmother, and you are waiting for her to finish up at the yard sale on a Sunday afternoon. The day is filled with suburban adventure, and maybe you'll get some Red Lobster after it's over.\n\nI try to imagine a Rumors fan putting this album on and going from \"Over & Over\" to \"The Ledge\" and hearing what sounds like a Daniel Johnston pop shop, then throwing the album in the trash. There isn't a wasted second on this thing when it comes to oddness. It's pop/soft rock adjacent. I doubt even the band knew it at that time. Just a bunch of sex freaks from the UK and the US trying to follow up one of the biggest albums ever.\n\nCome to think of it, the entire album sort of oozes this quality, the air conditioner/grandma rubric I served up earlier. Remember? Anyway, it's a sort of safety that only a guy who loves powdery drugs and the Talking Heads, and a band game for anything can present to you. I know a lot of folk will often talk ad nauseum about Fleetwood Mac's friction as a band based on their promiscuity toward each other, but none of that comes through for me on this album. This album feels like a band trying to expand with the times and somehow sounding bright and clean.\n\nI don't know, man, I've been thinking about this album for years. It's my all-time favorite.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Over & Over",
+        "writer": "Christine McVie",
+        "duration": "4:34"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "The Ledge",
+        "writer": "Lindsey Buckingham",
+        "duration": "2:08"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Think About Me",
+        "writer": "Christine McVie",
+        "duration": "2:44"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Save Me a Place",
+        "writer": "Lindsey Buckingham",
+        "duration": "2:42"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Sara",
+        "writer": "Stevie Nicks",
+        "duration": "6:22"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "What Makes You Think You're the One",
+        "writer": "Lindsey Buckingham",
+        "duration": "3:32"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Storms",
+        "writer": "Stevie Nicks",
+        "duration": "5:31"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "That's All for Everyone",
+        "writer": "Lindsey Buckingham",
+        "duration": "3:03"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Not That Funny",
+        "writer": "Lindsey Buckingham",
+        "duration": "3:11"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Sisters of the Moon",
+        "writer": "Stevie Nicks",
+        "duration": "4:42"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Angel",
+        "writer": "Stevie Nicks",
+        "duration": "4:54"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "That's Enough for Me",
+        "writer": "Lindsey Buckingham",
+        "duration": "1:50"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Brown Eyes",
+        "writer": "Christine McVie",
+        "duration": "4:27"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "Never Make Me Cry",
+        "writer": "Christine McVie",
+        "duration": "2:18"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "I Know I'm Not Wrong",
+        "writer": "Lindsey Buckingham",
+        "duration": "3:05"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Honey Hi",
+        "writer": "Christine McVie",
+        "duration": "2:41"
+      },
+      {
+        "trackNumber": 17,
+        "trackName": "Beautiful Child",
+        "writer": "Stevie Nicks",
+        "duration": "5:21"
+      },
+      {
+        "trackNumber": 18,
+        "trackName": "Walk a Thin Line",
+        "writer": "Lindsey Buckingham",
+        "duration": "3:46"
+      },
+      {
+        "trackNumber": 19,
+        "trackName": "Tusk",
+        "writer": "Lindsey Buckingham",
+        "duration": "3:37"
+      },
+      {
+        "trackNumber": 20,
+        "trackName": "Never Forget",
+        "writer": "Christine McVie",
+        "duration": "3:34"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "artist": "The Replacements",
+    "album": "Let It Be",
+    "yearReleased": "1984",
+    "genre": "Punk",
+    "subGenre": "Power Pop, College Rock, Post Punk",
+    "image": "replacementslet.jpg",
+    "recordedIn": "Basement",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "I Will Dare",
+        "writer": "Paul Westerberg",
+        "duration": "3:18"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Favorite Thing",
+        "writer": "Westerberg, Tommy Stinson, Bob Stinson, Chris Mars",
+        "duration": "2:19"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "We're Comin' Out",
+        "writer": "Westerberg, Stinson, Stinson, Mars",
+        "duration": "2:21"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Tommy Gets His Tonsils Out",
+        "writer": "Westerberg, Stinson, Stinson, Mars",
+        "duration": "1:53"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Androgynous",
+        "writer": "Westerberg",
+        "duration": "3:11"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Black Diamond",
+        "writer": "Paul Stanley",
+        "duration": "2:40"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Unsatisfied",
+        "writer": "Westerberg",
+        "duration": "4:01"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Seen Your Video",
+        "writer": "Westerberg",
+        "duration": "3:08"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Gary's Got a Boner",
+        "writer": "Westerberg, Stinson, Stinson, Mars, Ted Nugent",
+        "duration": "2:28"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Sixteen Blue",
+        "writer": "Westerberg",
+        "duration": "4:24"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Answering Machine",
+        "writer": "Westerberg",
+        "duration": "3:40"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "artist": "Big Star",
+    "album": "Radio City",
+    "yearReleased": "1974",
+    "genre": "Power Pop",
+    "subGenre": "Rock",
+    "image": "bigstarradio.jpg",
+    "recordedIn": "Radio",
+    "season": "Spring",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "O My Soul",
+        "writer": "Alex Chilton",
+        "duration": "5:40"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Life Is White",
+        "writer": "Chilton, Andy Hummel",
+        "duration": "3:19"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Way Out West",
+        "writer": "Hummel",
+        "duration": "2:50"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "What's Going Ahn",
+        "writer": "Chilton, Hummel",
+        "duration": "2:40"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "You Get What You Deserve",
+        "writer": "Chilton",
+        "duration": "3:08"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Mod Lang",
+        "writer": "Chilton, Richard Rosebrough",
+        "duration": "2:45"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Back of a Car",
+        "writer": "Chilton, Hummel",
+        "duration": "2:46"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Daisy Glaze",
+        "writer": "Chilton, Hummel, Jody Stephens",
+        "duration": "3:49"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "She's a Mover",
+        "writer": "Chilton",
+        "duration": "3:12"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "September Gurls",
+        "writer": "Chilton",
+        "duration": "2:49"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Morpha Too",
+        "writer": "Chilton",
+        "duration": "1:27"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "I'm in Love with a Girl",
+        "writer": "Chilton",
+        "duration": "1:48"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "artist": "Talking Heads",
+    "album": "Remain in Light",
+    "yearReleased": "1980",
+    "genre": "New Wave",
+    "subGenre": "Art Rock, Post Punk",
+    "image": "TalkingHeadsRemaininLight.jpg",
+    "recordedIn": "Lab",
+    "season": "Spring",
+    "drink": "Beer",
+    "review": "I could give you 500 years and a Spotify premium membership, and I doubt you'll find a better album opener than \"AH!\" The only other opening line I can think of right now is \"...and then we all bought yaaaaaaaachts\" from Highly Refined Pirates by Minus the Bear. And David Byrne doing his best half-assed impression of Kathy from the hit newspaper comic strip \"Kathy\" still wins from a \"brevity is the soul of wit\" kind of place. My first experience with Talking Heads was Napster. I was in high school, and I was going through my mandatory Radiohead phase. This was before Radiohead did the Bomb the Music Industry model of pay anything, so I had to download all of the songs I wanted when the titles looked like an Aphex Twin tracklist. I suppose any Talking Heads fan can guess where this is going: they have a song called Radio Head, Radiohead's band name is Radiohead... you get it. So naturally, that is the first Talking Heads song I remember hearing. A fine start, I suppose. It wasn't until a bit later in life that I actually sat my Radiohead ass down and listened. I am pretty sure I spent a summer listening to the aforementioned Remain in Light, Speaking in Tongues, Fear of Music, et al., and every note on these albums still sounds so fresh to this day. Not to mention the fact that just hearing David Byrne's voice at any point immediately puts me in a great recordedIn. His direct, reading a newspaper delivery is built into my bones. Good band.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Born Under Punches (The Heat Goes On)",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "5:49"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Crosseyed and Painless",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "4:48"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "The Great Curve",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "6:28"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Once in a Lifetime",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "4:19"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Houses in Motion",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "4:33"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Seen and Not Seen",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "3:25"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Listening Wind",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "4:43"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "The Overload",
+        "writer": "Byrne, Eno, Frantz, Harrison, Weymouth",
+        "duration": "6:25"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "artist": "Huerco S.",
+    "album": "For Those Of You Who Have Never...",
+    "yearReleased": "2016",
+    "genre": "Ambient",
+    "subGenre": "Electronic",
+    "image": "huercos.jpg",
+    "recordedIn": "Airport",
+    "season": "Winter",
+    "drink": "Water",
+    "review": "I am sometimes guilty of hearing an album I like and proclaiming it as one of the all-time greats. I don't know, blame it on needing something or someone to love me back, or blame it on 38 years of trying to figure out a way to wrap my bones and skin around a certain sound or album. Maybe blame it on the rain, maybe not—blame it on the rain... Maybe fuck yaself. (Reviewer's note: 'Blame It On The Rain' is a 1989 song by the pop group Milli Vanilli, who were outed to be lip-syncing all of their music. But the best fact about them is that when I googled this song to get the year released, the genres were listed as R&B, Soul, and Halloween Music.) Anyway, I say all of this because this was very much one of these types of albums. I put this on while playing PGA2K22 one Sunday afternoon in between Gravediggaz's '6 Feet Deep' and some Steve Roach album about space or the weather and was completely taken over by how warm and mysterious this project was. This is an album I for sure tried to fit my bones and skin around and instead, the dang album decided to mutate with my entire being. I distinctly remember going back again and again and again to restart the album only to finally just double-tap the button on Spotify to play it on repeat. Since then, I have walked to work in 20-degree weather to this album, I have lied in bed daydreaming about anything in the world to this album... I have even run to this album which is truly psychotic. It may not be for people who have yet accepted ambient music as a genre (I am terrified of my friend TJ listening to this, who is one of the greatest people ever but has yet to come to the side of ambient being an essential genre) but if you have a taste for wavy, warm, deep, and sounds that make you blame everything on the rain for making you like ambient, then you'll love this son of a bitch.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "A Sea of Love",
+        "writer": "Leeds",
+        "duration": "7:18"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Lifeblood (Naïve Melody)",
+        "writer": "Leeds",
+        "duration": "8:13"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Hear Me Out",
+        "writer": "Leeds",
+        "duration": "6:07"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Kraanvogel",
+        "writer": "Leeds",
+        "duration": "5:39"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "On the Embankment",
+        "writer": "Leeds",
+        "duration": "5:57"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Marked for Life",
+        "writer": "Leeds",
+        "duration": "3:41"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Cubist Camouflage",
+        "writer": "Leeds",
+        "duration": "2:41"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Promises of Fertility",
+        "writer": "Leeds",
+        "duration": "6:56"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "The Sacred Dance",
+        "writer": "Leeds",
+        "duration": "6:07"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "artist": "The New Pornographers",
+    "album": "Mass Romantic",
+    "yearReleased": "2000",
+    "genre": "Power Pop",
+    "subGenre": "Indie Rock",
+    "image": "massromantic.jpg",
+    "recordedIn": "Bedroom",
+    "season": "Spring",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Mass Romantic",
+        "writer": "Newman",
+        "duration": "4:11"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "The Fake Headlines",
+        "writer": "Newman",
+        "duration": "2:45"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "The Slow Descent into Alcoholism",
+        "writer": "Newman",
+        "duration": "3:56"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Mystery Hours",
+        "writer": "Newman",
+        "duration": "3:11"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Jackie",
+        "writer": "Bejar",
+        "duration": "2:46"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Letter from an Occupant",
+        "writer": "Newman",
+        "duration": "3:46"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "To Wild Homes",
+        "writer": "Bejar, Newman",
+        "duration": "3:33"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "The Body Says No",
+        "writer": "Newman",
+        "duration": "3:56"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Execution Day",
+        "writer": "Bejar",
+        "duration": "2:59"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Centre for Holy Wars",
+        "writer": "Newman",
+        "duration": "3:06"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "The Mary Martin Show",
+        "writer": "Newman",
+        "duration": "3:19"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Breakin' the Law",
+        "writer": "Bejar",
+        "duration": "3:27"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "artist": "Television",
+    "album": "Marquee Moon",
+    "yearReleased": "1977",
+    "genre": "Rock",
+    "subGenre": "Post Punk",
+    "image": "marqueemoon.jpg",
+    "recordedIn": "Basement",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "These days, there are tons of bands that deliberately try to make it impossible to search for them on Google. Real Estate, !!!, Tennis, Perfect Pussy (that last one is a tough one to explain to your family). To this day, I am hard pressed to understand why outside of trying to sound cool. But what's less cool than trying to dodge people trying to find tour dates when they can just type 'Man Man band' and find it easy. (funny story: I googled 'bands with hard names to search for' for this and accidentally searched for 'beans* with hard names to search for' and now I am looking at an AllRecipes article about types of beans. Did you know it was NOT spelled Kid Knee Bean??!). So, Television. If I type that into a search engine, I get Best Buy and Amazon ads about the newest flat as hell and bigger than all of Lord's creation for sale for $10,000 dollars. But Television to me is a band so ahead of its time, they could be mistaken for the new post-rock revival. Seriously, try it. Find a friend who doesn't know who Television is and say 'bro this is the new up and coming rock group. They are gonna blow your mind. They are called Ham Salad.' Ok Enough farting around. Television is incredible. At least this album is. I do very much like their other albums but this one is close proof that God exists and he is alright with a member named Richard Hell (sorry for cursing again) once being in the band. Maybe he decided to work at sending his God-like magic to the band after Richard Hell (sorry for cursing again) left. Who knows. I am not a Priest (another good impossible search engine band). Either way, this is a band for everyone. They lie in a middle ground where jaded dorks like me and the rest of the non-jaded cool people out there can enjoy it all the same. Seriously, try it. Tell your dad who loves Dire Straits (who doesn't) and Steely Dan (seriously, who doesn't?) that this is a new band called Ham Planet and the Salads or something and soon enough, you and him will be drinking a Modelo and grilling up hot dogs.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "See No Evil",
+        "duration": "3:56"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Venus",
+        "duration": "3:48"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Friction",
+        "duration": "4:43"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Marquee Moon",
+        "duration": "9:58"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Elevation",
+        "duration": "5:08"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Guiding Light",
+        "duration": "5:36"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Prove It",
+        "duration": "5:04"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Torn Curtain",
+        "duration": "7:00"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "artist": "Guided by Voices",
+    "album": "Alien Lanes",
+    "yearReleased": "1995",
+    "genre": "Indie Rock",
+    "subGenre": "Rock, Lo-fi",
+    "image": "alienlanes.jpg",
+    "recordedIn": "Bedroom",
+    "season": "Autumn",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "A Salty Salute",
+        "writer": "R. Pollard, Tobin Sprout",
+        "duration": "1:29"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Evil Speakers",
+        "duration": "0:58"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Watch Me Jumpstart",
+        "duration": "2:24"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "They're Not Witches",
+        "writer": "Greg Demos, Jim Pollard, R. Pollard",
+        "duration": "0:51"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "As We Go Up, We Go Down",
+        "duration": "1:37"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "(I Wanna Be a) Dumbcharger",
+        "duration": "1:13"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Game of Pricks",
+        "duration": "1:33"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "The Ugly Vision",
+        "duration": "1:34"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "A Good Flying Bird",
+        "writer": "Tobin Sprout",
+        "duration": "1:07"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Cigarette Tricks",
+        "writer": "Greg Demos, J. Pollard, R. Pollard, Tobin Sprout",
+        "duration": "0:18"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Pimple Zoo",
+        "writer": "R. Pollard",
+        "duration": "0:42"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Big Chief Chinese Restaurant",
+        "writer": "Jim Pollard, R. Pollard",
+        "duration": "0:56"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Closer You Are",
+        "writer": "R. Pollard",
+        "duration": "1:56"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "Auditorium",
+        "writer": "R. Pollard, Tobin Sprout",
+        "duration": "1:02"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "Motor Away",
+        "writer": "R. Pollard, Tobin Sprout",
+        "duration": "2:06"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Hit",
+        "writer": "R. Pollard",
+        "duration": "0:23"
+      },
+      {
+        "trackNumber": 17,
+        "trackName": "My Valuable Hunting Knife",
+        "writer": "R. Pollard",
+        "duration": "2:00"
+      },
+      {
+        "trackNumber": 18,
+        "trackName": "Gold Hick",
+        "writer": "R. Pollard",
+        "duration": "0:30"
+      },
+      {
+        "trackNumber": 19,
+        "trackName": "King and Caroline",
+        "writer": "R. Pollard, Tobin Sprout",
+        "duration": "1:36"
+      },
+      {
+        "trackNumber": 20,
+        "trackName": "Striped White Jets",
+        "writer": "R. Pollard",
+        "duration": "2:15"
+      },
+      {
+        "trackNumber": 21,
+        "trackName": "Ex-Supermodel",
+        "writer": "R. Pollard, Tobin Sprout",
+        "duration": "1:06"
+      },
+      {
+        "trackNumber": 22,
+        "trackName": "Blimps Go 90",
+        "writer": "R. Pollard",
+        "duration": "1:40"
+      },
+      {
+        "trackNumber": 23,
+        "trackName": "Strawdogs",
+        "writer": "Tobin Sprout",
+        "duration": "1:17"
+      },
+      {
+        "trackNumber": 24,
+        "trackName": "Chicken Blows",
+        "writer": "R. Pollard",
+        "duration": "2:21"
+      },
+      {
+        "trackNumber": 25,
+        "trackName": "Little Whirl",
+        "writer": "Tobin Sprout",
+        "duration": "1:46"
+      },
+      {
+        "trackNumber": 26,
+        "trackName": "My Son Cool",
+        "writer": "R. Pollard",
+        "duration": "1:41"
+      },
+      {
+        "trackNumber": 27,
+        "trackName": "Always Crush Me",
+        "writer": "R. Pollard",
+        "duration": "1:44"
+      },
+      {
+        "trackNumber": 28,
+        "trackName": "Alright",
+        "writer": "R. Pollard",
+        "duration": "2:56"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "artist": "Wilco",
+    "album": "Being There",
+    "yearReleased": "1996",
+    "genre": "Alt Country",
+    "subGenre": "Rock",
+    "image": "beingthere.png",
+    "recordedIn": "Cookout",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Misunderstood",
+        "writer": "Tweedy",
+        "duration": "6:28"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Far, Far Away",
+        "writer": "Tweedy",
+        "duration": "3:20"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Monday",
+        "writer": "Tweedy",
+        "duration": "3:33"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Outtasite (Outta Mind)",
+        "writer": "Tweedy",
+        "duration": "2:34"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Forget the Flowers",
+        "writer": "Tweedy",
+        "duration": "2:47"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Red-Eyed and Blue",
+        "writer": "Tweedy",
+        "duration": "2:45"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "I Got You (At the End of the Century)",
+        "writer": "Tweedy",
+        "duration": "3:57"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "What's the World Got in Store",
+        "writer": "Tweedy",
+        "duration": "3:09"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Hotel Arizona",
+        "writer": "Tweedy",
+        "duration": "3:37"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Say You Miss Me",
+        "writer": "Tweedy",
+        "duration": "4:07"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Sunken Treasure",
+        "writer": "Tweedy",
+        "duration": "6:51"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Someday Soon",
+        "writer": "Tweedy",
+        "duration": "2:33"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Outta Mind (Outta Sight)",
+        "writer": "Tweedy",
+        "duration": "3:20"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "Someone Else's Song",
+        "writer": "Tweedy",
+        "duration": "3:21"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "Kingpin",
+        "writer": "Tweedy",
+        "duration": "5:17"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "(Was I) In Your Dreams",
+        "writer": "Tweedy",
+        "duration": "3:30"
+      },
+      {
+        "trackNumber": 17,
+        "trackName": "Why Would You Wanna Live",
+        "writer": "Tweedy",
+        "duration": "4:16"
+      },
+      {
+        "trackNumber": 18,
+        "trackName": "The Lonely 1",
+        "writer": "Tweedy",
+        "duration": "4:48"
+      },
+      {
+        "trackNumber": 19,
+        "trackName": "Dreamer in My Dreams",
+        "writer": "Tweedy",
+        "duration": "6:43"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "artist": "Fugazi",
+    "album": "The Argument",
+    "yearReleased": "2001",
+    "genre": "Punk",
+    "subGenre": "Post Punk",
+    "image": "fugazi.jpg",
+    "recordedIn": "Basement",
+    "season": "Winter",
+    "drink": "Beer (sorry, Ian)",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Untitled (intro)",
+        "duration": "0:52"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Cashout",
+        "writer": "MacKaye",
+        "duration": "4:24"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Full Disclosure",
+        "writer": "Picciotto",
+        "duration": "3:53"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Epic Problem",
+        "writer": "MacKaye",
+        "duration": "3:59"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Life and Limb",
+        "writer": "Picciotto",
+        "duration": "3:09"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "The Kill",
+        "writer": "Lally",
+        "duration": "5:27"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Strangelight",
+        "writer": "Picciotto",
+        "duration": "5:53"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Oh",
+        "writer": "Picciotto",
+        "duration": "4:29"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Ex-Spectator",
+        "writer": "MacKaye",
+        "duration": "4:18"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Nightshop",
+        "writer": "Picciotto",
+        "duration": "4:02"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Argument",
+        "writer": "MacKaye",
+        "duration": "4:27"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "artist": "Silver Jews",
+    "album": "American Water",
+    "yearReleased": "1998",
+    "genre": "Alt Country",
+    "subGenre": "Rock",
+    "image": "americanwater.jpg",
+    "recordedIn": "Cookout",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Random Rules",
+        "writer": "Berman",
+        "duration": "4:00"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Smith & Jones Forever",
+        "writer": "Berman",
+        "duration": "3:20"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Night Society",
+        "writer": "Berman",
+        "duration": "2:19"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Federal Dust",
+        "writer": "David Berman, Stephen Malkmus",
+        "duration": "4:03"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "People",
+        "writer": "Berman",
+        "duration": "4:45"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Blue Arrangements",
+        "writer": "Berman, Malkmus",
+        "duration": "4:40"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "We Are Real",
+        "writer": "Berman",
+        "duration": "4:24"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Send in the Clouds",
+        "writer": "Berman",
+        "duration": "5:26"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Like Like the the the Death",
+        "writer": "Berman",
+        "duration": "4:00"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Buckingham Rabbit",
+        "writer": "Berman",
+        "duration": "4:58"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Honk If You're Lonely",
+        "writer": "Berman, Gate Pratt",
+        "duration": "2:49"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "The Wild Kindness",
+        "writer": "Berman",
+        "duration": "3:54"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "artist": "The Avalanches",
+    "album": "Since I Left You",
+    "yearReleased": "2000",
+    "genre": "Electronic",
+    "subGenre": "Plunderphonics",
+    "image": "avalanches.jpg",
+    "recordedIn": "Warehouse",
+    "season": "Summer",
+    "drink": "Water",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Since I Left You",
+        "writer": "Robbie Chater, Tony Di Blasi, Gordon McQuilten, Darren Seltmann, Edward Drennen, Jeanne Salo, Jimmy Webb",
+        "duration": "4:22"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Stay Another Season",
+        "writer": "Chater, Di Blasi, McQuilten, Seltmann, Alan Bergman, Marilyn Bergman, Johnny Mandel, Curtis Hudson, Lisa Stevens",
+        "duration": "2:18"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Radio",
+        "writer": "Chater, Seltmann, Claude Cave",
+        "duration": "4:22"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Two Hearts in 3/4 Time",
+        "writer": "Chater, Di Blasi, McQuilten, Seltmann, John Cale, Marlena Shaw",
+        "duration": "3:23"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Avalanche Rock",
+        "writer": "Chater, Seltmann",
+        "duration": "0:22"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Flight Tonight",
+        "writer": "Chater, Seltmann, Henry Lawes, Billy Rowe, Paul Huston, David Jolicoeur, Vincent Mason, Kelvin Mercer, Lawrence Dermer, Hubert Roberts, Henry Stone, Freddy Stonewall",
+        "duration": "3:53"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Close to You",
+        "writer": "Chater, Seltmann, August Darnell, Ernest Isley, Marvin Isley, O'Kelly Isley, Jr., Ronald Isley, Rudolph Isley, Christopher Jasper",
+        "duration": "3:54"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Diners Only",
+        "writer": "Chater, Seltmann, Saladine Wallace, Salahadeen Wilds, David Willis",
+        "duration": "1:35"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "A Different Feeling",
+        "writer": "Chater, Di Blasi, McQuilten, Seltmann, Raymond Evans, Jay Livingston",
+        "duration": "4:22"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Electricity",
+        "writer": "Chater, Seltmann, Willie Clarke, Clarence Reid",
+        "duration": "3:29"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Tonight May Have To Last Me All My Life",
+        "writer": "Chater, Seltmann, Donald Borzage, Johnny Mercer",
+        "duration": "2:20"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Pablo's Cruise",
+        "writer": "Chater, Seltmann",
+        "duration": "0:52"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Frontier Psychiatrist",
+        "writer": "Chater, Di Blasi, McQuilten, Seltmann, Dexter Fabay, Bert Kaempfert, Herbert Rehbein, Carl Sigman",
+        "duration": "4:47"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "Etoh",
+        "writer": "Chater, Seltmann",
+        "duration": "5:02"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "Summer Crane",
+        "writer": "Chater, Seltmann, Bobby Lee Trammell",
+        "duration": "4:39"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Little Journey",
+        "writer": "Chater, Seltmann, Hudson, Stevens, John Phillips",
+        "duration": "1:35"
+      },
+      {
+        "trackNumber": 17,
+        "trackName": "Live at Dominoes",
+        "writer": "Chater, Seltmann, Frank Farian, Fred Jay, George Reyam",
+        "duration": "5:39"
+      },
+      {
+        "trackNumber": 18,
+        "trackName": "Extra Kings",
+        "writer": "Chater, Seltmann, Trammell, Alan Osmond, Merrill Osmond, Wayne Osmond",
+        "duration": "3:46"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "artist": "Gram Parsons",
+    "album": "Grievous Angel",
+    "yearReleased": "1974",
+    "genre": "Alt Country",
+    "subGenre": "Country",
+    "image": "gram.jpg",
+    "recordedIn": "Cookout",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Return of the Grievous Angel",
+        "writer": "Gram Parsons, Tom Brown",
+        "duration": "4:19"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Hearts on Fire",
+        "writer": "Walter Egan, Tom Guidera",
+        "duration": "3:50"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "I Can't Dance",
+        "writer": "Tom T. Hall",
+        "duration": "2:20"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Brass Buttons",
+        "writer": "Gram Parsons",
+        "duration": "3:27"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "$1000 Wedding",
+        "writer": "Gram Parsons",
+        "duration": "5:00"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Medley Live from Northern Quebec",
+        "writer": "Charlie Louvin, Ira Louvin (\"Cash on the Barrelhead\"), Gram Parsons, Bob Buchanan (\"Hickory Wind\")",
+        "duration": "6:27"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Love Hurts",
+        "writer": "Boudleaux Bryant",
+        "duration": "3:40"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Ooh Las Vegas",
+        "writer": "Gram Parsons, Ric Grech",
+        "duration": "3:29"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "In My Hour of Darkness",
+        "writer": "Gram Parsons, Emmylou Harris",
+        "duration": "3:42"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "artist": "OutKast",
+    "album": "Aquemini",
+    "yearReleased": "1998",
+    "genre": "Hip Hop",
+    "subGenre": "Southern Hip Hop",
+    "image": "Aquemini.jpg",
+    "recordedIn": "Cookout",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Hold On, Be Strong",
+        "writer": "Donny Mathis",
+        "duration": "1:11"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Return of the 'G'",
+        "writer": "Giorgio Moroder, Organized Noize, Antwan Patton, André Benjamin",
+        "duration": "4:49"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Rosa Parks",
+        "writer": "Antwan Patton, André Benjamin",
+        "duration": "5:24"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Skew It on the Bar-B (featuring Raekwon)",
+        "writer": "Morton Stevens, Organized Noize, Antwan Patton, André Benjamin, Corey Woods",
+        "duration": "3:15"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Aquemini",
+        "writer": "Antwan Patton, André Benjamin",
+        "duration": "5:19"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Synthesizer (featuring George Clinton)",
+        "writer": "Antwan Patton, André Benjamin, George Clinton",
+        "duration": "5:11"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Slump",
+        "writer": "Antwan Patton, Jamahr Williams, Frederick Bell",
+        "duration": "5:09"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "West Savannah",
+        "writer": "Organized Noize, Antwan Patton",
+        "duration": "4:03"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Da Art of Storytellin' (Pt. 1)",
+        "writer": "David Sheats, Antwan Patton, André Benjamin",
+        "duration": "3:43"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Da Art of Storytellin' (Pt. 2)",
+        "writer": "David Sheats, Antwan Patton, André Benjamin",
+        "duration": "2:48"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Mamacita",
+        "writer": "Organized Noize, Antwan Patton, André Benjamin, Masada Hogans, Erin Johnson",
+        "duration": "5:52"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "SpottieOttieDopaliscious",
+        "writer": "Antwan Patton, André Benjamin, Patrick Brown",
+        "duration": "7:07"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Y'all Scared (featuring T-Mo, Big Gipp, and Khujo)",
+        "writer": "David Sheats, Antwan Patton, André Benjamin, Robert Barnett, Willie Knighton, Jr., Cameron Gipp",
+        "duration": "4:50"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "Nathaniel",
+        "writer": "",
+        "duration": "1:10"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "Liberation (with Cee-Lo and Erykah Badu)",
+        "writer": "Antwan Patton, André Benjamin, Ruben Bailey, Erica Wright, Joi Gilliam, Myrna Crenshaw, Thomas Burton",
+        "duration": "8:46"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Chonkyfire",
+        "writer": "Antwan Patton, André Benjamin",
+        "duration": "6:10"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "artist": "The Velvet Underground",
+    "album": "White Light/White Heat",
+    "yearReleased": "1968",
+    "genre": "Rock",
+    "subGenre": "Proto Punk",
+    "image": "whitelight.jpg",
+    "recordedIn": "Basement",
+    "season": "Winter",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "White Light/White Heat",
+        "writer": "Lou Reed",
+        "duration": "2:47"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "The Gift",
+        "writer": "Lou Reed, Sterling Morrison, John Cale, Maureen Tucker",
+        "duration": "8:18"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Lady Godiva's Operation",
+        "writer": "Lou Reed",
+        "duration": "4:56"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Here She Comes Now",
+        "writer": "Lou Reed, Sterling Morrison, John Cale",
+        "duration": "2:04"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "I Heard Her Call My Name",
+        "writer": "Lou Reed",
+        "duration": "4:38"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Sister Ray",
+        "writer": "Lou Reed, Sterling Morrison, John Cale, Maureen Tucker",
+        "duration": "17:28"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "artist": "Kendrick Lamar",
+    "album": "To Pimp a Butterfly",
+    "yearReleased": "2015",
+    "genre": "Hip Hop",
+    "subGenre": "Progressive Rap, Jazz Rap",
+    "image": "tpab.jpg",
+    "recordedIn": "Lab",
+    "season": "Spring",
+    "drink": "Water",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Wesley's Theory",
+        "writer": "Kendrick Duckworth, George Clinton, Steven Ellison, Ronald Colson, Stephen Bruner, Boris Gardiner",
+        "duration": "4:47"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "For Free? (Interlude)",
+        "writer": "Kendrick Duckworth, Terrace Martin, Rose McKinney",
+        "duration": "2:10"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "King Kunta",
+        "writer": "Kendrick Duckworth, Mark Spears, Johnny Burns, Michael Jackson, Ahmad Lewis, Stefan Gordy",
+        "duration": "3:54"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Institutionalized",
+        "writer": "Kendrick Duckworth, Columbus Smith, Fredrik Halldin, Sam Barsh",
+        "duration": "4:31"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "These Walls",
+        "writer": "Kendrick Duckworth, Martin, Larrance Dopson, James Fauntleroy, McKinney",
+        "duration": "5:00"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "U",
+        "writer": "Kendrick Duckworth, Taz Arnold, Michael Brown",
+        "duration": "4:28"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Alright",
+        "writer": "Kendrick Duckworth, Pharrell Williams, Spears",
+        "duration": "3:39"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "For Sale? (Interlude)",
+        "writer": "Kendrick Duckworth, Arnold",
+        "duration": "4:51"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Momma",
+        "writer": "Kendrick Duckworth, Glen Boothe, Arnold, Sylvester Stewart, Lalah Hathaway, Rahsaan Patterson, Rex Rideout",
+        "duration": "4:43"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Hood Politics",
+        "writer": "Kendrick Duckworth, Donte Perkins, Spears, Bruner, Sufjan Stevens",
+        "duration": "4:52"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "How Much a Dollar Cost",
+        "writer": "Kendrick Duckworth, Martin, Josef Leimberg, McKinney, Fauntleroy, Ronald Isley",
+        "duration": "4:21"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Complexion (A Zulu Love)",
+        "writer": "Kendrick Duckworth, Bruner, Spears, Marlanna Evans",
+        "duration": "4:23"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "The Blacker the Berry",
+        "writer": "Kendrick Duckworth, Matthew Samuels, Stephen Kozmeniuk, Ken Lewis, Brent Kolatalo, Jefferey Campbell, Alexander Izquierdo",
+        "duration": "5:28"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "You Ain't Gotta Lie (Momma Said)",
+        "writer": "Kendrick Duckworth, Martin, McKinney, Leimberg, Spears",
+        "duration": "4:01"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "I",
+        "writer": "Kendrick Duckworth, Smith, Ro. Isley, O'Kelly Isley, Jr., Ernie Isley, Marvin Isley, Rudolph Isley, Christopher Jasper",
+        "duration": "5:36"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Mortal Man",
+        "writer": "Kendrick Duckworth, Spears, Bruner, Fela Anikulapo Kuti",
+        "duration": "12:07"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "artist": "Chromatics",
+    "album": "Night Drive",
+    "yearReleased": "2007",
+    "genre": "Electronic",
+    "subGenre": "Synthwave",
+    "image": "nightdrive.jpg",
+    "recordedIn": "Warehouse",
+    "season": "Autumn",
+    "drink": "Water",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "The Telephone Call",
+        "writer": "Jewel",
+        "duration": "1:51"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Night Drive",
+        "writer": "Jewel",
+        "duration": "3:44"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "I Want Your Love",
+        "writer": "Jewel",
+        "duration": "6:41"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Running Up That Hill (Kate Bush cover)",
+        "writer": "Kate Bush",
+        "duration": "6:07"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Killing Spree (Instrumental)",
+        "writer": "Jewel",
+        "duration": "3:58"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Healer",
+        "writer": "Jewel",
+        "duration": "3:53"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Mask",
+        "writer": "Jewel",
+        "duration": "5:35"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Tomorrow Is So Far Away",
+        "writer": "Jewel",
+        "duration": "7:06"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Let's Make This a Moment to Remember (Instrumental)",
+        "writer": "Jewel",
+        "duration": "3:30"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Tick of the Clock (Instrumental)",
+        "writer": "Jewel",
+        "duration": "15:39"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "artist": "Tim Hecker",
+    "album": "Virgins",
+    "yearReleased": "2013",
+    "genre": "Ambient",
+    "subGenre": "Drone, Electrionic",
+    "image": "timhecker.jpg",
+    "recordedIn": "Twin Peaks",
+    "season": "Autumn",
+    "drink": "Water",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Prism",
+        "writer": "Hecker",
+        "duration": "2:53"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Virginal I",
+        "writer": "Hecker",
+        "duration": "6:16"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Radiance",
+        "writer": "Hecker",
+        "duration": "3:22"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Live Room",
+        "writer": "Hecker",
+        "duration": "7:02"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Live Room Out",
+        "writer": "Hecker",
+        "duration": "2:37"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Virginal II",
+        "writer": "Hecker",
+        "duration": "5:23"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Black Refraction",
+        "writer": "Hecker",
+        "duration": "3:33"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Incense at Abu Ghraib",
+        "writer": "Hecker",
+        "duration": "1:53"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Amps, Drugs, Harmonium",
+        "writer": "Hecker",
+        "duration": "3:03"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Stigmata I",
+        "writer": "Hecker",
+        "duration": "2:18"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Stigmata II",
+        "writer": "Hecker",
+        "duration": "3:56"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Stab Variation",
+        "writer": "Hecker",
+        "duration": "6:30"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "artist": "Broken Social Scene",
+    "album": "You Forgot It In People",
+    "yearReleased": "2002",
+    "genre": "Indie Rock",
+    "subGenre": "Rock",
+    "image": "bss.jpg",
+    "recordedIn": "Lab",
+    "season": "Spring",
+    "drink": "Beer",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit eget diam id finibus. Nullam convallis justo et lacus feugiat, eu venenatis magna hendrerit. Integer sed lorem non libero commodo ultricies vel nec dui. Nam vitae magna vel diam finibus facilisis. Sed vel metus sit amet neque convallis faucibus. Fusce efficitur urna at libero placerat, vitae fermentum enim fermentum. Cras sodales, dui a fermentum vulputate, nisi lorem bibendum justo, eu viverra nunc mi ac risus. Proin consectetur, mi id ullamcorper blandit, odio lectus mattis turpis, in vehicula nunc libero nec eros. Integer eleifend lectus at justo congue lacinia. Donec interdum ligula vel mauris lacinia, nec faucibus nulla convallis. Nulla facilisi. Sed sed ultricies metus. Sed eget mauris et arcu suscipit suscipit sit amet sit amet felis. Cras ac sem et velit vehicula ullamcorper vitae in purus. Fusce varius quam sit amet augue viverra, nec aliquam magna dignissim. Proin efficitur, sapien vel fringilla ultrices, lacus tortor consequat lorem, non vestibulum risus dolor nec turpis. Morbi tristique sit amet mauris nec gravida. Maecenas dictum aliquet lacus, eu fermentum magna. Ut euismod fermentum nisl, id pellentesque ex vestibulum nec. Mauris sodales velit ac varius sodales. Cras euismod, enim et eleifend volutpat, lacus libero vehicula ligula, non suscipit odio risus sed risus. Aliquam ac ex nec justo congue convallis. Nam in nisi lacinia, eleifend quam sit amet, faucibus tortor. Sed in vehicula elit. Mauris ac elit in lectus eleifend tincidunt vel non velit. Donec sit amet urna sit amet libero pharetra vestibulum eu vel justo. Mauris id bibendum urna. Sed efficitur, nunc sed varius commodo, nunc odio mattis felis, vel luctus velit ante ac ex. Nulla et nibh sed risus feugiat rutrum nec a nunc. Phasellus dapibus ante sed est egestas, non malesuada risus molestie. Fusce lacinia libero sit amet leo sodales, id placerat risus rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed convallis lorem nisl, eu interdum libero pharetra eu. Phasellus ac felis risus. Mauris nec risus eget nisi bibendum placerat. Etiam feugiat risus quis quam aliquet, at gravida magna vehicula. Maecenas sit amet eros luctus, eleifend nulla eu, fermentum dui. Curabitur luctus hendrerit purus, eu convallis elit ullamcorper vel. Maecenas non arcu eget est consectetur faucibus. Nullam efficitur vehicula ligula, vel tincidunt tortor scelerisque in. Curabitur in ipsum eu orci aliquam fermentum nec nec sapien. Nullam auctor pharetra nibh, ut scelerisque tortor. Morbi commodo nunc euismod dui fringilla faucibus.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Capture the Flag",
+        "writer": "Drew",
+        "duration": "2:08"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "KC Accidental",
+        "writer": "Drew",
+        "duration": "3:50"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Stars and Sons",
+        "writer": "Drew",
+        "duration": "5:08"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Almost Crimes (Radio Kills Remix)",
+        "writer": "Drew",
+        "duration": "4:22"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Looks Just Like the Sun",
+        "writer": "Drew",
+        "duration": "4:23"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Pacific Theme",
+        "writer": "Drew",
+        "duration": "5:09"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Anthems for a Seventeen Year-Old Girl",
+        "writer": "Drew",
+        "duration": "4:35"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Cause = Time",
+        "writer": "Drew",
+        "duration": "5:30"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Late Nineties Bedroom Rock for the Missionaries",
+        "writer": "Drew",
+        "duration": "3:46"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Shampoo Suicide",
+        "writer": "Drew",
+        "duration": "4:05"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Lover's Spit",
+        "writer": "Drew",
+        "duration": "6:22"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "I'm Still Your F*g",
+        "writer": "Drew",
+        "duration": "4:23"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Pitter Patter Goes My Heart",
+        "writer": "Drew",
+        "duration": "2:26"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "artist": "A Tribe Called Quest",
+    "album": "Midnight Marauders",
+    "yearReleased": "1993",
+    "genre": "Hip Hop",
+    "subGenre": "Conscious Hip Hop",
+    "image": "tribemm.jpg",
+    "recordedIn": "Cookout",
+    "season": "Summer",
+    "drink": "Beer",
+    "review": "The guy on the cover of this album is holding his weiner, right? Is it supposed to mean the power of his manhood lives in his \"mic\"? I am going to say that is the case. I came to A Tribe Called Quest later in life through a friend who said they were his favorite group of all time. Don't get me wrong: I certainly have always enjoyed their music at parties while drunk and in the backseat of cars while drunk etc etc etc. I think what really start to believe they were one of the best hip hop groups of all time was on a sunny Saturday morning during a 5 mile run. I was at mile 2 and really struggling to get a good pace going. I pulled up a mix I made and it happened to have \"Steve Biko (Stir It Up)\" on it. From mile 2 on, I had figurative motors inside of my shoes. Everything on their albums, especially Midnight Marauders, fits perfectly together like the components that would make up a figurative motor you would put in a shoe or shoes to go fast. It's groups like A Tribe Called Quest that make me question people who say Taylor Swift is the greatest artist ever. I mean, I like some of those Taylor songs but what the fuck does she know about Maurading?! Look, I understand that some might think a guy talking about an album that has a guy rockin a piss from his microphone weiner and comparing it to Taylor Swift might be \"problematic\" and maybe it is. Does it make you feel any better to say Taylor Swift was the computerized woman in the interludes? Thats not true. Ok enough kidding around I am just being a silly guy. What a great album, stream Midnight Maruaders on itunes now.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Midnight Marauders Tour Guide",
+        "writer": "Jonathan Davis, Ali Shaheed Muhammad, Malik Taylor",
+        "duration": "0:45"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Steve Biko (Stir It Up)",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "3:11"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Award Tour (featuring Trugoy the Dove)",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "3:46"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "8 Million Stories",
+        "writer": "Davis, Muhammad, Taylor, Skeff Anselm",
+        "duration": "4:30"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Sucka N****",
+        "writer": "Davis, Muhammad, Taylor, Freddie Hubbard",
+        "duration": "4:05"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Midnight (featuring Raphael Wiggins)",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "3:49"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "We Can Get Down",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "4:19"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Electric Relaxation",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "4:04"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Clap Your Hands",
+        "writer": "Davis, Muhammad, Taylor, Bob James, Leo Nocentelli, George Porter Jr., Cyril Neville, Joseph Modeliste",
+        "duration": "3:16"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Oh My God (featuring Busta Rhymes)",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "3:29"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Keep It Rollin' (featuring Large Professor)",
+        "writer": "Davis, Muhammad, Taylor, William Mitchell",
+        "duration": "3:05"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "The Chase, Part II",
+        "writer": "Davis, Muhammad, Taylor, Steve Arrington, Victor Godsey, Buddy Hankerson",
+        "duration": "4:02"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Lyrics to Go",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "4:09"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "God Lives Through",
+        "writer": "Davis, Muhammad, Taylor",
+        "duration": "4:15"
+      }
+    ]
+  }
+]
