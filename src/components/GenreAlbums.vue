@@ -1,10 +1,10 @@
 <template>
+    <div class="section-title">{{ genre }}</div>
     <div class="container">
-        <div class="genre-title">{{ genre }}</div>
         <div class="genre-list-item">
             <div v-for="album in filteredAlbums" :key="album.id" class="genre-list">
                 <router-link :to="{ name: 'AlbumDetail', params: { genre: genre, id: album.id } }">
-                    {{ album.artist }} - {{ album.album }}
+                    {{ album.artist }}&nbsp;&#8226;&nbsp;{{ album.album }}
                 </router-link>
             </div>
         </div>
@@ -54,11 +54,14 @@ export default {
     color: white;
 }
 
-.genre-title {
-    text-align: center;
-    margin-bottom: 5%;
+.section-title {
+    padding: 10px;
+    margin-left: 1rem;
     font-size: 30px;
-    color: rgb(76, 160, 234);
+    color: #ECDBBA;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-transform: lowercase;
 }
 
 .container {
@@ -69,6 +72,7 @@ export default {
     display: flex;
     justify-content: center;
     margin-top: 0.5%;
+    font-size: 50px;
 }
 
 .genre-list-item {

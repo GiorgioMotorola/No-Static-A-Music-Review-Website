@@ -1,4 +1,5 @@
 <template>
+    <div class="section-title">genres</div>
     <div class="container">
         <div class="genre-list-item">
             <div v-for="genre in genres" :key="genre" class="genre-list">
@@ -35,8 +36,17 @@ export default {
     color: white;
 }
 
+.section-title {
+    padding: 10px;
+    margin-left: 1rem;
+    font-size: 30px;
+    color: #ECDBBA;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
 .container {
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .genre-list {
@@ -52,6 +62,7 @@ export default {
 
 .genre-list-item a {
     position: relative;
+    font-size: 50px;
 }
 
 .genre-list-item a::after {

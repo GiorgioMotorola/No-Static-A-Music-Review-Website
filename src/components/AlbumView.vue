@@ -1,4 +1,5 @@
 <template>
+  <div class="section-title">albums</div>
   <div class="container">
     <div class="album-list">
       <div v-for="album in albums" :key="album.id" class="album-list-item">
@@ -44,6 +45,15 @@ export default {
 <style scoped>
 .container {
   margin-top: 3%;
+}
+
+.section-title {
+  padding: 10px;
+  margin-left: 1rem;
+  font-size: 30px;
+  color: #ECDBBA;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255);
 }
 
 .album-list {
