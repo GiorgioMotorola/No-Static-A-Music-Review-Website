@@ -191,4 +191,21 @@ export default {
     width: 100%;
   }
 }
+
+.cta-container {
+  padding: 1rem;
+}
+
+.cta {
+  font-size: 22px;
+  padding: 0px;
+}
+
+.cta-second {
+  font-size: 14px;
+}
+
+.body {
+  gap: .1rem;
+}
 </style>
