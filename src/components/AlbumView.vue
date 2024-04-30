@@ -1,5 +1,5 @@
 <template>
-  <div class="section-title">albums</div>
+  <div class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span> albums</div>
   <div class="container">
     <div class="album-list">
       <div v-for="album in albums" :key="album.id" class="album-list-item">
@@ -48,15 +48,6 @@ export default {
   margin-bottom: 100px;
 }
 
-.section-title {
-  padding: 10px;
-  margin-left: 1rem;
-  font-size: 30px;
-  color: #ECDBBA;
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 255, 255);
-}
-
 .album-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -75,6 +66,18 @@ export default {
   white-space: nowrap;
   font-size: 12px;
   color: white
+}
+
+.section-title {
+  padding: 10px;
+  margin-left: 1rem;
+  font-size: 30px;
+  color: #ECDBBA;
+}
+
+.section-title a {
+  color: #D66C56;
+  text-decoration: none;
 }
 
 a {
@@ -121,6 +124,11 @@ a {
 
   .album-entry img:hover {
     box-shadow: none;
+  }
+
+  .section-title {
+    font-size: 15px;
+
   }
 }
 </style>

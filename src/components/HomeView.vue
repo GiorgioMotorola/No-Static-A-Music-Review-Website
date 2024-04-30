@@ -12,6 +12,10 @@ export default {
         <div class="cta-second">
           New albums and reviews <span style="color: grey;">(hopefully)</span> added frequenly.
         </div>
+        <div class="cta-links">
+          <router-link to="/albums">&#x260A; Search Albums</router-link>
+          <router-link to="/albums/genres">&#x260A; Search Genres</router-link>
+        </div>
       </div>
       <div class="review-container">
         <div class="review-line">
@@ -144,7 +148,7 @@ export default {
 .body {
   display: flex;
   height: 100%;
-  height: 78.8vh;
+  height: 75vh;
   margin-left: 0%;
   margin-right: 0%;
   gap: 5rem;
@@ -171,13 +175,45 @@ export default {
   text-align: center;
 }
 
+.cta-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  font-size: 30px;
+}
+
+.cta-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.cta-links a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin-right: 10px;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .cta-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-size: 20px;
+  }
+
+  .container {
+    margin-bottom: 300px
+  }
+}
+
 @media (max-width: 1300px) {
   .body {
     gap: 0rem;
   }
 
   .container {
-    margin-bottom: 300px
+    margin-bottom: 500px
   }
 
   .body {
@@ -204,7 +240,7 @@ export default {
 @media (max-width: 700px) {
 
   .container {
-    margin-bottom: 2700px
+    margin-bottom: 2800px
   }
 
   .review-line {

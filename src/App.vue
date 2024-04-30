@@ -12,9 +12,9 @@
     <div class="footer-content">
       <p>&copy; 2024 Mike Weatherford</p>
       <ul>
-        <li><a href="#">GITHUB</a></li>
-        <li><a href="#">LINKEDIN</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="https://github.com/GiorgioMotorola" target="_blank">GITHUB</a></li>
+        <li><a href="https://www.linkedin.com/in/michael-weatherford-10a3ab220/" target="_blank">LINKEDIN</a></li>
+        <li><a href="https://www.mweatherford.rocks/" target="_blank">PORTFOLIO</a></li>
       </ul>
     </div>
   </footer>
