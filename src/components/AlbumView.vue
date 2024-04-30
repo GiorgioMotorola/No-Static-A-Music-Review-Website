@@ -102,7 +102,7 @@ a {
 }
 
 .album-entry img:hover {
-  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px;
+  box-shadow: rgba(223, 223, 223, 0.78) 0px 0px 0.25em, rgba(143, 150, 163, 0.471) 0px 0.25em 1em;
 }
 
 @media (max-width: 600px) {
