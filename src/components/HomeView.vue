@@ -151,7 +151,7 @@ export default {
 .most-recent-review-2 img:hover,
 .most-recent-review-3 img:hover,
 .most-recent-review-4 img:hover {
-  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(0, 0, 0) 10px -10px 0px -3px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px;
 }
 
 .body {
