@@ -8,7 +8,7 @@ export default {
   <div class="container">
     <div class="body">
       <div class="cta-container">
-        <div class="cta">The most essentional albums of all time, according to one guy. </div>
+        <div class="cta">The most essential albums of all time, according to one guy. </div>
         <div class="cta-second">
           New albums and reviews <span style="color: grey;">(hopefully)</span> added frequenly.
         </div>
