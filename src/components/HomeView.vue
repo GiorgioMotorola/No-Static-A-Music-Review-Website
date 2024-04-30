@@ -225,8 +225,21 @@ export default {
   }
 
   .review-container {
-
     margin-right: 0rem;
+  }
+
+  .most-recent-review-1 img,
+  .most-recent-review-2 img,
+  .most-recent-review-3 img,
+  .most-recent-review-4 img {
+    transition: none;
+  }
+
+  .most-recent-review-1 img:hover,
+  .most-recent-review-2 img:hover,
+  .most-recent-review-3 img:hover,
+  .most-recent-review-4 img:hover {
+    box-shadow: none;
   }
 }
 </style>

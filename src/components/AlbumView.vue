@@ -103,5 +103,13 @@ a {
   .album-name {
     font-size: 10px;
   }
+
+  .album-entry img {
+    transition: none;
+  }
+
+  .album-entry img:hover {
+    box-shadow: none;
+  }
 }
 </style>
