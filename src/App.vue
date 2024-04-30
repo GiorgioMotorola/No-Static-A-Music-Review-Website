@@ -8,6 +8,16 @@
     <div CLASS="title">&nbsp;NO STATIC</div>
     <router-view></router-view>
   </div>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Mike Weatherford</p>
+      <ul>
+        <li><a href="#">GITHUB</a></li>
+        <li><a href="#">LINKEDIN</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+      </ul>
+    </div>
+  </footer>
 </template>
 
 <script>
@@ -60,9 +70,52 @@ a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+
+.footer-content p {
+  margin: 0;
+  background-color: #333;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  margin-right: 30px;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-right: 10px;
 
 }
 
+.footer-content ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #333;
+}
 
 @media (max-width: 1300px) {
   .nav-link a {
@@ -114,5 +167,14 @@ a {
     padding: 10px 0px;
     gap: 40px;
   }
+
+  .footer-content ul {
+    font-size: 10px;
+  }
+
+  .footer-content p {
+    font-size: 10px;
+  }
+
 }
 </style>

@@ -19,25 +19,22 @@ export default {
             <a href="https://nostatic.mweatherford.rocks/20" target="_blank">
               <img src="../../public/tribemm.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
+
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/19" target="_blank">
               <img src="../../public/bss.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-3">
             <a href="https://nostatic.mweatherford.rocks/18" target="_blank">
               <img src="../../public/timhecker.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/17" target="_blank">
               <img src="../../public/nightdrive.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
         </div>
         <div class="review-line">
@@ -45,25 +42,21 @@ export default {
             <a href="https://nostatic.mweatherford.rocks/1" target="_blank">
               <img src="../../public/fmtusk.png" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/5" target="_blank">
               <img src="../../public/huercos.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-3">
             <a href="https://nostatic.mweatherford.rocks/7" target="_blank">
               <img src="../../public/marqueemoon.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/10" target="_blank">
               <img src="../../public/fugazi.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
         </div>
         <div class="review-line">
@@ -71,25 +64,21 @@ export default {
             <a href="https://nostatic.mweatherford.rocks/11" target="_blank">
               <img src="../../public/americanwater.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/14" target="_blank">
               <img src="../../public/Aquemini.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-3">
             <a href="https://nostatic.mweatherford.rocks/9" target="_blank">
               <img src="../../public/beingthere.png" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/3" target="_blank">
               <img src="../../public/bigstarradio.jpg" alt="">
             </a>
-            <div class="review-preview"> </div>
           </div>
         </div>
       </div>
@@ -100,6 +89,10 @@ export default {
 <style scoped>
 * {
   margin: 0;
+}
+
+.container {
+  margin-bottom: 100px;
 }
 
 .review-container {
@@ -180,6 +173,14 @@ export default {
 
 @media (max-width: 1300px) {
   .body {
+    gap: 0rem;
+  }
+
+  .container {
+    margin-bottom: 300px
+  }
+
+  .body {
     flex-direction: column;
   }
 
@@ -193,9 +194,19 @@ export default {
     min-height: 200px;
     max-height: 200px;
   }
+
+  .cta-container {
+    padding: 3rem;
+  }
+
 }
 
 @media (max-width: 700px) {
+
+  .container {
+    margin-bottom: 2700px
+  }
+
   .review-line {
     flex-direction: column;
   }
