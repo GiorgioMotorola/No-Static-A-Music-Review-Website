@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     fetchAlbums() {
-      axios.get("../public/albums.json").then((response) => {
+      axios.get("albums.json").then((response) => {
         this.albums = response.data;
       });
     },
