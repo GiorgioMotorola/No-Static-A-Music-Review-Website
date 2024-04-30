@@ -8,25 +8,25 @@ export default {
   <div class="container">
     <div class="body">
       <div class="most-recent-review-1">
-        <a href="http://localhost:5173/20" target="_blank">
+        <a href="https://nostatic.mweatherford.rocks/20" target="_blank">
           <img src="../../public/tribemm.jpg" alt="">
         </a>
         <div class="review-preview"> </div>
       </div>
       <div class="most-recent-review-2">
-        <a href="http://localhost:5173/19" target="_blank">
+        <a href="https://nostatic.mweatherford.rocks/19" target="_blank">
           <img src="../../public/bss.jpg" alt="">
         </a>
         <div class="review-preview"> </div>
       </div>
       <div class="most-recent-review-3">
-        <a href="http://localhost:5173/18" target="_blank">
+        <a href="https://nostatic.mweatherford.rocks/18" target="_blank">
           <img src="../../public/timhecker.jpg" alt="">
         </a>
         <div class="review-preview"> </div>
       </div>
       <div class="most-recent-review-4">
-        <a href="http://localhost:5173/17" target="_blank">
+        <a href="https://nostatic.mweatherford.rocks/17" target="_blank">
           <img src="../../public/nightdrive.jpg" alt="">
         </a>
         <div class="review-preview"> </div>
