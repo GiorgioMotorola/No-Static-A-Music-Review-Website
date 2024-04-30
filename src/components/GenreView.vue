@@ -21,7 +21,8 @@ export default {
                 "New Wave",
                 "Power Pop",
                 "Alt Country",
-                "Hip Hop"
+                "Hip Hop",
+                "Yacht Rock"
             ]
         };
     }

@@ -106,7 +106,8 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 0px;
-  margin-top: 2rem
+  margin-top: 2rem;
+  margin-right: 2.1rem;
 }
 
 .review-line {
@@ -133,7 +134,18 @@ export default {
   margin: auto;
   display: block;
   margin-top: 2vh;
-  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  transition: box-shadow 0.2s ease;
+}
+
+.most-recent-review-1 img:hover,
+.most-recent-review-2 img:hover,
+.most-recent-review-3 img:hover,
+.most-recent-review-4 img:hover {
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px;
 }
 
 .body {
@@ -163,6 +175,7 @@ export default {
 .cta-second {
   color: aliceblue;
   font-size: 14px;
+  text-align: center;
 }
 
 @media (max-width: 1300px) {
@@ -175,7 +188,10 @@ export default {
   .most-recent-review-3 img,
   .most-recent-review-4 img {
     margin-top: 5vh;
-    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
   }
 }
 

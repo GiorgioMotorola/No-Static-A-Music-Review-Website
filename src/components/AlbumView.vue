@@ -1,10 +1,14 @@
 <template>
   <div class="container">
-    <div class="album-list-item">
-      <div v-for="album in albums" :key="album.id" class="album-list">
+    <div class="album-list">
+      <div v-for="album in albums" :key="album.id" class="album-list-item">
         <router-link :to="{ name: 'AlbumDetail', params: { id: album.id } }">
-          <div>
-            <div>{{ album.artist }} - {{ album.album }}</div>
+          <div class="album-entry">
+            <img :src="album.image" alt="Album Cover">
+            <div class="album-details">
+              <div class="artist-name">{{ album.artist }}</div>
+              <div class="album-name">{{ album.album }}</div>
+            </div>
           </div>
         </router-link>
       </div>
@@ -12,6 +16,7 @@
     <router-view></router-view>
   </div>
 </template>
+
 
 <script>
 import axios from "axios";
@@ -37,44 +42,53 @@ export default {
 </script>
 
 <style scoped>
-* {
-  text-decoration: none;
-  color: white;
-}
-
 .container {
   margin-top: 3%;
 }
 
 .album-list {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
 }
 
-.album-list-item {
-  position: relative;
-  margin: 0 10px;
-}
-
-.album-list-item a {
-  position: relative;
-}
-
-.album-list-item a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
+.album-entry {
   width: 100%;
-  height: 2px;
-  background-color: white;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
+  text-align: center;
 }
 
-.album-list-item a:hover::after {
-  transform: scaleX(1);
+.album-details {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  color: white
+}
+
+a {
+  text-decoration: none;
+}
+
+.artist-name {
+  color: rgb(255, 255, 255);
+}
+
+.album-name {
+  color: #D66C56;
+  font-style: italic;
+}
+
+.album-entry img {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  transition: box-shadow 0.2s ease;
+}
+
+.album-entry img:hover {
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px;
 }
 
 @media (max-width: 600px) {
@@ -83,10 +97,11 @@ export default {
   }
 
   .album-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-    font-size: 13px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .album-name {
+    font-size: 10px;
   }
 }
 </style>
