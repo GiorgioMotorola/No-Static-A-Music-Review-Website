@@ -1,4 +1,9 @@
 <template>
+    <div v-if="album" class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span>
+        <router-link to="/albums"> albums</router-link> <span style="color: white;">|</span> <router-link
+            to="/albums"><span style="color: #ECDBBA; text-transform: lowercase;">{{
+                album.album }}</span></router-link>
+    </div>
     <div class="album-details-container">
         <div v-if="album">
             <div class="album-artist">
@@ -80,6 +85,18 @@ export default {
     margin: 0;
     padding: 0;
     color: #ffffff;
+}
+
+.section-title {
+    padding: 10px;
+    margin-left: 1rem;
+    font-size: 30px;
+    color: #ECDBBA;
+}
+
+.section-title a {
+    color: #D66C56;
+    text-decoration: none;
 }
 
 .album-artist {

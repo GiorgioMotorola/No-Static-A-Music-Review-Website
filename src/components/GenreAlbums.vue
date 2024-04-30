@@ -1,5 +1,9 @@
 <template>
-    <div class="section-title">{{ genre }}</div>
+    <div class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span>
+        <router-link to="/albums"> genres</router-link> <span style="color: white;">|</span> <router-link
+            to="/albums"><span style="color: #ECDBBA; text-transform: lowercase;">{{ genre }}
+            </span></router-link>
+    </div>
     <div class="container">
         <div class="genre-list-item">
             <div v-for="album in filteredAlbums" :key="album.id" class="genre-list">
@@ -59,9 +63,11 @@ export default {
     margin-left: 1rem;
     font-size: 30px;
     color: #ECDBBA;
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 255, 255);
-    text-transform: lowercase;
+}
+
+.section-title a {
+    color: #D66C56;
+    text-decoration: none;
 }
 
 .container {
