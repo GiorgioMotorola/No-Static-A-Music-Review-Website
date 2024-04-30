@@ -9,7 +9,7 @@ const routes = [
   { path: '/', component: HomeView },
   { path: '/albums', component: AlbumView },
   {
-    path: '/:id',
+    path: '/albums/:id',
     name: 'AlbumDetail',
     component: AlbumDetail,
     props: true,
