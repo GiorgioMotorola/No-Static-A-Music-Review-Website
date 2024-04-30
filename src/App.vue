@@ -40,7 +40,7 @@ template {
   color: white;
   margin-top: 5px;
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: 80px;
   border-bottom: 1px solid white;
 }

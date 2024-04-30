@@ -94,10 +94,10 @@ a {
 }
 
 .album-entry img {
-  min-width: 150px;
-  max-width: 150px;
-  min-height: 150px;
-  max-height: 150px;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
   transition: box-shadow 0.2s ease;
 }
 
@@ -128,6 +128,14 @@ a {
 
   .section-title {
     font-size: 15px;
+  }
+
+  .album-entry img {
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    transition: box-shadow 0.2s ease;
   }
 }
 </style>
