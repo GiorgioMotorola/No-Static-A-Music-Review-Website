@@ -287,11 +287,8 @@ img {
     .review-section {
         margin-top: 2rem;
         font-size: 20px;
-        padding: 10%;
+        padding: 6%;
     }
 
-    .review {
-        color: #B9B79D;
-    }
 }
 </style>
