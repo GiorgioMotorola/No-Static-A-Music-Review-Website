@@ -117,5 +117,9 @@ export default {
         margin-top: 3%;
         font-size: 13px;
     }
+
+    .section-title {
+        font-size: 15px;
+    }
 }
 </style>

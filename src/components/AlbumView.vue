@@ -128,7 +128,6 @@ a {
 
   .section-title {
     font-size: 15px;
-
   }
 }
 </style>

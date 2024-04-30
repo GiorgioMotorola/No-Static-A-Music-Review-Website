@@ -311,5 +311,9 @@ img {
         padding: 6%;
     }
 
+    .section-title {
+        font-size: 15px;
+    }
+
 }
 </style>
