@@ -15,7 +15,7 @@
             <div class="feeling">
                 <div class="recordedIn"><span style="color: white;">&#x266B; </span>{{ album.recordedIn }}</div>
                 <div class="season"><span style="color: yellow;">&#x263C; </span>{{ album.season }}</div>
-                <div class="drink">&#127864; {{ album.drink }}</div>
+                <div class="drink">&#127881; {{ album.party }}</div>
             </div>
 
             <div class="tracks">
