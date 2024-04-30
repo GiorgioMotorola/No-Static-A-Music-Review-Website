@@ -223,5 +223,10 @@ export default {
   .body {
     gap: .1rem;
   }
+
+  .review-container {
+
+    margin-right: 0rem;
+  }
 }
 </style>
