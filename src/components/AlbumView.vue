@@ -45,6 +45,7 @@ export default {
 <style scoped>
 .container {
   margin-top: 3%;
+  margin-bottom: 100px;
 }
 
 .section-title {

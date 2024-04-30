@@ -47,6 +47,7 @@ export default {
 
 .container {
     margin-top: 1%;
+    margin-bottom: 100px;
 }
 
 .genre-list {

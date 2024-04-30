@@ -201,6 +201,10 @@ img {
     .tracks {
         flex-direction: column;
     }
+
+    .album-details-container {
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width: 600px) {
