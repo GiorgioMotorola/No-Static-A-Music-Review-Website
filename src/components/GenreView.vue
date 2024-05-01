@@ -14,15 +14,15 @@ export default {
     data() {
         return {
             genres: [
-                "Rock",
-                "Electronic",
+                "Alt Country",
                 "Ambient",
+                "Electronic",
+                "Hip Hop",
                 "Indie Rock",
-                "Punk",
                 "New Wave",
                 "Power Pop",
-                "Alt Country",
-                "Hip Hop",
+                "Punk",
+                "Rock",
                 "Yacht Rock"
             ]
         };

@@ -16,17 +16,16 @@ export default {
     data() {
         return {
             puremoods: [
-                "Yacht",
                 "Airport",
                 "Basement",
                 "Bedroom",
+                "Cookout",
+                "Lab",
                 "Library",
                 "Radio",
-                "Lab",
-                "Cookout",
                 "Twin Peaks",
-                "Warehouse"
-
+                "Warehouse",
+                "Yacht",
             ]
         };
     }
