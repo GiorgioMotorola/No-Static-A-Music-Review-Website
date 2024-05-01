@@ -18,8 +18,9 @@
                 </div>
             </div>
             <div class="feeling">
-                <div class="recordedIn"><span style="color: white;">&#x266B; </span>{{ album.recordedIn }}</div>
-                <div class="season"><span style="color: yellow;">&#x263C; </span>{{ album.season }}</div>
+                <div class="recordedIn"><span style="color: #D66C56;">&#x266B; </span>{{ album.recordedIn }}</div>
+                <div class="season"><span style="color: yellow;">&#x263C; <router-link to="/albums/seasons">{{
+                    album.season }}</router-link></span></div>
                 <div class="drink">&#127881; {{ album.party }}</div>
             </div>
 
@@ -140,7 +141,20 @@ export default {
 .recordedIn,
 .season,
 .drink {
-    color: #5479b4;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.recordedIn a,
+.season a,
+.drink a {
+    text-decoration: none;
+}
+
+.recordedIn a:hover,
+.season a:hover,
+.drink a:hover {
+    text-decoration: underline;
 }
 
 .tracks {
