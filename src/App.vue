@@ -5,6 +5,7 @@
       <router-link to="/albums">Albums</router-link>
       <router-link to="/albums/genres">Genres</router-link>
       <router-link to="/albums/seasons">Seasons</router-link>
+      <router-link to="/albums/puremoods">Pure Moods</router-link>
     </nav>
     <div CLASS="title">&nbsp;NO STATIC</div>
     <router-view></router-view>
@@ -169,8 +170,8 @@ footer {
   }
 
   .nav-link a {
-    font-size: 13px;
-    margin: 0 20px;
+    font-size: 10px;
+    margin: 0 15px;
   }
 
   .footer-content ul {
