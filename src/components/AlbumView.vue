@@ -57,7 +57,7 @@ export default {
 
 .album-entry {
   width: 100%;
-  text-align: center;
+  text-align: start;
 }
 
 .album-details {
