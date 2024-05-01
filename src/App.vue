@@ -170,8 +170,8 @@ footer {
   }
 
   .nav-link a {
-    font-size: 10px;
-    margin: 0 15px;
+    font-size: 11px;
+    margin: 0 8.5px;
   }
 
   .footer-content ul {

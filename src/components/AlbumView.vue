@@ -63,9 +63,9 @@ export default {
 .album-details {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: wrap;
   font-size: 12px;
-  color: white
+  color: white;
 }
 
 .section-title {
@@ -114,8 +114,14 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .artist-name {
+    font-size: 10px;
+  }
+
   .album-name {
     font-size: 10px;
+    text-wrap: wrap;
+    max-width: 125px;
   }
 
   .album-entry img {
@@ -131,10 +137,10 @@ a {
   }
 
   .album-entry img {
-    min-width: 150px;
-    max-width: 150px;
-    min-height: 150px;
-    max-height: 150px;
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 140px;
+    max-height: 140px;
     transition: box-shadow 0.2s ease;
   }
 }

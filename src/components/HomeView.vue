@@ -170,7 +170,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .cta {
@@ -190,7 +190,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .cta-links a:hover {
@@ -251,7 +251,7 @@ export default {
 @media (max-width: 700px) {
 
   .container {
-    margin-bottom: 2800px
+    margin-bottom: 2850px
   }
 
   .review-line {
@@ -268,7 +268,7 @@ export default {
   .most-recent-review-2,
   .most-recent-review-3,
   .most-recent-review-4 {
-    width: 100%;
+    width: 99%;
   }
 
   .cta-container {
@@ -283,6 +283,10 @@ export default {
   .cta-second {
     font-size: 14px;
     margin-top: 10px;
+  }
+
+  .cta-links {
+    font-size: 18px;
   }
 
   .body {
