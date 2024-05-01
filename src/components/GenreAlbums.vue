@@ -1,6 +1,6 @@
 <template>
     <div class="section-title"><router-link to="/">home</router-link>
-        <span style="color: white;">|</span>
+        <span style="color: white;"> |</span>
         <router-link to="/albums/genres"> genres</router-link> <span style="color: white;">|</span>
         <span style="color: #ECDBBA; text-transform: lowercase;">&nbsp;{{
             genre }}
