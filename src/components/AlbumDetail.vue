@@ -251,13 +251,13 @@ img {
     }
 
     .artist {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         color: rgb(86, 97, 97);
     }
 
     .album {
-        font-size: 45px;
+        font-size: 30px;
         text-decoration: underline 2px #ECDBBA;
         text-underline-offset: 5px;
     }
