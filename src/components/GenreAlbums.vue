@@ -74,6 +74,7 @@ export default {
 
 .container {
     margin-top: 3%;
+    margin-bottom: 700px;
 }
 
 .genre-list {
