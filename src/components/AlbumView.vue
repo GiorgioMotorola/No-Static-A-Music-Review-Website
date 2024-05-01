@@ -137,10 +137,10 @@ a {
   }
 
   .album-entry img {
-    min-width: 140px;
-    max-width: 140px;
-    min-height: 140px;
-    max-height: 140px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
     transition: box-shadow 0.2s ease;
   }
 }
