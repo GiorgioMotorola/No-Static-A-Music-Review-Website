@@ -27,7 +27,7 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: white;
+    color: #D66C56;
 }
 
 .section-title {
@@ -53,8 +53,9 @@ a {
 
 .season-list {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin-top: 0.5%;
+    margin-left: 20%;
 }
 
 .season-list-item {
@@ -86,12 +87,18 @@ a {
 @media (max-width: 600px) {
     .container {
         margin-top: 19%;
+        margin-bottom: 540px;
+    }
+
+    .container a {
+        font-size: 30px;
     }
 
     .season-list {
         display: flex;
-        justify-content: center;
-        margin-top: 3%;
+        justify-content: start;
+        margin-top: 0.5%;
+        margin-left: 10%;
         font-size: 13px;
     }
 

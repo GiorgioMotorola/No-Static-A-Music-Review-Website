@@ -1,13 +1,26 @@
 <template>
-    <div class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span> pure moods
+    <div class="section-title">
+        <router-link to="/">home</router-link> <span style="color: white;">|</span> pure moods
     </div>
     <div class="container">
         <div class="puremood-list-item">
             <div v-for="puremood in puremoods" :key="puremood" class="puremood-list">
-                <router-link :to="{ name: 'puremoodAlbums', params: { puremood: puremood } }">{{ puremood
-                    }}</router-link>
+                <router-link :to="{ name: 'puremoodAlbums', params: { puremood: puremood } }">
+                    {{ puremood }}
+                </router-link>
+                <span class="tooltip-icon" :title="tooltipTexts[puremood]" @click="toggleTooltip(puremood)">
+                    &#x24D8;
+                    <span v-if="showTooltip[puremood]" class="tooltip-text">
+                        {{ tooltipTexts[puremood] }}
+                    </span>
+                </span>
             </div>
         </div>
+    </div>
+    <div class="disclaimer-container">
+        <div class="disclaimer">Note: I am aware that a lot of albums could fit in more than one category so I placed an
+            album in the category I thought was the best fit. If you have an argument why one album belongs in a
+            different category, please reach out. You can find my contact info in the footer link "PORTFOLIO".</div>
     </div>
 </template>
 
@@ -26,8 +39,39 @@ export default {
                 "Twin Peaks",
                 "Warehouse",
                 "Yacht",
-            ]
+            ],
+            tooltipTexts: {
+                Airport: "airy, floaty music that is meant to inspire relaxiation and ambience",
+                Basement: "aggressive, youthful and sometimes dark",
+                Bedroom: "lo-fi, diy, sometimes with some experimentation",
+                Cookout: "perfect albums to play while cooking out or hanging out with friends or by yourself",
+                Lab: "calculated, often focused on complex songwriting and production",
+                Library: "smart, bookish, often a focus on lyrically blowing the listeners mind",
+                Radio: "adult oriented rock or your sleak pop. usually made for the masses regardless of it's essentialness",
+                "Twin Peaks": "a strong focus on experimentation, something where the weirdness is the appeal",
+                Warehouse: "exicting, dancy, a strong focus on beat driven tunes",
+                Yacht: "smooth, bouncy and made for the boat",
+            },
+            showTooltip: {}
         };
+    },
+    methods: {
+        toggleTooltip(puremood) {
+            this.showTooltip[puremood] = !this.showTooltip[puremood];
+        },
+        closeTooltipsOnClickOutside(event) {
+            if (!event.target.classList.contains('tooltip-icon')) {
+                Object.keys(this.showTooltip).forEach(puremood => {
+                    this.showTooltip[puremood] = false;
+                });
+            }
+        }
+    },
+    mounted() {
+        document.addEventListener('click', this.closeTooltipsOnClickOutside);
+    },
+    beforeDestroy() {
+        document.removeEventListener('click', this.closeTooltipsOnClickOutside);
     }
 };
 </script>
@@ -35,7 +79,28 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
+    color: #D66C56;
+}
+
+.tooltip-icon {
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 23px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.tooltip-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -30px;
+    left: 20px;
+    z-index: 999;
+    font-size: 15px;
 }
 
 .section-title {
@@ -55,14 +120,15 @@ a {
 }
 
 .container {
-    margin-top: 1%;
+    margin-top: 3%;
     margin-bottom: 100px;
 }
 
 .puremood-list {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin-top: 0.5%;
+    margin-left: 20%;
 }
 
 .puremood-list-item {
@@ -91,20 +157,38 @@ a {
     transform: scaleX(1);
 }
 
+.disclaimer-container {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: white;
+    padding: 1%;
+}
+
+.disclaimer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media (max-width: 600px) {
     .container {
         margin-top: 19%;
+        margin-bottom: 300px;
     }
 
     .puremood-list {
         display: flex;
-        justify-content: center;
-        margin-top: 3%;
+        justify-content: start;
+        margin-top: 0.5%;
+        margin-left: 10%;
         font-size: 13px;
     }
 
     .section-title {
         font-size: 15px;
+    }
+
+    .puremood-list-item a {
+        font-size: 30px;
     }
 }
 </style>

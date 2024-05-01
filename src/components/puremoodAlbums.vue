@@ -57,7 +57,7 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: white;
+    color: #D66C56;
 }
 
 .section-title {
@@ -79,9 +79,10 @@ export default {
 
 .puremood-list {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin-top: 0.5%;
-    font-size: 50px;
+    margin-left: 20%;
+    font-size: 30px;
 }
 
 .puremood-list-item {
@@ -116,8 +117,9 @@ export default {
 
     .puremood-list {
         display: flex;
-        justify-content: center;
-        margin-top: 3%;
+        justify-content: start;
+        margin-top: 0.5%;
+        margin-left: 10%;
         font-size: 13px;
     }
 

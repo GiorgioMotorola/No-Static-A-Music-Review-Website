@@ -33,7 +33,7 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: white;
+    color: #D66C56;
 }
 
 .section-title {
@@ -59,8 +59,9 @@ a {
 
 .genre-list {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin-top: 0.5%;
+    margin-left: 20%;
 }
 
 .genre-list-item {
@@ -92,12 +93,18 @@ a {
 @media (max-width: 600px) {
     .container {
         margin-top: 19%;
+        margin-bottom: 350px;
+    }
+
+    .container a {
+        font-size: 30px;
     }
 
     .genre-list {
         display: flex;
-        justify-content: center;
-        margin-top: 3%;
+        justify-content: start;
+        margin-top: 0.5%;
+        margin-left: 10%;
         font-size: 13px;
     }
 
