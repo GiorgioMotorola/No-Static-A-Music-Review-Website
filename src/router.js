@@ -6,6 +6,8 @@ import GenreView from './components/GenreView.vue';
 import GenreAlbums from './components/GenreAlbums.vue';
 import SeasonView from './components/SeasonView.vue';
 import SeasonAlbums from './components/SeasonAlbums.vue';
+import puremoodAlbums from './components/puremoodAlbums.vue';
+import puremoodView from './components/puremoodView.vue';
 
 const routes = [
   { path: '/', component: HomeView },
@@ -28,6 +30,13 @@ const routes = [
     path: '/albums/seasons/:season',
     name: 'SeasonAlbums',
     component: SeasonAlbums,
+    props: true,
+  },
+  { path: '/albums/puremoods', component: puremoodView },
+  {
+    path: '/albums/puremoods/:puremood',
+    name: 'puremoodAlbums',
+    component: puremoodAlbums,
     props: true,
   },
 ];
