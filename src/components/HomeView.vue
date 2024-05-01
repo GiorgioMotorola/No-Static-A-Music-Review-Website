@@ -114,8 +114,8 @@ export default {
 
 .latest-reviews {
   text-align: center;
-  font-size: 30px;
-  color: white;
+  font-size: 45px;
+  color: #D66C56;
 }
 
 .review-line {
@@ -192,6 +192,7 @@ export default {
   margin-top: 3rem;
   font-size: 26px;
 }
+
 
 .cta-links a:hover {
   text-decoration: underline;

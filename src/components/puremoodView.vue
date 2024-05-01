@@ -42,7 +42,7 @@ export default {
             ],
             tooltipTexts: {
                 Airport: "airy, floaty music that is meant to inspire relaxiation and ambience",
-                Basement: "aggressive, youthful and sometimes dark",
+                Basement: "sometimes aggressive, sometimes dark but mainly for metal and punk adjacent sounds",
                 Bedroom: "lo-fi, diy, sometimes with some experimentation",
                 Cookout: "perfect albums to play while cooking out or hanging out with friends or by yourself",
                 Lab: "calculated, often focused on complex songwriting and production",
