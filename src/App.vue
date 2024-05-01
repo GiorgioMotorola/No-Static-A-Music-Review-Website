@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/albums">Albums</router-link>
       <router-link to="/albums/genres">Genres</router-link>
+      <router-link to="/albums/seasons">Seasons</router-link>
     </nav>
     <div CLASS="title">&nbsp;NO STATIC</div>
     <router-view></router-view>
@@ -164,7 +165,12 @@ footer {
   .nav-link {
     justify-content: center;
     padding: 10px 0px;
-    gap: 40px;
+    gap: 0px;
+  }
+
+  .nav-link a {
+    font-size: 13px;
+    margin: 0 20px;
   }
 
   .footer-content ul {

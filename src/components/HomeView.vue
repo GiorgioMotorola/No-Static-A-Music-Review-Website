@@ -15,6 +15,7 @@ export default {
         <div class="cta-links">
           <router-link to="/albums">&#x260A; Search Albums</router-link>
           <router-link to="/albums/genres">&#x260A; Search Genres</router-link>
+          <router-link to="/albums/seasons">&#x260A; Search Seasons</router-link>
         </div>
       </div>
       <div class="review-container">

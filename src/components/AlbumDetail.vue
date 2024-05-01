@@ -124,7 +124,9 @@ export default {
     font-size: 14px;
     text-align: center;
     font-style: italic;
-    color: #D66C56;
+    color: #ffffff;
+    margin-top: 1px;
+    font-size: 12px;
 }
 
 .feeling {
@@ -248,6 +250,8 @@ img {
     .genre {
         margin-top: -15px;
         margin-bottom: 50px;
+        font-size: 10px;
+        margin-top: 1px
     }
 
     img {
