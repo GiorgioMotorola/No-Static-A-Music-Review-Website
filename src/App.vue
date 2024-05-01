@@ -76,8 +76,7 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 15px;
-  width: 100%;
-  position: fixed;
+  width: calc(100% - 30px);
   bottom: 0;
 }
 
@@ -103,7 +102,7 @@ footer {
 
 .footer-content ul li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 15px;
 
 }
 
