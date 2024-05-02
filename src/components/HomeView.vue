@@ -31,8 +31,8 @@ export default {
 
           </div>
           <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/19" target="_blank">
-              <img src="../../public/bss.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/22" target="_blank">
+              <img src="../../public/powertrip.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">

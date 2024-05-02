@@ -1987,5 +1987,56 @@
         "duration": "5:22"
       }
     ]
+  },
+  {
+    "id": 23,
+    "artist": "Ornette Coleman",
+    "album": "The Shape of Jazz to Come",
+    "yearReleased": "1959",
+    "genre": "Jazz",
+    "subGenre": "Avant Garde Jazz",
+    "image": "ornette.jpg",
+    "puremood": "Twin Peaks",
+    "season": "Winter",
+    "party": "No",
+    "review": "So if you haven't looked around this site much, you may have missed the Pure Moods section. I always thought one component a lot of music websites was missing is to section off albums in HOW they feel instead of their specific genre. Drone albums are Drone albums but there is a stark difference between Stars of the Lid records and Earth records. They live in the same neighborhood but they have different personalities. Jazz is like this as well. You find different feelings and moods in Miles Davis' records that are a year apart. I bring this up because I am having trouble figuring out where to put The Shape of Jazz To Come by Ornette Coleman. On one hand, this album is technically locked in and it sounds incredible. So it should go in the Lab category, right? But on the other hand, this thing skips through the weird space so often, I may as well put it in Twin Peaks. The album wears all sorts of hats and they are all cool-looking because Jazz guys are always really cool-looking. There is a track on this record called 'Focus on Sanity' that sounds exactly like a future mental breakdown I will have one day which is a point in Twin Peaks favor. But good lord I feel like I am in the room with these guys. I think I am leaning Twin Peaks. Either way, I think this is a fantastic gateway into something more than Modal and should be (and I assume is) on the short list of must-listens in the jazz world. Also, the title was later referenced and repurposed by a bunch of anarcho-punk Swedes in the late 90s so that should count for something.",
+    "tracks": [
+      {
+        "trackNumber": "1",
+        "trackName": "Lonely Woman",
+        "writer": "",
+        "duration": "4:59"
+      },
+      {
+        "trackNumber": "2",
+        "trackName": "Eventually",
+        "writer": "",
+        "duration": "4:20"
+      },
+      {
+        "trackNumber": "3",
+        "trackName": "Peace",
+        "writer": "",
+        "duration": "9:04"
+      },
+      {
+        "trackNumber": "4",
+        "trackName": "Focus on Sanity",
+        "writer": "",
+        "duration": "6:50"
+      },
+      {
+        "trackNumber": "5",
+        "trackName": "Congeniality",
+        "writer": "",
+        "duration": "6:41"
+      },
+      {
+        "trackNumber": "6",
+        "trackName": "Chronology",
+        "writer": "",
+        "duration": "6:05"
+      }
+    ]
   }
 ]
