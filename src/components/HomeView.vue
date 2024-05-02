@@ -36,8 +36,8 @@ export default {
             </a>
           </div>
           <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/18" target="_blank">
-              <img src="../../public/timhecker.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/23" target="_blank">
+              <img src="../../public/ornette.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
