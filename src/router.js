@@ -8,6 +8,8 @@ import SeasonView from './components/SeasonView.vue';
 import SeasonAlbums from './components/SeasonAlbums.vue';
 import puremoodAlbums from './components/puremoodAlbums.vue';
 import puremoodView from './components/puremoodView.vue';
+import nsrcView from './components/nsrcView.vue';
+import nsrcDetail from './components/nsrcDetail.vue';
 
 const routes = [
   { path: '/', component: HomeView },
@@ -37,6 +39,13 @@ const routes = [
     path: '/albums/puremoods/:puremood',
     name: 'puremoodAlbums',
     component: puremoodAlbums,
+    props: true,
+  },
+  { path: '/nsrc', component: nsrcView },
+  {
+    path: '/:nsrcId',
+    name: 'nsrcDetail',
+    component: nsrcDetail,
     props: true,
   },
 ];
