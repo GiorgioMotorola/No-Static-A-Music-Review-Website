@@ -1,43 +1,44 @@
 <template>
-    <div v-if="album" class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span>
-        <router-link to="/nsrc"> no static record catalogue</router-link> <span style="color: white;"></span>
-        <router-link to="/albums"><span style="color: #ECDBBA; text-transform: lowercase;">{{
-            album.album }}</span></router-link>
+    <div v-if="nsrc" class="section-title">
+        <router-link to="/">home</router-link>
+        <span style="color: white;">|</span>
+        <router-link to="/nsrc"> no static record catalogue</router-link>
+        <span style="color: white;"></span>
+        <router-link to="/"><span style="color: #ECDBBA; text-transform: lowercase;">{{ nsrc.album
+                }}</span></router-link>
     </div>
     <div class="album-details-container">
-        <div v-if="album">
+        <div v-if="nsrc">
             <div class="img-container">
                 <div class="artist-and-number">
-                    <div class="artist">{{ album.artistEntry }}</div>
-                    <div class="album-number">{{ album.nsrcId }}</div>
+                    <div class="artist">{{ nsrc.artistEntry }}</div>
+                    <div class="album-number">{{ nsrc.nsrcId }}</div>
                 </div>
-                <img :src="album.imageOne" alt="Album Cover">
+                <img :src="'/public/' + nsrc.imageOne" alt="Album Cover">
             </div>
             <div class="write-up">
-                <div class="intro">{{ album.introParagraph }}</div>
-                <div class="side-one">{{ album.sideOneParagraph }}</div>
-                <div class="side-two">{{ album.sideTwoParagraph }}</div>
-                <div class="name-and-image-writeup">{{ album.nameAndImageParagraph }}</div>
-                <div class="wrap-up">{{ album.wrapUpparagraph }}</div>
+                <div class="intro">{{ nsrc.introParagraph }}</div>
+                <div class="side-one">{{ nsrc.sideOneParagraph }}</div>
+                <div class="side-two">{{ nsrc.sideTwoParagraph }}</div>
+                <div class="name-and-image-writeup">{{ nsrc.nameAndImageParagraph }}</div>
+                <div class="wrap-up">{{ nsrc.wrapUpparagraph }}</div>
             </div>
             <div class="front-back-img">
-                <img :src="album.albumImageFront" alt="Album Cover">
-                <img :src="album.albumImageBack" alt="Album Cover">
+                <img :src="nsrc.albumImageFront" alt="Album Cover">
+                <img :src="nsrc.albumImageBack" alt="Album Cover">
             </div>
             <div class="spotify-container">
-                <iframe :src="album.spotifyPlaylistLink" frameborder="0" width="100%" height="352" frameBorder="0"
+                <iframe :src="nsrc.spotifyPlaylistLink" frameborder="0" width="100%" height="352" frameBorder="0"
                     allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"></iframe>
             </div>
-
         </div>
         <div v-else>
             <p>Loading...</p>
         </div>
     </div>
 </template>
-
 
 <script>
 import axios from "axios";
@@ -52,25 +53,30 @@ export default {
     },
     data() {
         return {
-            album: null
+            nsrc: null
         };
     },
     mounted() {
+        console.log("nsrcId:", this.nsrcId);
         this.fetchAlbum(this.nsrcId);
     },
     methods: {
         fetchAlbum(nsrcId) {
-            axios.get(`nsrc.json`).then((response) => {
-                const album = response.data.find(album => album.nsrcId === nsrcId);
-                if (album) {
-                    this.album = album;
-                } else {
-                    console.error(`Album with ID ${nsrcId} not found`);
-                }
-            }).catch(error => {
-                console.error('Error fetching album:', error);
-            });
-        },
+            axios.get(`/nsrc.json`)
+                .then((response) => {
+                    console.log('Response data:', response.data);
+                    const albums = response.data; // No need to parse JSON here
+                    const nsrc = albums.find(album => album.nsrcId === nsrcId);
+                    if (nsrc) {
+                        this.nsrc = nsrc;
+                    } else {
+                        console.error(`Album with ID ${nsrcId} not found`);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching album:', error);
+                });
+        }
     },
 };
 </script>

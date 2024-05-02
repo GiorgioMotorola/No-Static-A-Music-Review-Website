@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="album-list">
-            <div v-for="album in albums" :key="album.nsrcId" class="album-list-item">
+            <div v-for="album in nsrc" :key="album.nsrcId" class="album-list-item">
                 <router-link :to="{ name: 'nsrcDetail', params: { nsrcId: album.nsrcId } }">
                     <div class="album-entry">
                         <!-- <img :src="album.image" alt="Album Cover"> -->
@@ -24,7 +24,7 @@ export default {
     name: "nsrcView",
     data() {
         return {
-            albums: [],
+            nsrc: [],
         };
     },
     mounted() {
@@ -33,7 +33,7 @@ export default {
     methods: {
         fetchAlbums() {
             axios.get("nsrc.json").then((response) => {
-                this.albums = response.data;
+                this.nsrc = response.data;
             });
         },
     },

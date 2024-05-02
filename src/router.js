@@ -15,11 +15,11 @@ const routes = [
   { path: '/', component: HomeView },
   { path: '/albums', component: AlbumView },
   {
-    path: '/:id',
+    path: '/album/:id',
     name: 'AlbumDetail',
     component: AlbumDetail,
     props: true,
-  },
+  }, // Use a distinct path for AlbumDetail
   { path: '/albums/genres', component: GenreView },
   {
     path: '/albums/genres/:genre',
@@ -43,7 +43,7 @@ const routes = [
   },
   { path: '/nsrc', component: nsrcView },
   {
-    path: '/:nsrcId',
+    path: '/nsrc/:nsrcId',
     name: 'nsrcDetail',
     component: nsrcDetail,
     props: true,
