@@ -210,9 +210,9 @@ export default {
 
 .review-section {
     margin-top: 0rem;
-    font-size: 40px;
+    font-size: 30px;
     padding: 6%;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .review {
