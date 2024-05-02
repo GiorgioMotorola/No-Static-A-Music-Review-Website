@@ -107,6 +107,7 @@ export default {
 .img-container img {
     border: 2.5px solid rgb(113, 113, 113);
     border-radius: 1.5%;
+    max-width: 500px;
 }
 
 .artist-and-number {
