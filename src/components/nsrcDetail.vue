@@ -14,7 +14,7 @@
                     <div class="artist">{{ nsrc.artistEntry }}</div>
                     <div class="album-number">{{ nsrc.nsrcId }}</div>
                 </div>
-                <img :src="'/public/' + nsrc.imageOne" alt="Album Cover">
+                <img :src="nsrc.imageOne" alt="Album Cover">
             </div>
             <div class="write-up">
                 <div class="intro">{{ nsrc.introParagraph }}</div>
