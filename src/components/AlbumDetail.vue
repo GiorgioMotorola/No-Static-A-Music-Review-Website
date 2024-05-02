@@ -210,9 +210,12 @@ export default {
 
 .review-section {
     margin-top: 0rem;
-    font-size: 30px;
+    font-size: 20px;
     padding: 6%;
+    margin: 5%;
     line-height: 1.2;
+    border-top: 1px solid rgba(117, 114, 114, 0.164);
+    border-bottom: 1px solid rgba(117, 114, 114, 0.164);
 }
 
 .review {
@@ -326,9 +329,14 @@ img {
     }
 
     .review-section {
-        margin-top: 2rem;
+        margin-top: 4rem;
         font-size: 15px;
-        padding: 6%;
+        padding: 3%;
+    }
+
+    .review {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .section-title {
