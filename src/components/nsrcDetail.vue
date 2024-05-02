@@ -267,6 +267,12 @@ export default {
         flex-direction: column;
     }
 
+    .front-back-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .front-back-img img {
         max-width: 325px;
     }
