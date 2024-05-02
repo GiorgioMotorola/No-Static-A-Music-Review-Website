@@ -327,7 +327,7 @@ img {
 
     .review-section {
         margin-top: 2rem;
-        font-size: 20px;
+        font-size: 15px;
         padding: 6%;
     }
 
