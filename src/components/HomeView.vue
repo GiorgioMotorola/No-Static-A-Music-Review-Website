@@ -80,8 +80,8 @@ export default {
             </a>
           </div>
           <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/9" target="_blank">
-              <img src="../../public/beingthere.png" alt="">
+            <a href="https://nostatic.mweatherford.rocks/24" target="_blank">
+              <img src="../../public/kaputt.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
