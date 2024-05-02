@@ -17,6 +17,7 @@ export default {
           <router-link to="/albums/genres">&#x260A; Search Genres</router-link>
           <router-link to="/albums/seasons">&#x260A; Search Seasons</router-link>
           <router-link to="/albums/puremoods">&#x260A; Search Pure Moods</router-link>
+          <router-link to="/albums/nsrc">&#x260A; View No Static Record Catalogue</router-link>
         </div>
       </div>
       <div class="review-container">
@@ -101,7 +102,7 @@ export default {
 }
 
 .container {
-  margin-bottom: 120px;
+  margin-bottom: 300px;
 }
 
 .review-container {
@@ -215,7 +216,7 @@ export default {
   }
 
   .container {
-    margin-bottom: 300px
+    margin-bottom: 180px
   }
 }
 
@@ -225,7 +226,7 @@ export default {
   }
 
   .container {
-    margin-bottom: 500px
+    margin-bottom: 550px
   }
 
   .body {
@@ -252,7 +253,7 @@ export default {
 @media (max-width: 700px) {
 
   .container {
-    margin-bottom: 2850px
+    margin-bottom: 2900px
   }
 
   .review-line {
