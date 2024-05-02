@@ -1,13 +1,17 @@
 <template>
+    <div v-if="nsrc" class="section-title">
+        <router-link to="/">home</router-link>
+        <span style="color: white;"> |</span>
+        <router-link to="/nsrc"><span style="color: #ECDBBA; "> no static record catalogue</span></router-link>
+        <span style="color: white;"></span>
+    </div>
     <div class="container">
         <div class="album-list">
             <div v-for="album in nsrc" :key="album.nsrcId" class="album-list-item">
                 <router-link :to="{ name: 'nsrcDetail', params: { nsrcId: album.nsrcId } }">
                     <div class="album-entry">
-                        <!-- <img :src="album.image" alt="Album Cover"> -->
                         <div class="album-details">
                             <div class="artist-name">{{ album.artistEntry }}</div>
-                            <!-- <div class="album-name">{{ album.album }}</div> -->
                         </div>
                     </div>
                 </router-link>
@@ -41,29 +45,9 @@ export default {
 </script>
 
 <style scoped>
-.container {
-    margin-top: 3%;
-    margin-bottom: 100px;
-}
-
-.album-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    justify-items: center;
-}
-
-.album-entry {
-    width: 100%;
-    text-align: start;
-}
-
-.album-details {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: wrap;
-    font-size: 12px;
-    color: white;
+* {
+    text-decoration: none;
+    color: #D66C56;
 }
 
 .section-title {
@@ -71,6 +55,7 @@ export default {
     margin-left: 1rem;
     font-size: 30px;
     color: #ECDBBA;
+    margin-bottom: 50px;
 }
 
 .section-title a {
@@ -82,64 +67,64 @@ a {
     text-decoration: none;
 }
 
-.artist-name {
-    color: rgb(255, 255, 255);
+.container {
+    margin-top: 1%;
+    margin-bottom: 650px;
 }
 
-.album-name {
-    color: #D66C56;
-    font-style: italic;
+.album-list {
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5%;
+    margin-left: 20%;
 }
 
-.album-entry img {
-    min-width: 200px;
-    max-width: 200px;
-    min-height: 200px;
-    max-height: 200px;
-    transition: box-shadow 0.2s ease;
+.album-list-item {
+    position: relative;
+    margin: 0 10px;
 }
 
-.album-entry img:hover {
-    box-shadow: rgba(223, 223, 223, 0.78) 0px 0px 0.25em, rgba(143, 150, 163, 0.471) 0px 0.25em 1em;
+.album-list-item a {
+    position: relative;
+    font-size: 50px;
+}
+
+.album-list-item a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.album-list-item a:hover::after {
+    transform: scaleX(1);
 }
 
 @media (max-width: 600px) {
     .container {
         margin-top: 19%;
+        margin-bottom: 480px;
+    }
+
+    .container a {
+        font-size: 30px;
     }
 
     .album-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .artist-name {
-        font-size: 10px;
-    }
-
-    .album-name {
-        font-size: 10px;
-        text-wrap: wrap;
-        max-width: 125px;
-    }
-
-    .album-entry img {
-        transition: none;
-    }
-
-    .album-entry img:hover {
-        box-shadow: none;
+        display: flex;
+        justify-content: start;
+        margin-top: 0.5%;
+        margin-left: 10%;
+        font-size: 13px;
     }
 
     .section-title {
         font-size: 15px;
-    }
-
-    .album-entry img {
-        min-width: 150px;
-        max-width: 150px;
-        min-height: 150px;
-        max-height: 150px;
-        transition: box-shadow 0.2s ease;
     }
 }
 </style>
