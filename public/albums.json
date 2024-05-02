@@ -2038,5 +2038,74 @@
         "duration": "6:05"
       }
     ]
+  },
+  {
+    "id": 24,
+    "artist": "Destroyer",
+    "album": "Kaputt",
+    "yearReleased": "2011",
+    "genre": "Sophisti-Pop",
+    "subGenre": "Indie Pop",
+    "image": "kaputt.jpg",
+    "puremood": "Yacht",
+    "season": "Summer",
+    "party": "Yes",
+    "review": "The New Pornographers, right? What a great band. What an extraordinary supergroup. Although, I hear that frontman AC Newman hates it when people call them a supergroup. But how could you not? AC Newman has written maybe 50 perfect pop songs, Neko Case has a voice that can't be shaken, and Dan Bejar is so much in his own lane that his songs stick out like a beautiful sore thumb on those albums. The New Pornos led me to solo Newman, Case, and of course, Bejar's solo outfit Destroyer. By the way, could there be a better name for a band? How he was able to claim that name before a Metal band did is beyond me but he did and here we are. Living in a Destroyer world. Kaputt is unlike any other Destroyer album. He was the king of snappy, smart Indie Rock filled with complex compositions and I guess one day he decided to make a Sophisti-Pop record. Somehow, that decision led to him putting out his best album by a mile. That's a compliment to Kaputt and not an insult to Rubies, Streethawk, or any of the other great Destroyer albums. What's funny is my friend Bill is an even bigger fan of Destroyer than I am and it was only until recently that he got to this release. I can't imagine how mind-blowing that was: already a fan for years and then getting to a beyond-perfect record. This album sways in the wind easy. This album is crystal clear water flowing from the mountains of China Crisis. This album moves differently. This album slowly fades into darkness, and lets the archangels take him. It is him, it will continue to be him. This shit ain't nothin' to me, man!",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Chinatown",
+        "writer": "Bejar",
+        "duration": "3:49"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Blue Eyes",
+        "writer": "Bejar",
+        "duration": "4:07"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Savage Night at the Opera",
+        "writer": "Bejar",
+        "duration": "4:24"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Suicide Demo for Kara Walker",
+        "writer": "Bejar",
+        "duration": "8:26"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Poor in Love",
+        "writer": "Bejar",
+        "duration": "3:26"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Kaputt",
+        "writer": "Bejar",
+        "duration": "6:18"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Downtown",
+        "writer": "Bejar",
+        "duration": "3:52"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Song for America",
+        "writer": "Bejar",
+        "duration": "4:29"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Bay of Pigs (Detail)",
+        "writer": "Bejar",
+        "duration": "11:19"
+      }
+    ]
   }
 ]

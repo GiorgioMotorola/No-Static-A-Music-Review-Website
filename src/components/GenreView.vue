@@ -25,6 +25,7 @@ export default {
                 "Power Pop",
                 "Punk",
                 "Rock",
+                "Sophisti-Pop",
                 "Yacht Rock"
             ]
         };
