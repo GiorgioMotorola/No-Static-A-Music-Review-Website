@@ -13,7 +13,6 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
     middleware: [
-      // Custom middleware to set Content-Type header for JSON files
       (req, res, next) => {
         if (req.url.endsWith('.json')) {
           res.setHeader('Content-Type', 'application/json');

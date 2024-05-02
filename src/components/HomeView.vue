@@ -26,67 +26,67 @@ export default {
         <div class="review-line">
           <div class="most-recent-review-1">
             <a href="https://nostatic.mweatherford.rocks/20" target="_blank">
-              <img src="../../public/tribemm.jpg" alt="">
+              <img src="/tribemm.jpg" alt="">
             </a>
 
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/22" target="_blank">
-              <img src="../../public/powertrip.jpg" alt="">
+              <img src="/powertrip.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
             <a href="https://nostatic.mweatherford.rocks/23" target="_blank">
-              <img src="../../public/ornette.jpg" alt="">
+              <img src="/ornette.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/17" target="_blank">
-              <img src="../../public/nightdrive.jpg" alt="">
+              <img src="/nightdrive.jpg" alt="">
             </a>
           </div>
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
             <a href="https://nostatic.mweatherford.rocks/1" target="_blank">
-              <img src="../../public/fmtusk.png" alt="">
+              <img src="/fmtusk.png" alt="">
             </a>
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/5" target="_blank">
-              <img src="../../public/huercos.jpg" alt="">
+              <img src="/huercos.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
             <a href="https://nostatic.mweatherford.rocks/7" target="_blank">
-              <img src="../../public/marqueemoon.jpg" alt="">
+              <img src="/marqueemoon.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/10" target="_blank">
-              <img src="../../public/fugazi.jpg" alt="">
+              <img src="/fugazi.jpg" alt="">
             </a>
           </div>
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
             <a href="https://nostatic.mweatherford.rocks/11" target="_blank">
-              <img src="../../public/americanwater.jpg" alt="">
+              <img src="/americanwater.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/14" target="_blank">
-              <img src="../../public/Aquemini.jpg" alt="">
+              <img src="/Aquemini.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
             <a href="https://nostatic.mweatherford.rocks/24" target="_blank">
-              <img src="../../public/kaputt.jpg" alt="">
+              <img src="/kaputt.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/3" target="_blank">
-              <img src="../../public/bigstarradio.jpg" alt="">
+              <img src="/bigstarradio.jpg" alt="">
             </a>
           </div>
         </div>

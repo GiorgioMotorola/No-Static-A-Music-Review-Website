@@ -67,8 +67,9 @@ export default {
     },
     methods: {
         fetchAlbum(id) {
-            axios.get(`albums.json`).then((response) => {
-                const album = response.data.find(album => album.id === parseInt(id));
+            axios.get(`/albums.json`).then((response) => {
+                const albums = response.data;
+                const album = albums.find(album => album.id === parseInt(id));
                 if (album) {
                     this.album = album;
                 } else {

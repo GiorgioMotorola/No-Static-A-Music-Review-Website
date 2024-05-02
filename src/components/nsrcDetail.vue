@@ -14,7 +14,7 @@
                     <div class="artist">{{ nsrc.artistEntry }}</div>
                     <div class="album-number">{{ nsrc.nsrcId }}</div>
                 </div>
-                <img :src="'/public/' + nsrc.imageOne" alt="Album Cover">
+                <img :src="nsrc.imageOne" alt="Album Cover">
             </div>
             <div class="write-up">
                 <div class="intro">{{ nsrc.introParagraph }}</div>
@@ -64,8 +64,7 @@ export default {
         fetchAlbum(nsrcId) {
             axios.get(`/nsrc.json`)
                 .then((response) => {
-                    console.log('Response data:', response.data);
-                    const albums = response.data; // No need to parse JSON here
+                    const albums = response.data;
                     const nsrc = albums.find(album => album.nsrcId === nsrcId);
                     if (nsrc) {
                         this.nsrc = nsrc;
