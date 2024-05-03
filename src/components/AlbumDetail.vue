@@ -209,10 +209,11 @@ export default {
 }
 
 .review-section {
-    margin-top: 0rem;
+    margin-top: 130px;
     font-size: 20px;
     padding: 6%;
-    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.2;
     border-top: 1px solid rgba(117, 114, 114, 0.164);
     border-bottom: 1px solid rgba(117, 114, 114, 0.164);
