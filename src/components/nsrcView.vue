@@ -12,8 +12,8 @@
         to listen. Click an artist below to read.
     </div>
     <div class="container">
-        <div class="album-list">
-            <div v-for="album in nsrc" :key="album.nsrcId" class="album-list-item">
+        <div class="album-list-item">
+            <div v-for="album in nsrc" :key="album.nsrcId" class="album-list">
                 <router-link :to="{ name: 'nsrcDetail', params: { nsrcId: album.nsrcId } }">
                     <div class="album-entry">
                         <div class="album-details">
@@ -87,7 +87,6 @@ a {
 
 .album-list {
     display: flex;
-    flex-direction: column;
     justify-content: start;
     margin-top: 0.5%;
     margin-left: 20%;
@@ -118,6 +117,9 @@ a {
 .album-list-item a:hover::after {
     transform: scaleX(1);
 }
+
+
+
 
 @media (max-width: 600px) {
     .container {
