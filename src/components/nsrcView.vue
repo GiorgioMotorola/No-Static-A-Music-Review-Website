@@ -136,7 +136,7 @@ a {
     }
 
     .container a {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .album-list {

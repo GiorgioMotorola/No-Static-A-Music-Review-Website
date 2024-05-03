@@ -99,7 +99,7 @@ export default {
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    padding: 0%;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -136,7 +136,7 @@ export default {
     margin-top: 0rem;
     font-size: 20px;
     padding: 6%;
-    margin: 1%;
+    margin: 15%;
     line-height: 1.2;
     border-top: 1px solid rgba(117, 114, 114, 0.164);
     border-bottom: 1px solid rgba(117, 114, 114, 0.164);
