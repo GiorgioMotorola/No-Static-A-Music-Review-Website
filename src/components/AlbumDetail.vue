@@ -227,6 +227,9 @@ export default {
     font-size: 25px;
     color: #6a6a69;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .review-section {
