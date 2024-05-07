@@ -18,11 +18,12 @@
                 </div>
             </div>
             <div class="feeling">
-                <div class="puremood"><span style="color: #D66C56;">&#x263C; <router-link to="/albums/puremoods">{{
+                <div class="entry-number"><span style="color: #ECDBBA;">&#x2116; <router-link to="/albums">{{
+                    album.entryNumber }}</router-link></span></div>
+                <div class="puremood"><span style="color: #ECDBBA;">&#127796; <router-link to="/albums/puremoods">{{
                     album.puremood }}</router-link></span></div>
-                <div class="season"><span style="color: yellow;">&#x263C; <router-link to="/albums/seasons">{{
+                <div class="season"><span style="color: #ECDBBA;">&#x2600; <router-link to="/albums/seasons">{{
                     album.season }}</router-link></span></div>
-                <div class="drink">&#127881; {{ album.party }}</div>
             </div>
 
             <div class="tracks">
@@ -35,6 +36,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="lyrics">
+                &ldquo; {{ album.lyric }} &rdquo;
             </div>
             <div class="review-section">
                 <div class="review">{{ album.review }}</div>
@@ -135,27 +139,34 @@ export default {
 .feeling {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     font-size: 20px;
     margin-top: 5rem;
     margin-bottom: 8rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border-top: 1px solid rgba(49, 49, 49, 0.398);
+    border-bottom: 1px solid rgba(49, 49, 49, 0.398);
 }
 
 .puremood,
 .season,
-.drink {
+.entry-number {
     color: #fafafa;
     font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .puremood a,
 .season a,
-.drink a {
+.entry-number a {
     text-decoration: none;
 }
 
 .puremood a:hover,
 .season a:hover,
-.drink a:hover {
+.entry-number a:hover {
     text-decoration: underline;
 }
 
@@ -208,8 +219,18 @@ export default {
     color: #5479b4;
 }
 
+.lyrics {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-style: oblique;
+    font-size: 25px;
+    color: #6a6a69;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .review-section {
-    margin-top: 130px;
+    margin-top: 50px;
     font-size: 20px;
     padding: 6%;
     margin-left: 15%;
@@ -244,6 +265,26 @@ img {
     .album-details-container {
         margin-bottom: 100px;
     }
+
+    .lyrics {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .feeling {
+        margin-left: none;
+        margin-right: none;
+        border-top: none;
+        border-bottom: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        margin: 80px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -272,6 +313,13 @@ img {
         margin-bottom: 50px;
         font-size: 10px;
         margin-top: 1px
+    }
+
+    .puremood,
+    .season,
+    .entry-number {
+        font-size: 13px;
+
     }
 
     img {
@@ -327,6 +375,11 @@ img {
         margin-right: 5px;
         font-size: 13px;
         color: #5479b4;
+    }
+
+    .lyrics {
+        font-size: 16px;
+        margin-top: 60px;
     }
 
     .review-section {
