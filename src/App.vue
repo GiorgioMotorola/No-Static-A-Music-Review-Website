@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div class="title">&nbsp;&#128429;NO STATIC</div>
+    <div class="title"><span class="image-container"><img src="../public/cassette-tape.png" alt="Image"></span>NO STATIC
+    </div>
     <nav class="nav-link">
       <router-link to="/">Home</router-link>
       <router-link to="/albums">Albums</router-link>
@@ -41,12 +42,22 @@ template {
 
 .title {
   color: white;
-  margin-top: 5px;
   text-align: center;
-  font-size: 58px;
-  letter-spacing: 80px;
-  margin-top: 15px;
+  font-size: 50px;
+  letter-spacing: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+.image-container img {
+  width: 80px;
+  margin-right: 20px;
+  margin-top: 8px;
+  color: white;
+}
+
 
 .nav-link {
   overflow: hidden;
@@ -180,6 +191,10 @@ footer {
     letter-spacing: 10px;
     margin-left: 0%;
     margin-right: 0%;
+  }
+
+  .image-container img {
+    width: 50px;
   }
 
   .nav-link {
