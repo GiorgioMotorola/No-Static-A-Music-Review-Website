@@ -16,6 +16,7 @@ export default {
             genres: [
                 "Alt Country",
                 "Ambient",
+                "Country",
                 "Electronic",
                 "Hip Hop",
                 "Indie Rock",

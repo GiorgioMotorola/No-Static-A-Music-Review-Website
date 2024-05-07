@@ -2107,5 +2107,80 @@
         "duration": "11:19"
       }
     ]
+  },
+  {
+    "id": 25,
+    "artist": "George Strait",
+    "album": "Strait Country",
+    "yearReleased": "1981",
+    "genre": "Country",
+    "subGenre": "Honkey-Tonk",
+    "image": "strait.jpg",
+    "puremood": "Cookout",
+    "season": "Summer",
+    "party": "Yes",
+    "review": "Strait Country is a true delight that transports you to a dive bar under beer signs, where the air is thick with sweat but all is well with an American pilsner and a shot of the cheapest whisky at hand. One standout track, 'If You're Thinking You Want a Stranger (There's One Coming Home),' is enchanting, blending Kenny Loggins-esque vibes with Jimmy Buffett's charm. Its chorus is a stone-cold rocker with added palm trees, ocean views, and neon lights hanging above a bar. The kick drum leading into the chorus deserves recognition in the Hall of Fame of kick drums. Other standout tracks include 'Blame It On Mexico,' 'Down and Out,' and 'Friday Night Fever.' Strait Country belongs on every shortlist for classic lounging music, regardless of genre.",
+    "tracks": [
+      {
+        "trackNumber": "1",
+        "trackName": "Unwound",
+        "writer": "Dean Dillon, Frank Dycus",
+        "duration": "2:24"
+      },
+      {
+        "trackNumber": "2",
+        "trackName": "Honky Tonk Downstairs",
+        "writer": "Dallas Frazier",
+        "duration": "2:31"
+      },
+      {
+        "trackNumber": "3",
+        "trackName": "Blame It on Mexico",
+        "writer": "Darryl Staedtler",
+        "duration": "2:45"
+      },
+      {
+        "trackNumber": "4",
+        "trackName": "If You're Thinking You Want a Stranger (There's One Coming Home)",
+        "writer": "Blake Mevis, David Wills",
+        "duration": "2:55"
+      },
+      {
+        "trackNumber": "5",
+        "trackName": "I Get Along with You",
+        "writer": "Dean Dillon, Frank Dycus, Murray F. Cannon, Raleigh Squires, Jimmy Darrell",
+        "duration": "2:40"
+      },
+      {
+        "trackNumber": "6",
+        "trackName": "Down and Out",
+        "writer": "Dean Dillon, Frank Dycus",
+        "duration": "2:23"
+      },
+      {
+        "trackNumber": "7",
+        "trackName": "Friday Night Fever",
+        "writer": "Dean Dillon, Frank Dycus, Blake Mevis",
+        "duration": "2:27"
+      },
+      {
+        "trackNumber": "8",
+        "trackName": "Every Time You Throw Dirt on Her (You Lose a Little Ground)",
+        "writer": "Michael Garvin, Tom Shapiro",
+        "duration": "3:05"
+      },
+      {
+        "trackNumber": "9",
+        "trackName": "She's Playing Hell Trying to Get Me to Heaven",
+        "writer": "Dean Dillon, David Wills, Charles Quillen",
+        "duration": "2:39"
+      },
+      {
+        "trackNumber": "10",
+        "trackName": "Her Goodbye Hit Me in the Heart",
+        "writer": "Dean Dillon, Frank Dycus",
+        "duration": "3:02"
+      }
+    ]
   }
 ]
