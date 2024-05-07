@@ -43,7 +43,7 @@ const routes = [
   },
   { path: '/nsrc', component: nsrcView },
   {
-    path: '/:nsrcId',
+    path: '/nsrc/:nsrcId',
     name: 'nsrcDetail',
     component: nsrcDetail,
     props: true,

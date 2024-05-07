@@ -4,7 +4,7 @@
         <span style="color: white;"> |</span>
         <router-link to="/nsrc"> no static record catalogue</router-link>
         <span style="color: white;"> | </span>
-        <router-link to="/"><span style="color: #ECDBBA; text-transform: lowercase;">{{ nsrc.nsrcId
+        <router-link to="/"><span style="color: #ECDBBA; text-transform: lowercase;">#{{ nsrc.nsrcListing
                 }}</span></router-link>
     </div>
     <div class="album-details-container">
@@ -12,7 +12,7 @@
             <div class="img-container">
                 <div class="artist-and-number">
                     <div class="artist">{{ nsrc.artistEntry }}</div>
-                    <div class="album-number">{{ nsrc.nsrcId }}</div>
+                    <div class="album-number">#{{ nsrc.nsrcListing }}</div>
                 </div>
                 <img :src="nsrc.imageOne" alt="Album Cover">
             </div>
@@ -67,7 +67,7 @@ export default {
             axios.get(`/nsrc.json`)
                 .then((response) => {
                     const albums = response.data;
-                    const nsrc = albums.find(album => album.nsrcId === nsrcId);
+                    const nsrc = albums.find(album => album.nsrcId === parseInt(nsrcId));
                     if (nsrc) {
                         this.nsrc = nsrc;
                     } else {

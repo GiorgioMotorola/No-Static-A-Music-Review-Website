@@ -17,7 +17,7 @@
                 <router-link :to="{ name: 'nsrcDetail', params: { nsrcId: album.nsrcId } }">
                     <div class="album-entry">
                         <div class="album-details">
-                            <div class="artist-name">#{{ album.nsrcId }} - {{ album.artistEntry }}</div>
+                            <div class="artist-name">#{{ album.nsrcListing }} - {{ album.artistEntry }}</div>
                         </div>
                     </div>
                 </router-link>
