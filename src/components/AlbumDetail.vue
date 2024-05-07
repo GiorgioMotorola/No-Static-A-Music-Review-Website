@@ -332,7 +332,9 @@ img {
     .review-section {
         margin-top: 4rem;
         font-size: 15px;
-        padding: 3%;
+        padding: .5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .review {
