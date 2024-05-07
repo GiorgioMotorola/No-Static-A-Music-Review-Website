@@ -8,10 +8,11 @@ export default {
   <div class="container">
     <div class="body">
       <div class="cta-container">
-        <div class="cta">The most essential albums of all time, according to one guy. </div>
+        <img src="../../public/header.png" alt="Album Cover">
+        <!-- <div class="cta">The most essential albums of all time, according to one guy. </div>
         <div class="cta-second">
-          New albums and reviews <span style="color: grey;">(hopefully)</span> added frequenly.
-        </div>
+          New albums and reviews <span style="color: grey;">(hopefully)</span> added frequently.
+        </div> -->
         <div class="cta-links">
           <router-link to="/albums">&#x260A; Search Albums</router-link>
           <router-link to="/albums/genres">&#x260A; Search Genres</router-link>

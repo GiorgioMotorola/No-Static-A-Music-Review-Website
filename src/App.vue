@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="title">&nbsp;&#128429;NO STATIC</div>
     <nav class="nav-link">
       <router-link to="/">Home</router-link>
       <router-link to="/albums">Albums</router-link>
@@ -8,7 +9,6 @@
       <router-link to="/albums/puremoods">Pure Moods</router-link>
       <router-link to="/nsrc">NSRC</router-link>
     </nav>
-    <div CLASS="title">&nbsp;NO STATIC</div>
     <router-view></router-view>
   </div>
   <footer>
@@ -43,25 +43,26 @@ template {
   color: white;
   margin-top: 5px;
   text-align: center;
-  font-size: 70px;
+  font-size: 58px;
   letter-spacing: 80px;
-  border-bottom: 1px solid white;
+  margin-top: 15px;
 }
 
 .nav-link {
   overflow: hidden;
   background-color: #191919;
   display: flex;
-  justify-content: end;
-  padding: 10px 20px;
+  justify-content: space-evenly;
+  padding: 8px 80px;
   gap: 20px;
+  background-color: #52515139;
 }
 
 .nav-link a {
   text-decoration: none;
   font-size: 15px;
   margin: 0 10px;
-  background-color: #191919;
+  background-color: #52515139;
   color: rgb(255, 255, 255);
 }
 
@@ -129,7 +130,6 @@ footer {
     text-align: center;
     font-size: 50px;
     letter-spacing: 25px;
-    border-bottom: 1px solid white;
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -138,41 +138,63 @@ footer {
     overflow: hidden;
     background-color: #191919;
     display: flex;
-    justify-content: end;
-    padding: 5px 0px;
-    gap: 0px;
+    justify-content: space-evenly;
+    padding: 8px 80px;
+    gap: 20px;
+    background-color: #52515139;
   }
 
   .nav-link a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     margin: 0 30px;
-    background-color: #191919;
     color: rgb(255, 255, 255);
+    background-color: #52515139;
   }
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+
+  .nav-link {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 100px;
+    gap: 15px;
+    background-color: #52515139;
+  }
+
+  .nav-link a {
+    font-size: 12px;
+    margin: 0 8.5px;
+    background-color: #52515139;
+  }
+}
+
+@media (max-width: 700px) {
   .title {
     color: white;
     text-align: center;
     font-size: 30px;
     letter-spacing: 10px;
-    border-bottom: 1px solid white;
     margin-left: 0%;
     margin-right: 0%;
   }
 
   .nav-link {
-    justify-content: center;
-    padding: 10px 0px;
-    gap: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 6px;
+    gap: 20px;
+    background-color: #52515139;
   }
 
   .nav-link a {
     font-size: 9px;
-    margin: 0 8.5px;
+    margin: 10px 0px;
+    background-color: #52515139;
   }
 
   .footer-content ul {
