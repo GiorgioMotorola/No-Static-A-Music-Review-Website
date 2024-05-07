@@ -23,6 +23,7 @@ export default {
                 "Jazz",
                 "Metal",
                 "New Wave",
+                "Pop",
                 "Power Pop",
                 "Punk",
                 "Rock",

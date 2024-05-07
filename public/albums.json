@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "entryNumber": "#00001",
     "artist": "Fleetwood Mac",
     "album": "Tusk",
     "yearReleased": "1979",
@@ -136,6 +137,7 @@
   },
   {
     "id": 2,
+    "entryNumber": "#00002",
     "artist": "The Replacements",
     "album": "Let It Be",
     "yearReleased": "1984",
@@ -217,6 +219,7 @@
   },
   {
     "id": 3,
+    "entryNumber": "#00003",
     "artist": "Big Star",
     "album": "Radio City",
     "yearReleased": "1974",
@@ -304,6 +307,7 @@
   },
   {
     "id": 4,
+    "entryNumber": "#00004",
     "artist": "Talking Heads",
     "album": "Remain in Light",
     "yearReleased": "1980",
@@ -367,6 +371,7 @@
   },
   {
     "id": 5,
+    "entryNumber": "#00005",
     "artist": "Huerco S.",
     "album": "For Those Of You Who Have Never...",
     "yearReleased": "2016",
@@ -436,6 +441,7 @@
   },
   {
     "id": 6,
+    "entryNumber": "#00006",
     "artist": "The New Pornographers",
     "album": "Mass Romantic",
     "yearReleased": "2000",
@@ -523,6 +529,7 @@
   },
   {
     "id": 7,
+    "entryNumber": "#00007",
     "artist": "Television",
     "album": "Marquee Moon",
     "yearReleased": "1977",
@@ -578,6 +585,7 @@
   },
   {
     "id": 8,
+    "entryNumber": "#00008",
     "artist": "Guided by Voices",
     "album": "Alien Lanes",
     "yearReleased": "1995",
@@ -755,6 +763,7 @@
   },
   {
     "id": 9,
+    "entryNumber": "#00009",
     "artist": "Wilco",
     "album": "Being There",
     "yearReleased": "1996",
@@ -884,6 +893,7 @@
   },
   {
     "id": 10,
+    "entryNumber": "#00010",
     "artist": "Fugazi",
     "album": "The Argument",
     "yearReleased": "2001",
@@ -964,6 +974,7 @@
   },
   {
     "id": 11,
+    "entryNumber": "#00011",
     "artist": "Silver Jews",
     "album": "American Water",
     "yearReleased": "1998",
@@ -1051,6 +1062,7 @@
   },
   {
     "id": 12,
+    "entryNumber": "#00012",
     "artist": "The Avalanches",
     "album": "Since I Left You",
     "yearReleased": "2000",
@@ -1174,6 +1186,7 @@
   },
   {
     "id": 13,
+    "entryNumber": "#00013",
     "artist": "Gram Parsons",
     "album": "Grievous Angel",
     "yearReleased": "1974",
@@ -1243,6 +1256,7 @@
   },
   {
     "id": 14,
+    "entryNumber": "#00014",
     "artist": "OutKast",
     "album": "Aquemini",
     "yearReleased": "1998",
@@ -1354,6 +1368,7 @@
   },
   {
     "id": 15,
+    "entryNumber": "#00015",
     "artist": "The Velvet Underground",
     "album": "White Light/White Heat",
     "yearReleased": "1968",
@@ -1405,6 +1420,7 @@
   },
   {
     "id": 16,
+    "entryNumber": "#00016",
     "artist": "Kendrick Lamar",
     "album": "To Pimp a Butterfly",
     "yearReleased": "2015",
@@ -1516,6 +1532,7 @@
   },
   {
     "id": 17,
+    "entryNumber": "#00017",
     "artist": "Chromatics",
     "album": "Night Drive",
     "yearReleased": "2007",
@@ -1591,6 +1608,7 @@
   },
   {
     "id": 18,
+    "entryNumber": "#00018",
     "artist": "Tim Hecker",
     "album": "Virgins",
     "yearReleased": "2013",
@@ -1678,6 +1696,7 @@
   },
   {
     "id": 19,
+    "entryNumber": "#00019",
     "artist": "Broken Social Scene",
     "album": "You Forgot It In People",
     "yearReleased": "2002",
@@ -1771,6 +1790,7 @@
   },
   {
     "id": 20,
+    "entryNumber": "#00020",
     "artist": "A Tribe Called Quest",
     "album": "Midnight Marauders",
     "yearReleased": "1993",
@@ -1870,6 +1890,7 @@
   },
   {
     "id": 21,
+    "entryNumber": "#00021",
     "artist": "Steely Dan",
     "album": "Aja",
     "yearReleased": "1977",
@@ -1927,6 +1948,7 @@
   },
   {
     "id": 22,
+    "entryNumber": "#00022",
     "artist": "Power Trip",
     "album": "Nightmare Logic",
     "yearReleased": "2017",
@@ -1990,6 +2012,7 @@
   },
   {
     "id": 23,
+    "entryNumber": "#00023",
     "artist": "Ornette Coleman",
     "album": "The Shape of Jazz to Come",
     "yearReleased": "1959",
@@ -2041,6 +2064,7 @@
   },
   {
     "id": 24,
+    "entryNumber": "#00024",
     "artist": "Destroyer",
     "album": "Kaputt",
     "yearReleased": "2011",
@@ -2110,6 +2134,7 @@
   },
   {
     "id": 25,
+    "entryNumber": "#00025",
     "artist": "George Strait",
     "album": "Strait Country",
     "yearReleased": "1981",
@@ -2180,6 +2205,94 @@
         "trackName": "Her Goodbye Hit Me in the Heart",
         "writer": "Dean Dillon, Frank Dycus",
         "duration": "3:02"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "entryNumber": "#00026",
+    "artist": "Carly Rae Jepsen",
+    "album": "EMOTION",
+    "yearReleased": "2015",
+    "genre": "Pop",
+    "subGenre": "Synthpop, Dance-pop",
+    "image": "crj.png",
+    "puremood": "Warehouse",
+    "season": "Summer",
+    "party": "Yes",
+    "review": "I respect the hell out of Carly Rae Jepsen. She released one of the catchiest songs of the 21st century with Call Me Maybe, essentially went into obscurity after that and then released a pop album so good, that even metal heads love it. Then, she went and got Tom Hanks to be in her music video for I Really Like You, released a B-side for EMOTION that's almost as good as the proper album and continued by digging a substantial fanbase with 3 other great to good albums. She is a fighter. She probably could have lived on her residuals off of Call Me, Maybe (although the music industry does have a way of financially sucking the life out of a song for their own pockets, leaving the artist destitute which is super cool) but she, I assume, does it for the love of the game. And yet, when I mention her to most people, she is still the Call Me, Maybe girl. her drive is admirable but I am confounded that she isn't one of the biggest pop stars going right now. I know a lot of what makes a pop star a genuine pop star is great publicity and management and maybe she isn't getting the proper support but at that point I am just being an armchair pop culture dweeb... but come on, man! This album is filled with banger after banger after banger, it's cute but does get a bit risqué at times, the album cover is eye-catching and the fucking saxophone on Run Away With Me would make M83 blush. But I bet she is having a good time and I suppose being the most popular pop star probably comes with a lot of mental and social anxieties that she would smartly want to avoid. I think the entire thing, overall, is a failure of the poptimism experiment set out by the likes of Pitchfork to commodify pop music more than it was. It was supposed to accept pop as a pure, good form of music again which, hell yeah dude... I am all for. But I think it went too far with other lesser pop artists that I will not name got the golden ticket and sadly, (or happily, I guess if you are Carly and prefer to stay at her current level) left one of the best pop artists of the last 10 years to be the Call Me Maybe girl to your office co-workers.",
+    "tracks": [
+      {
+        "trackNumber": "1",
+        "trackName": "Run Away with Me",
+        "writer": "Carly Rae Jepsen, Robin Lennart Fredriksson, Mattias Larsson, Oscar Holter",
+        "duration": "4:11"
+      },
+      {
+        "trackNumber": "2",
+        "trackName": "E•MO•TION",
+        "writer": "Carly Rae Jepsen, Josh Ramsay, Tavish Crowe",
+        "duration": "3:17"
+      },
+      {
+        "trackNumber": "3",
+        "trackName": "I Really Like You",
+        "writer": "Carly Rae Jepsen, Jacob Kasher, Peter Svensson",
+        "duration": "3:24"
+      },
+      {
+        "trackNumber": "4",
+        "trackName": "Gimmie Love",
+        "writer": "Carly Rae Jepsen, Rami Yacoub, Carl Falk",
+        "duration": "3:22"
+      },
+      {
+        "trackNumber": "5",
+        "trackName": "All That",
+        "writer": "Carly Rae Jepsen, Devonté Hynes",
+        "duration": "4:37"
+      },
+      {
+        "trackNumber": "6",
+        "trackName": "Boy Problems",
+        "writer": "Carly Rae Jepsen, Sia Furler, Greg Kurstin",
+        "duration": "3:41"
+      },
+      {
+        "trackNumber": "7",
+        "trackName": "Making the Most of the Night",
+        "writer": "Carly Rae Jepsen, Sia Furler, Greg Kurstin",
+        "duration": "3:59"
+      },
+      {
+        "trackNumber": "8",
+        "trackName": "Your Type",
+        "writer": "Carly Rae Jepsen, Rami Yacoub, Carl Falk",
+        "duration": "3:19"
+      },
+      {
+        "trackNumber": "9",
+        "trackName": "Let's Get Lost",
+        "writer": "Carly Rae Jepsen, Tegan Quin, Sara Quin",
+        "duration": "3:13"
+      },
+      {
+        "trackNumber": "10",
+        "trackName": "LA Hallucinations",
+        "writer": "Carly Rae Jepsen, Sia Furler, Samuel Dixon",
+        "duration": "3:04"
+      },
+      {
+        "trackNumber": "11",
+        "trackName": "Warm Blood",
+        "writer": "Carly Rae Jepsen, Rostam Batmanglij, Tino Zolfo",
+        "duration": "4:13"
+      },
+      {
+        "trackNumber": "12",
+        "trackName": "When I Needed You",
+        "writer": "Carly Rae Jepsen, Peter Svensson",
+        "duration": "3:41"
       }
     ]
   }

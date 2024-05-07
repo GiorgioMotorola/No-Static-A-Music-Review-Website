@@ -9,6 +9,7 @@
             <div class="album-details">
               <div class="artist-name">{{ album.artist }}</div>
               <div class="album-name">{{ album.album }}</div>
+              <div class="album-entry-number">{{ album.entryNumber }}</div>
             </div>
           </div>
         </router-link>
@@ -93,6 +94,11 @@ a {
   font-style: italic;
 }
 
+.album-entry-number {
+  color: rgb(121, 120, 120);
+  font-size: 10px;
+}
+
 .album-entry img {
   min-width: 200px;
   max-width: 200px;
@@ -122,6 +128,10 @@ a {
     font-size: 10px;
     text-wrap: wrap;
     max-width: 125px;
+  }
+
+  .album-entry-number {
+    font-size: 8px;
   }
 
   .album-entry img {
