@@ -2321,5 +2321,159 @@
         "duration": "3:41"
       }
     ]
+  },
+  {
+    "id": 27,
+    "entryNumber": "00027",
+    "artist": "Sade",
+    "album": "Diamond Life",
+    "yearReleased": "1984",
+    "genre": "Sophisti-pop",
+    "subGenre": "Smooth Soul, Jazz Pop",
+    "image": "sade.png",
+    "puremood": "Lab",
+    "season": "Autumn",
+    "party": "No",
+    "lyric": "See the people fussin' and thievin' while the sharks are wheelin' and dealin'",
+    "review": "Tonight, I grilled burgers. I didn't have anyone over and just wanted to grill. It felt nice out, I have the house to myself, I have a couple of Miller Lite Tall boys and ran 4 miles/walked 3 miles today. So why not? You gotta spend your days like a good burger meat: 80 on the move, 20 doing the stuff you love. I listened to Steely Dan, George Benson, Tortoise and 'Diamond Life' by Sade. So I am sorry to anyone walking by who thought I was smashing anyone's meat. It was my own. Wait, I mean it was my own meat I bought at the store. Sade is synonymous with getting busy. I don't think I am old enough, or maybe I wasn't paying attention, to when that became the narrative. Yes, she writes very romantic and sexually charged music but so do a lot of artists and none of them get the label of music to make love to. What I am getting at is her stuff is so much more. It's very smart, well-crafted Sophisti-pop with catchy hooks bleeding out of its pores. 'Smooth Operator' is always the obvious go-to with Sade but for good reason... have you heard that sax solo? It's crazy. But this thing is loaded with classics whether or not they became a hit: 'Your Love is King', 'Frankie's First Affair', 'Cherry Pie'... okay, now that I list those song titles out like that, maybe I totally get where her music got the title of bangin' music. But if this album isn't an album you have actually sat and listened to, do yourself a favor and get your mind out of the gutter. Sure, there are tracks about love and affairs and love afairs but you also have songs like When Am I Going to Make a Living which is all about following your dreams and digging deep to meet the hunger inside of you. Then there is Sally which I think is about interacting day to day with those in need. It definitely ain't about boning. Check it out. A lot of great tunes are waiting for you on a bed of roses with wine or whatever you creeps do.",
+    "tracks": [
+      {
+        "trackNumber": "1",
+        "trackName": "Smooth Operator",
+        "writer": "Helen Adu, Ray St. John",
+        "duration": "4:59"
+      },
+      {
+        "trackNumber": "2",
+        "trackName": "Your Love Is King",
+        "writer": "Helen Adu, Stuart Matthewman",
+        "duration": "3:41"
+      },
+      {
+        "trackNumber": "3",
+        "trackName": "Hang On to Your Love",
+        "writer": "Helen Adu, Stuart Matthewman",
+        "duration": "5:54"
+      },
+      {
+        "trackNumber": "4",
+        "trackName": "Frankie's First Affair",
+        "writer": "Helen Adu, Stuart Matthewman",
+        "duration": "4:24"
+      },
+      {
+        "trackNumber": "5",
+        "trackName": "When Am I Going to Make a Living",
+        "writer": "Helen Adu, Stuart Matthewman",
+        "duration": "3:25"
+      },
+      {
+        "trackNumber": "6",
+        "trackName": "Cherry Pie",
+        "writer": "Helen Adu, Stuart Matthewman",
+        "duration": "6:20"
+      },
+      {
+        "trackNumber": "7",
+        "trackName": "Sally",
+        "writer": "Helen Adu, Paul Denman",
+        "duration": "5:20"
+      },
+      {
+        "trackNumber": "8",
+        "trackName": "I Will Be Your Friend",
+        "writer": "Helen Adu, Stuart Matthewman",
+        "duration": "4:43"
+      },
+      {
+        "trackNumber": "9",
+        "trackName": "Why Can't We Live Together",
+        "writer": "Timmy Thomas",
+        "duration": "5:27"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "entryNumber": "00028",
+    "artist": "Yo La Tengo",
+    "album": "Painful",
+    "yearReleased": "1993",
+    "genre": "Indie Rock",
+    "subGenre": "Noise Pop, Shoegaze",
+    "image": "painful.jpg",
+    "puremood": "Bedroom",
+    "season": "Autumn",
+    "party": "Yes",
+    "lyric": "In the passing lane on 1 and 9, stuck in a sad, car stuck in drive",
+    "review": "The hardest working band from New Jersey isn't the E Street Band. It's not Misfits, Kool & The Gang, Bouncing Souls, and it definitely isn't Bon Jovi. The hardest working band from New Jersey is Skid Row. Just Kidding. It's Yo La Tengo. Seventeen studio albums with little to no break, retaining what makes them special on each album while changing it up as much as they can and consistently being called the quintessential critic's band. And for good reason. The love and care that is shoveled into their albums is tantamount to the care a mother has for their child or a dog has for anything that's not the mailman. It's tough to pick a best Yo La Tengo album and that, of course, is a joke because it's Painful. I love most of their albums but Painful is just it. It takes every puzzle piece the band had been carving out up until then and puts them together to make a really nice picture of a fruit basket or a horse race. It's been a while since I put together a puzzle so you'll have to tell me if that's canon. The album seems to alternate between garage experimentation to wavy, hushed toned beauty. There are even two tracks - 'Big Day Coming' and 'Big Day Coming (Second Version)' that are essentially a balancing act to the entire tone of the record. I am always shocked when I remember this thing came out in 1993. The experimentation and near-perfect songwriting has led this album to feel like it came out this year. Like most of their output, it's timeless. And I dare you to write a song as good as 'I Heard You Looking'. You can't do it. There ain't no way in the entirety of life you can make your guitar sound as sweet and longing as that song does. And Georgia shines on this album with the extraordinary 'Nowhere Near'. Put this on your list of albums to listen to. Put this on your list of albums to buy. Put this on a mixtape, shove it into a bottle and throw it into the ocean so 300 years from now, our children will think they found God's full-length debut.",
+    "tracks": [
+      {
+        "trackNumber": "1",
+        "trackName": "Big Day Coming",
+        "writer": "Yo La Tengo",
+        "duration": "9:10"
+      },
+      {
+        "trackNumber": "2",
+        "trackName": "From a Motel 6",
+        "writer": "Yo La Tengo",
+        "duration": "4:43"
+      },
+      {
+        "trackNumber": "3",
+        "trackName": "Double Dare",
+        "writer": "Yo La Tengo",
+        "duration": "6:58"
+      },
+      {
+        "trackNumber": "4",
+        "trackName": "Superstar-Watcher",
+        "writer": "Yo La Tengo",
+        "duration": "5:25"
+      },
+      {
+        "trackNumber": "5",
+        "trackName": "Nowhere Near",
+        "writer": "Yo La Tengo",
+        "duration": "6:02"
+      },
+      {
+        "trackNumber": "6",
+        "trackName": "Sudden Organ",
+        "writer": "Yo La Tengo",
+        "duration": "2:42"
+      },
+      {
+        "trackNumber": "7",
+        "trackName": "A Worrying Thing",
+        "writer": "Yo La Tengo",
+        "duration": "4:52"
+      },
+      {
+        "trackNumber": "8",
+        "trackName": "I Was the Fool Beside You for Too Long",
+        "writer": "Yo La Tengo",
+        "duration": "9:24"
+      },
+      {
+        "trackNumber": "9",
+        "trackName": "The Whole of the Law",
+        "writer": "Yo La Tengo",
+        "duration": "4:50"
+      },
+      {
+        "trackNumber": "10",
+        "trackName": "Big Day Coming (Second Version)",
+        "writer": "Yo La Tengo",
+        "duration": "5:06"
+      },
+      {
+        "trackNumber": "11",
+        "trackName": "I Heard You Looking",
+        "writer": "Yo La Tengo",
+        "duration": "9:40"
+      }
+    ]
   }
 ]

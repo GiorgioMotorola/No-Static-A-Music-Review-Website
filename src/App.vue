@@ -48,6 +48,7 @@ template {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 
@@ -55,7 +56,6 @@ template {
   width: 80px;
   margin-right: 20px;
   margin-top: 8px;
-  color: white;
 }
 
 
