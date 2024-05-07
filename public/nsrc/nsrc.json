@@ -1,6 +1,6 @@
 [
   {
-    "nsrcId": 90001,
+    "id": 90001,
     "nsrcListing": "0001-NSRC",
     "artistEntry": "Steely Dan",
     "imageOne": "NSRC-steely-dan.jpg",
@@ -14,7 +14,7 @@
     "spotifyPlaylistLink": "https://open.spotify.com/embed/playlist/6U3vYpkLME0Qndv3p7Kogo?utm_source=generator"
   },
   {
-    "nsrcId": 90002,
+    "id": 90002,
     "nsrcListing": "0002-NSRC",
     "artistEntry": "Bob Dylan",
     "imageOne": "NSRC-dylan.jpg",

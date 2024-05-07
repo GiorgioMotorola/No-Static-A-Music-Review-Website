@@ -13,8 +13,8 @@
     </div>
     <div class="container">
         <div class="album-list-item">
-            <div v-for="album in nsrc" :key="album.nsrcId" class="album-list">
-                <router-link :to="{ name: 'nsrcDetail', params: { nsrcId: album.nsrcId } }">
+            <div v-for="album in nsrc" :key="album.id" class="album-list">
+                <router-link :to="{ name: 'nsrcDetail', params: { id: album.id } }">
                     <div class="album-entry">
                         <div class="album-details">
                             <div class="artist-name">#{{ album.nsrcListing }} - {{ album.artistEntry }}</div>
@@ -42,7 +42,7 @@ export default {
     },
     methods: {
         fetchAlbums() {
-            axios.get("nsrc.json").then((response) => {
+            axios.get("/nsrc/nsrc.json").then((response) => {
                 this.nsrc = response.data;
             });
         },

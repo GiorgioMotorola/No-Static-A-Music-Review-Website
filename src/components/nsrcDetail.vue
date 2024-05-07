@@ -48,7 +48,7 @@ import axios from "axios";
 export default {
     name: "nsrcDetail",
     props: {
-        nsrcId: {
+        id: {
             type: String,
             required: true
         }
@@ -59,19 +59,19 @@ export default {
         };
     },
     mounted() {
-        console.log("nsrcId:", this.nsrcId);
-        this.fetchAlbum(this.nsrcId);
+        console.log("id:", this.id);
+        this.fetchAlbum(this.id);
     },
     methods: {
-        fetchAlbum(nsrcId) {
-            axios.get(`/nsrc.json`)
+        fetchAlbum(id) {
+            axios.get(`/nsrc/nsrc.json`)
                 .then((response) => {
                     const albums = response.data;
-                    const nsrc = albums.find(album => album.nsrcId === parseInt(nsrcId));
+                    const nsrc = albums.find(album => album.id === parseInt(id));
                     if (nsrc) {
                         this.nsrc = nsrc;
                     } else {
-                        console.error(`Album with ID ${nsrcId} not found`);
+                        console.error(`Album with ID ${id} not found`);
                     }
                 })
                 .catch(error => {
