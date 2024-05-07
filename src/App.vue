@@ -42,13 +42,13 @@ template {
 
 .title {
   color: white;
+  text-shadow: 0 0 11px #78A7C6, 0 0 20px #78A7C6, 0 0 25px #78A7C6;
   text-align: center;
   font-size: 50px;
   letter-spacing: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 
@@ -56,6 +56,7 @@ template {
   width: 80px;
   margin-right: 20px;
   margin-top: 8px;
+
 }
 
 
