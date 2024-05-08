@@ -1,8 +1,13 @@
 <template>
   <div id="app">
-    <div class="title"><span class="image-container"><img src="../public/cassette-logo.jpg" alt="Image"></span>NO
-      STATIC
-      RECORDS
+    <div class="title">
+      <div class="image-container">
+        <img src="../public/cassette-logo.jpg" alt="Image">
+      </div>
+      <div class="title-text">
+        <span>NO STATIC RECORDS</span>
+        <div class="title-second">The most essential albums of all time, according to one guy.</div>
+      </div>
     </div>
     <nav class="nav-link">
       <router-link to="/">Home</router-link>
@@ -45,17 +50,27 @@ template {
 .title {
   color: white;
   text-align: center;
-  font-size: 45px;
-  letter-spacing: 0px;
+  font-size: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 4.5%;
 }
 
 .image-container img {
   width: 100px;
-  margin-right: 0px;
-  margin-top: 8px;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-second {
+  font-size: 14px;
+  text-align: center;
+  color: #D66C56;
 }
 
 .nav-link {
@@ -138,9 +153,7 @@ footer {
   .title {
     color: white;
     text-align: center;
-    font-size: 50px;
-    margin-left: 0%;
-    margin-right: 0%;
+    font-size: 60px;
   }
 
   .nav-link {
@@ -149,7 +162,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 8px 80px;
-    gap: 20px;
+    gap: 10px;
     background-color: #52515139;
   }
 
@@ -174,6 +187,10 @@ footer {
     background-color: #52515139;
   }
 
+  .title {
+    font-size: 50px;
+  }
+
   .nav-link a {
     font-size: 12px;
     margin: 0 8.5px;
@@ -186,12 +203,14 @@ footer {
     color: white;
     text-align: center;
     font-size: 20px;
-    margin-left: 0%;
-    margin-right: 0%;
   }
 
   .image-container img {
     width: 50px;
+  }
+
+  .title-second {
+    font-size: 7px;
   }
 
   .nav-link {

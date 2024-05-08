@@ -7,19 +7,15 @@ export default {
 <template>
   <div class="container">
     <div class="body">
-      <div class="cta-container">
-        <div class="cta">The most essential albums of all time, according to one guy. </div>
-        <div class="cta-second">
-          New albums and reviews <span style="color: grey;">(hopefully)</span> added frequently.
-        </div>
+      <!-- <div class="cta-container">
         <div class="cta-links">
-          <router-link to="/albums">&#x260A; Search Albums</router-link>
-          <router-link to="/albums/genres">&#x260A; Search Genres</router-link>
-          <router-link to="/albums/seasons">&#x260A; Search Seasons</router-link>
-          <router-link to="/albums/puremoods">&#x260A; Search Pure Moods</router-link>
-          <router-link to="/nsrc">&#x260A; View No Static Record Catalogue</router-link>
+          <router-link to="/albums">&#x260A; Albums</router-link>
+          <router-link to="/albums/genres">&#x260A; Genres</router-link>
+          <router-link to="/albums/seasons">&#x260A; Seasons</router-link>
+          <router-link to="/albums/puremoods">&#x260A; Pure Moods</router-link>
+          <router-link to="/nsrc">&#x260A; No Static Record Catalogue</router-link>
         </div>
-      </div>
+      </div> -->
       <div class="review-container">
         <div class="latest-reviews">
           Latest Reviews
@@ -110,13 +106,13 @@ export default {
   flex-direction: column;
   gap: 0px;
   margin-top: 2rem;
-  margin-right: 2.1rem;
+  margin-left: 27%;
 }
 
 .latest-reviews {
   text-align: center;
-  font-size: 45px;
-  color: #D66C56;
+  font-size: 35px;
+  color: #bababa;
 }
 
 .review-line {
@@ -163,7 +159,7 @@ export default {
   height: 75vh;
   margin-left: 0%;
   margin-right: 0%;
-  gap: 5rem;
+  gap: 20rem;
 }
 
 .cta-container {
@@ -171,27 +167,14 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
-}
-
-.cta {
-  color: white;
-  text-align: center;
-  font-size: 22px;
-  padding: 10px;
-}
-
-.cta-second {
-  color: aliceblue;
-  font-size: 14px;
-  text-align: center;
 }
 
 .cta-links {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 0rem;
   font-size: 26px;
+  margin-left: 150px;
 }
 
 
@@ -203,7 +186,7 @@ export default {
 .cta-links a {
   text-decoration: none;
   color: antiquewhite;
-  margin-right: 10px;
+  margin-right: 1px;
   text-align: center;
 }
 
@@ -211,18 +194,26 @@ export default {
   .cta-links {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 0rem;
     font-size: 20px;
   }
 
   .container {
     margin-bottom: 310px;
   }
+
+  .review-container {
+    margin-left: 15%;
+  }
 }
 
 @media (max-width: 1300px) {
   .body {
     gap: 0rem;
+  }
+
+  .review-container {
+    margin-left: 0%;
   }
 
   .container {
@@ -289,7 +280,7 @@ export default {
   }
 
   .cta-links {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .body {
