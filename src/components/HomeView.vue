@@ -26,14 +26,36 @@ export default {
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/20" target="_blank">
-              <img src="/tribemm.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/29" target="_blank">
+              <img src="/onclejazz.png" alt="">
             </a>
 
           </div>
           <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/22" target="_blank">
-              <img src="/powertrip.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/28" target="_blank">
+              <img src="/painful.jpg" alt="">
+            </a>
+          </div>
+          <div class="most-recent-review-3">
+            <a href="https://nostatic.mweatherford.rocks/27" target="_blank">
+              <img src="/sade.png" alt="">
+            </a>
+          </div>
+          <div class="most-recent-review-4">
+            <a href="https://nostatic.mweatherford.rocks/26" target="_blank">
+              <img src="/crj.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="review-line">
+          <div class="most-recent-review-1">
+            <a href="https://nostatic.mweatherford.rocks/25" target="_blank">
+              <img src="/strait.jpg" alt="">
+            </a>
+          </div>
+          <div class="most-recent-review-2">
+            <a href="https://nostatic.mweatherford.rocks/24" target="_blank">
+              <img src="/kaputt.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
@@ -42,52 +64,30 @@ export default {
             </a>
           </div>
           <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/17" target="_blank">
-              <img src="/nightdrive.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/22" target="_blank">
+              <img src="/powertrip.jpg" alt="">
             </a>
           </div>
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/1" target="_blank">
-              <img src="/fmtusk.png" alt="">
+            <a href="https://nostatic.mweatherford.rocks/21" target="_blank">
+              <img src="/aja.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/5" target="_blank">
-              <img src="/huercos.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/20" target="_blank">
+              <img src="/tribemm.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/7" target="_blank">
-              <img src="/marqueemoon.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/19" target="_blank">
+              <img src="/bss.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/10" target="_blank">
-              <img src="/fugazi.jpg" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="review-line">
-          <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/11" target="_blank">
-              <img src="/americanwater.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/14" target="_blank">
-              <img src="/Aquemini.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/24" target="_blank">
-              <img src="/kaputt.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/25" target="_blank">
-              <img src="/strait.jpg" alt="">
+            <a href="https://nostatic.mweatherford.rocks/18" target="_blank">
+              <img src="/timhecker.jpg" alt="">
             </a>
           </div>
         </div>
