@@ -102,7 +102,7 @@ export default {
 }
 
 .container {
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 .review-container {
@@ -216,7 +216,7 @@ export default {
   }
 
   .container {
-    margin-bottom: 180px
+    margin-bottom: 310px;
   }
 }
 
@@ -226,7 +226,7 @@ export default {
   }
 
   .container {
-    margin-bottom: 550px
+    margin-bottom: 550px;
   }
 
   .body {
@@ -249,6 +249,7 @@ export default {
   }
 
 }
+
 
 @media (max-width: 700px) {
 
