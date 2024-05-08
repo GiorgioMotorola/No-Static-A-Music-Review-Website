@@ -99,7 +99,7 @@ a {
 
 .album-list-item a {
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .album-list-item a::after {

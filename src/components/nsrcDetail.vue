@@ -98,7 +98,7 @@ export default {
 .img-container {
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 3%;
     justify-content: space-evenly;
     align-items: center;
