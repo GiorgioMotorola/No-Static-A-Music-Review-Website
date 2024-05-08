@@ -2328,7 +2328,7 @@
     "artist": "Sade",
     "album": "Diamond Life",
     "yearReleased": "1984",
-    "genre": "Sophisti-pop",
+    "genre": "Sophisti-Pop",
     "subGenre": "Smooth Soul, Jazz Pop",
     "image": "sade.png",
     "puremood": "Lab",
@@ -2473,6 +2473,167 @@
         "trackName": "I Heard You Looking",
         "writer": "Yo La Tengo",
         "duration": "9:40"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "entryNumber": "00029",
+    "artist": "Men I Trust",
+    "album": "Oncle Jazz",
+    "yearReleased": "2019",
+    "genre": "Indie Pop",
+    "subGenre": "Dream Pop, Sophisti-Pop",
+    "image": "onclejazz.png",
+    "puremood": "Bedroom",
+    "season": "Summer",
+    "party": "Yes",
+    "lyric": "This country dog won’t die in the city",
+    "review": "I have a rule about albums that are 'too long.' The length in question can vary by genre (Hardcore Punk albums will fare better below 30 minutes and Jazz albums tend to sit well just above 35 minutes) but there is still a rule: If I look at the running time of an album and I think 'goddamn dawg that is too long,' it gets minus 10 points right then and there. If I listen to the album and I love it, it gets plus 20 points. Long albums are a tricky beast, not only because of the time investment you are asking your fans to sink into your new concept album about whales dying or whatever you nerd ass rock stars like to sing about, but also it can be an indication that an artist is too indecisive to cut anything. That leads to the question: where is the quality control? Am I going to get 12 solid good-to-great songs and 5 clunkers? It's very possible. And when that happens, well then the lord has forsaken us on this day. Oncle Jazz by Men I Trust is certainly an album that was chipped 10 points but after a couple of listens, it earned those 10 back doubled. Then, after a few more listens, the thing became essential. This album is infinitely charming. It takes what Mac Demarco started and runs it directly into the end zone. This album sounds like it was sat in the sun for a weekend in the best way. It's woozy, pretty, very catchy, and a heartrate reducer. This is the glass of wine of albums. This past weekend, I went to Florida to visit my grandparents and while my grandma and I were sitting on her back porch shooting the shit about this and that, I had this playing on my phone. She was even tapping her toes to it. I hate the word 'vibe' because it's become a placeholder for hundreds of colorful words these days but this album is truly a vibe.",
+    "tracks": [
+      {
+        "trackNumber": "1",
+        "trackName": "Oncle Jazz",
+        "writer": "",
+        "duration": "0:57"
+      },
+      {
+        "trackNumber": "2",
+        "trackName": "Norton Commander (Album V)",
+        "writer": "",
+        "duration": "3:26"
+      },
+      {
+        "trackNumber": "3",
+        "trackName": "Days Go By",
+        "writer": "",
+        "duration": "3:17"
+      },
+      {
+        "trackNumber": "4",
+        "trackName": "Tailwhip (Album V)",
+        "writer": "",
+        "duration": "3:48"
+      },
+      {
+        "trackNumber": "5",
+        "trackName": "Found Me",
+        "writer": "",
+        "duration": "3:31"
+      },
+      {
+        "trackNumber": "6",
+        "trackName": "Numb (Album V)",
+        "writer": "",
+        "duration": "3:39"
+      },
+      {
+        "trackNumber": "7",
+        "trackName": "Say Can You Hear (Album V)",
+        "writer": "",
+        "duration": "3:09"
+      },
+      {
+        "trackNumber": "8",
+        "trackName": "All Night",
+        "writer": "",
+        "duration": "3:08"
+      },
+      {
+        "trackNumber": "9",
+        "trackName": "I Hope to Be Around (Album V)",
+        "writer": "",
+        "duration": "3:26"
+      },
+      {
+        "trackNumber": "10",
+        "trackName": "Dorian",
+        "writer": "",
+        "duration": "2:51"
+      },
+      {
+        "trackNumber": "11",
+        "trackName": "Pines",
+        "writer": "",
+        "duration": "3:42"
+      },
+      {
+        "trackNumber": "12",
+        "trackName": "Slap Pie",
+        "writer": "",
+        "duration": "2:19"
+      },
+      {
+        "trackNumber": "13",
+        "trackName": "Fiero GT",
+        "writer": "",
+        "duration": "0:51"
+      },
+      {
+        "trackNumber": "14",
+        "trackName": "Seven (Album V)",
+        "writer": "",
+        "duration": "3:45"
+      },
+      {
+        "trackNumber": "15",
+        "trackName": "Show Me How (Album V)",
+        "writer": "",
+        "duration": "3:35"
+      },
+      {
+        "trackNumber": "16",
+        "trackName": "Alright",
+        "writer": "",
+        "duration": "2:37"
+      },
+      {
+        "trackNumber": "17",
+        "trackName": "You Deserve This (Album V)",
+        "writer": "",
+        "duration": "3:05"
+      },
+      {
+        "trackNumber": "18",
+        "trackName": "Pierre",
+        "writer": "",
+        "duration": "3:26"
+      },
+      {
+        "trackNumber": "19",
+        "trackName": "Air",
+        "writer": "",
+        "duration": "3:14"
+      },
+      {
+        "trackNumber": "20",
+        "trackName": "Porcelain",
+        "writer": "",
+        "duration": "3:32"
+      },
+      {
+        "trackNumber": "21",
+        "trackName": "Poodle of Mud",
+        "writer": "",
+        "duration": "1:19"
+      },
+      {
+        "trackNumber": "22",
+        "trackName": "Something in Water",
+        "writer": "",
+        "duration": "3:18"
+      },
+      {
+        "trackNumber": "23",
+        "trackName": "Tailwhip Revisited",
+        "writer": "",
+        "duration": "4:00"
+      },
+      {
+        "trackNumber": "24",
+        "trackName": "Poplar Tree",
+        "writer": "",
+        "duration": "1:14"
       }
     ]
   }

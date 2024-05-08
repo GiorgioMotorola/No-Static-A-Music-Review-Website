@@ -19,6 +19,7 @@ export default {
                 "Country",
                 "Electronic",
                 "Hip Hop",
+                "Indie Pop",
                 "Indie Rock",
                 "Jazz",
                 "Metal",
