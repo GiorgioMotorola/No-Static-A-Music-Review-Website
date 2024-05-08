@@ -245,7 +245,7 @@ export default {
 @media (max-width: 700px) {
 
   .container {
-    margin-bottom: 2900px
+    margin-bottom: 2500px
   }
 
   .review-line {
@@ -303,6 +303,10 @@ export default {
   .most-recent-review-3 img:hover,
   .most-recent-review-4 img:hover {
     box-shadow: none;
+  }
+
+  .review-line {
+    gap: 0px;
   }
 }
 </style>
