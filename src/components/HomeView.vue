@@ -104,6 +104,16 @@ export default {
           </div>
           <div class="nsrc-section"></div>
         </div>
+        <div class="mobile-links-section">
+          <a href="https://nostatic.mweatherford.rocks/albums" target="_blank">albums &nbsp;&#8226;&nbsp;&nbsp;</a>
+          <a href="https://nostatic.mweatherford.rocks/albums/genres" target="_blank">genres
+            &nbsp;&#8226;&nbsp;&nbsp;</a>
+          <a href="https://nostatic.mweatherford.rocks/albums/seasons" target="_blank"> seasons
+            &nbsp;&#8226;&nbsp;&nbsp;</a>
+          <a href="https://nostatic.mweatherford.rocks/albums/puremoods" target="_blank"> pure moods
+            &nbsp;&nbsp;&#8226;</a>
+          <a href="https://nostatic.mweatherford.rocks/nsrc" target="_blank"> &nbsp;&nbsp;nsrc</a>
+        </div>
       </div>
     </div>
   </div>
@@ -112,6 +122,10 @@ export default {
 <style scoped>
 * {
   margin: 0;
+}
+
+.mobile-links-section {
+  display: none;
 }
 
 .body {
@@ -273,9 +287,22 @@ export default {
 }
 
 @media (max-width: 530px) {
-
   .container {
     margin-bottom: 50px;
+  }
+
+  .mobile-links-section {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .mobile-links-section a {
+    text-decoration: none;
+    color: #ECDBBA;
+
   }
 
   .latest-reviews {
