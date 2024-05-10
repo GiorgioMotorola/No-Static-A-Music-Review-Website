@@ -71,7 +71,7 @@ export default {
               <a href="https://nostatic.mweatherford.rocks/albums/genres/Metal" target="_blank">Metal</a>
               <a href="https://nostatic.mweatherford.rocks/albums/genres/Pop" target="_blank">Rock</a>
               <a href="https://nostatic.mweatherford.rocks/albums/genres/" target="_blank"><span
-                  style="color: #D66C56;">see all...</span></a>
+                  style="color: #D66C56;">go to genres...</span></a>
             </div>
           </div>
           <div class="puremood-section">
@@ -89,7 +89,7 @@ export default {
               <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Warehouse" target="_blank">Warehouse</a>
               <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Yacht" target="_blank">Yacht</a>
               <a href="https://nostatic.mweatherford.rocks/albums/puremoods/" target="_blank"><span
-                  style="color: #D66C56;">see all...</span></a>
+                  style="color: #D66C56;">go to pure moods...</span></a>
             </div>
           </div>
           <div class="seasons-section">
@@ -100,6 +100,8 @@ export default {
               <a href="https://nostatic.mweatherford.rocks/albums/seasons/Summer" target="_blank">Summer</a>
               <a href="https://nostatic.mweatherford.rocks/albums/seasons/Autumn" target="_blank">Autumn</a>
               <a href="https://nostatic.mweatherford.rocks/albums/seasons/Winter" target="_blank">Winter</a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/" target="_blank"><span
+                  style="color: #D66C56;">go to seasons...</span></a>
             </div>
           </div>
           <div class="nsrc-section"></div>
