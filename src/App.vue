@@ -78,7 +78,7 @@ template {
   background-color: #191919;
   display: flex;
   justify-content: space-evenly;
-  padding: 8px 300px;
+  padding: 10px 300px;
   gap: 20px;
   background-color: #52515139;
 }
