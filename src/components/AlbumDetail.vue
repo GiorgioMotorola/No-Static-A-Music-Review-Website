@@ -256,7 +256,6 @@ img {
     min-height: 350px;
     min-width: 350px;
     max-width: 350px;
-    box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 
