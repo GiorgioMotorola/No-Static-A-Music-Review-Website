@@ -2689,5 +2689,82 @@
         "duration": "6:32"
       }
     ]
+  },
+  {
+    "id": 31,
+    "entryNumber": "00031",
+    "artist": "Al Green",
+    "album": "I'm Still In Love With You",
+    "yearReleased": 1972,
+    "genre": "Soul",
+    "subGenre": "R&B",
+    "image": "algreen.jpg",
+    "puremood": "Cookout",
+    "season": "Spring",
+    "party": "Yes",
+    "lyric": "I'm Still In Love With You",
+    "review": "Sometimes, an album embodies a season. I am obviously obsessed with that idea since each album I add to this godforsaken site has a season tag attached to it. But I think it's an important descriptor. Unless you live somewhere that is a certain temperature year-round, seasons can affect your overall demeanor. I have several friends who seem to only enjoy Autumn and Winter and dread the warmer months. Myself, I used to abhor Winter but 2 years ago, I decided to embrace it and now I just see it as a short period where I am freezing my bones off. It also helps that global warming is making the colder months a bit more mild, but I don't think that's something we will be able to enjoy for much longer. Either way, what the weather report says will set the tempo for a day half the time. That all being said, 'I'm Still In Love With You' by Al Green is the sound of a bird chirping and a flower blooming. When I listen to this album, I am immediately transported to the first day you can drive around with the windows down, the first time that year you can forget the hoodie or jacket before leaving the house and life just seems a little more hopeful. I think a lot of this can be attributed to how bright the album sounds but also how sparse the instrumentation is. This isn't an album that's overtly busy with horns and Rhodes keyboards or backing vocals. It truly sounds like Mr. Green woke up one day and it was 75 degrees and he decided to open the doors and windows, light up a cigarette, crack open a light beer and play music while the breeze whipped over his face. If there was an award for 'Albums perfect for an empty bar on a warm Sunday Afternoon,' then this would be right there with 'Alien Lanes' by Guided By Voices.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "I'm Still In Love With You",
+        "writer": "Al Green, Al Jackson Jr., Willie Mitchell",
+        "duration": "3:12"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "I'm Glad You're Mine",
+        "writer": "Al Green",
+        "duration": "2:59"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Love and Happiness",
+        "writer": "Al Green, Mabon \"Teenie\" Hodges",
+        "duration": "5:03"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "What a Wonderful Thing Love Is",
+        "writer": "Al Green, Willie Mitchell",
+        "duration": "3:37"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Simply Beautiful",
+        "writer": "Al Green",
+        "duration": "4:11"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Oh, Pretty Woman",
+        "writer": "A.C. Williams",
+        "duration": "3:24"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "For the Good Times",
+        "writer": "Kris Kristofferson",
+        "duration": "6:26"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Look What You Done for Me",
+        "writer": "Al Green, Al Jackson Jr., Willie Mitchell",
+        "duration": "3:05"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "One of These Good Old Days",
+        "writer": "Al Green",
+        "duration": "3:23"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Georgia Boy",
+        "writer": "Al Green, Charles Hodges",
+        "duration": "3:38"
+      }
+    ]
   }
 ]

@@ -41,7 +41,7 @@ export default {
           </div>
           <div class="most-recent-review-2">
             <a href="https://nostatic.mweatherford.rocks/25" target="_blank">
-              <img src="/strait.jpg" alt="">
+              <img src="/strait.png" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
