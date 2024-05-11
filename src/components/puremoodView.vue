@@ -16,11 +16,12 @@
                 </span>
             </div>
         </div>
-    </div>
-    <div class="disclaimer-container">
-        <div class="disclaimer">Note: I am aware that a lot of albums could fit in more than one category so I placed an
-            album in the category I thought was the best fit. If you have an argument why one album belongs in a
-            different category, please reach out. You can find my contact info in the footer link "PORTFOLIO".</div>
+        <!-- <div class="disclaimer-container">
+            <div class="disclaimer">Note: I am aware that a lot of albums could fit in more than one category so I
+                placed an
+                album in the category I thought was the best fit. If you have an argument why one album belongs in a
+                different category, please reach out. You can find my contact info in the footer link "PORTFOLIO".</div>
+        </div> -->
     </div>
 </template>
 
@@ -86,7 +87,7 @@ export default {
     margin-left: 20px;
     cursor: pointer;
     position: relative;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 1.2;
     color: #ffffff;
 }
@@ -164,15 +165,10 @@ a {
     padding: 1%;
 }
 
-.disclaimer {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .container {
-        margin-top: 19%;
-        margin-bottom: 300px;
+        margin-top: 8%;
+        margin-bottom: 315px;
     }
 
     .puremood-list {
@@ -180,7 +176,6 @@ a {
         justify-content: start;
         margin-top: 0.5%;
         margin-left: 10%;
-        font-size: 13px;
     }
 
     .section-title {
@@ -189,6 +184,7 @@ a {
 
     .puremood-list-item a {
         font-size: 30px;
+        margin: .2rem;
     }
 }
 </style>

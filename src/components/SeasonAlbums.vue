@@ -112,15 +112,15 @@ export default {
 
 @media (max-width: 600px) {
     .container {
-        margin-top: 19%;
+        margin-top: 8%;
     }
 
     .season-list {
         display: flex;
         justify-content: start;
-        margin-top: 0.5%;
-        margin-left: 10%;
-        font-size: 13px;
+        margin-top: .6rem;
+        margin-left: 4%;
+        font-size: 15px;
     }
 
     .section-title {

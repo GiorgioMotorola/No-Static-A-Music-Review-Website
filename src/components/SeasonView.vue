@@ -84,14 +84,15 @@ a {
     transform: scaleX(1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .container {
-        margin-top: 19%;
-        margin-bottom: 540px;
+        margin-top: 8%;
+        margin-bottom: 565px;
     }
 
     .container a {
         font-size: 30px;
+        margin: .2rem;
     }
 
     .season-list {

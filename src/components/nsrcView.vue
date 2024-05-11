@@ -5,19 +5,19 @@
         <router-link to="/nsrc"><span style="color: #ECDBBA; "> no static record catalogue</span></router-link>
         <span style="color: white;"></span>
     </div>
-    <div class="title">
+    <!-- <div class="title">
         The No Static Record Catalogue is not real. But it's really fun. Artists with sizeable discographies have a
         secret album inside of them. NSRC aims to gather 10 tracks from these artists albums with senquencing, theme and
         mood in mind and deliver an album name, what the album cover may look like and a Spotify playlist if you choose
         to listen. Click an artist below to read.
-    </div>
+    </div> -->
     <div class="container">
         <div class="album-list-item">
             <div v-for="album in nsrc" :key="album.id" class="album-list">
                 <router-link :to="{ name: 'nsrcDetail', params: { id: album.id } }">
                     <div class="album-entry">
                         <div class="album-details">
-                            <div class="artist-name">#{{ album.nsrcListing }} - {{ album.artistEntry }}</div>
+                            <div class="artist-name">#{{ album.nsrcListing }} &#x2022; {{ album.artistEntry }}</div>
                         </div>
                     </div>
                 </router-link>
@@ -94,7 +94,7 @@ a {
 
 .album-list-item {
     position: relative;
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
 .album-list-item a {
@@ -118,13 +118,10 @@ a {
     transform: scaleX(1);
 }
 
-
-
-
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .container {
-        margin-top: 19%;
-        margin-bottom: 480px;
+        margin-top: 8%;
+        margin-bottom: 640px;
     }
 
     .title {
@@ -136,14 +133,18 @@ a {
     }
 
     .container a {
-        font-size: 20px;
+        display: flex;
+        justify-content: start;
+        margin-top: .6rem;
+        margin-left: 0%;
+        font-size: 15px;
     }
 
     .album-list {
         display: flex;
         justify-content: start;
         margin-top: 0.5%;
-        margin-left: 10%;
+        margin-left: 6%;
         font-size: 13px;
     }
 
