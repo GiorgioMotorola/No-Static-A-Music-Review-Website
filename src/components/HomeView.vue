@@ -13,44 +13,44 @@ export default {
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/31" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/31">
               <img src="/algreen.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/30" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/30">
               <img src="/winelight.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/29" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/29">
               <img src="/onclejazz.png" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/28" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/28">
               <img src="/painful.jpg" alt="">
             </a>
           </div>
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/27" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/27">
               <img src="/sade.png" alt="">
             </a>
           </div>
           <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/26" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/26">
               <img src="/crj.png" alt="">
             </a>
           </div>
           <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/25" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/25">
               <img src="/strait.png" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/24" target="_blank">
+            <a href="https://nostatic.mweatherford.rocks/24">
               <img src="/kaputt.jpg" alt="">
             </a>
           </div>
@@ -60,83 +60,109 @@ export default {
             <div class="genre-title">
               | genres |&nbsp;&nbsp;</div>
             <div class="genres">
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Rock"
-                target="_blank">Rock&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Ambient"
-                target="_blank">Ambient&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Country"
-                target="_blank">Country&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Electronic"
-                target="_blank">Electronic&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Hip%20Hop" target="_blank">Hip
-                Hop&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Indie%20Rock" target="_blank">Indie
-                Rock&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Jazz"
-                target="_blank">Jazz&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Metal"
-                target="_blank">Metal&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/Pop"
-                target="_blank">Rock&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/genres/" target="_blank"><span
-                  style="color: #D66C56;">go to genres...</span></a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Rock">
+                Rock&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Ambient">
+                Ambient&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Country">
+                Country&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Electronic">
+                Electronic&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Hip%20Hop">
+                Hip Hop&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Indie%20Rock">
+                Indie Rock&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Jazz">
+                Jazz&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Metal">
+                Metal&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/Pop">
+                Rock&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/genres/">
+                <span style="color: #D66C56;">go to genres...</span>
+              </a>
             </div>
           </div>
           <div class="puremood-section">
             <div class="puremood-title">
               | pure moods |&nbsp;&nbsp;</div>
             <div class="puremood">
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Airport"
-                target="_blank">Airport&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Basement"
-                target="_blank">Basement&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Bedroom"
-                target="_blank">Bedroom&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Cookout"
-                target="_blank">Cookout&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Lab"
-                target="_blank">Lab&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Library"
-                target="_blank">Library&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Radio"
-                target="_blank">Radio&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Twin%20Peaks" target="_blank">Twin
-                Peaks&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Warehouse"
-                target="_blank">Warehouse&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Yacht"
-                target="_blank">Yacht&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/" target="_blank"><span
-                  style="color: #D66C56;">go to pure moods...</span></a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Airport">
+                Airport&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Basement">
+                Basement&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Bedroom">
+                Bedroom&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Cookout">
+                Cookout&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Lab">
+                Lab&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Library">
+                Library&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Radio">
+                Radio&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Twin%20Peaks">
+                Twin Peaks&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Warehouse">
+                Warehouse&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/Yacht">
+                Yacht&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/">
+                <span style="color: #D66C56;">go to pure moods...</span>
+              </a>
             </div>
           </div>
           <div class="seasons-section">
             <div class="seasons-title">
               | seasons |&nbsp;&nbsp;</div>
             <div class="seasons">
-              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Spring"
-                target="_blank">Spring&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Summer"
-                target="_blank">Summer&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Autumn"
-                target="_blank">Autumn&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Winter"
-                target="_blank">Winter&nbsp;&nbsp;&nbsp;&nbsp;</a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/" target="_blank"><span
-                  style="color: #D66C56;">go to seasons...</span></a>
+              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Spring">
+                Spring&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Summer">
+                Summer&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Autumn">
+                Autumn&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/seasons/Winter">
+                Winter&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/">
+                <span style="color: #D66C56;">go to seasons...</span>
+              </a>
             </div>
           </div>
           <div class="nsrc-section"></div>
         </div>
         <div class="mobile-links-section">
-          <a href="https://nostatic.mweatherford.rocks/albums" target="_blank">albums &nbsp;&#8226;&nbsp;&nbsp;</a>
-          <a href="https://nostatic.mweatherford.rocks/albums/genres" target="_blank">genres
+          <a href="https://nostatic.mweatherford.rocks/albums">albums &nbsp;&#8226;&nbsp;&nbsp;</a>
+          <a href="https://nostatic.mweatherford.rocks/albums/genres">genres
             &nbsp;&#8226;&nbsp;&nbsp;</a>
-          <a href="https://nostatic.mweatherford.rocks/albums/seasons" target="_blank"> seasons
+          <a href="https://nostatic.mweatherford.rocks/albums/seasons"> seasons
             &nbsp;&#8226;&nbsp;&nbsp;</a>
-          <a href="https://nostatic.mweatherford.rocks/albums/puremoods" target="_blank"> pure moods
+          <a href="https://nostatic.mweatherford.rocks/albums/puremoods"> pure moods
             &nbsp;&nbsp;&#8226;</a>
-          <a href="https://nostatic.mweatherford.rocks/nsrc" target="_blank"> &nbsp;&nbsp;nsrc</a>
+          <a href="https://nostatic.mweatherford.rocks/nsrc"> &nbsp;&nbsp;nsrc</a>
         </div>
       </div>
     </div>
