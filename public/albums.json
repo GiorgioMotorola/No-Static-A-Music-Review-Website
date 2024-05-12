@@ -3088,5 +3088,62 @@
         "duration": "5:41"
       }
     ]
+  },
+  {
+    "id": 36,
+    "entryNumber": "00036",
+    "artist": "Black Sabbath",
+    "album": "Master of Reality",
+    "yearReleased": 1971,
+    "genre": "Metal",
+    "subGenre": "Doom Metal",
+    "image": "masters.png",
+    "puremood": "Basement",
+    "season": "Autumn",
+    "party": "Yes",
+    "lyric": "Will love you, sweet leaf",
+    "review": "Reality television's popularity offers a fascinating glimpse into the human condition. From its inception with shows like Real World and Road Rules to its explosion with Survivor, it's intriguing to unravel its emotional grip on people. It's a genre of trash I'll truly never understand. I'm not a fan, and I'm not here to harp on the so-called harm it may have done to our society. While there may be some validity in those claims, it ultimately doesn't matter. Plenty of junk has come before, during, and since. I believe it's important to appreciate junky stuff. For instance, I often find myself mindlessly watching long-form YouTube essays made by people much younger than me, stretching a 10-minute topic into a 50-minute ordeal. I've even sat through a 2-hour video of an alpha dork dissecting a video game I've never played and why it's supposedly important. Or maybe it's not. I don't remember. The point is, sometimes we all need to switch off our brains. Reality TV is peculiar because, from the outset, it wasn't real. Shows like Nathan For You have a better track record when it comes to reality than any traditional reality TV show, as they openly acknowledge the extent to which they manipulate situations for optimal, unhinged reactions. Remember The Osbournes? That show about Ozzy Osbourne's family where Ozzy seemed like a brain-dead mess throughout? There's no way he was that far gone. For heaven's sake, Black Sabbath put out a return-to-form album in 2013 called '13' that was pretty great, and not once did Ozzy scream 'SHARRROOON'. Ozzy's commitment to the bit of having the brain function of a turkey sandwich is precisely what makes Sabbath so special. Metal, much like reality TV, often presents a facade of evil or devil adoration, when in reality, these musicians are just regular guys who love Dungeons and Dragons too much and probably smell like their parents' basement. The devil stuff is (mostly) fake, just like those dramatic moments in reality TV shows that make everyone gasp. But if there's one thing that truly embodies the reality of Sabbath, it's weed. They love it. Now, I'm not a weed guy, but I can't deny that Master of Reality exudes a haze that makes me feel like I was born inside a bong. That's its specialty. Did this album invent Stoner Metal? Maybe. Who knows? What I do know is that this album chugs along like a group of teenagers in a musty, old, stale basement trying to hide the smell of weed from their parents. And that's special. Good music sounds good. Great music sounds like an image, and this album sounds like it was made to live in a weed farm. I say this with sincerity and from the depths of my chest: if there's one metal record you listen to before shuffling off this mortal coil, let it be this one. Just relax on the reality TV. It's not that important.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Sweet Leaf",
+        "duration": "5:04"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "After Forever",
+        "duration": "5:26"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Embryo",
+        "duration": "0:28"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Children of the Grave",
+        "duration": "5:17"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Orchid",
+        "duration": "1:30"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Lord of This World",
+        "duration": "5:25"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Solitude",
+        "duration": "5:01"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Into the Void",
+        "duration": "6:10"
+      }
+    ]
   }
 ]
