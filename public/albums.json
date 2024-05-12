@@ -2991,5 +2991,102 @@
         "duration": "6:17"
       }
     ]
+  },
+  {
+    "id": 35,
+    "entryNumber": "00035",
+    "artist": "Mobb Deep",
+    "album": "The Infamous",
+    "yearReleased": 1995,
+    "genre": "Hip Hop",
+    "subGenre": "Boom Bap",
+    "image": "infamous.png",
+    "puremood": "Basement",
+    "season": "Autumn",
+    "party": "Yes",
+    "lyric": "I got you stuck off the realness, we be the infamous. You heard of us, official Queensbridge murderers",
+    "review": "First and foremost, RIP Prodigy. I try not to get too bent out of shape about a musician dying because, let's face it, I highly doubt Prodigy, Lou Reed, Bob Stinson, Alex Chilton, or Adam Schlesinger knew who I was. And if they did, well, that's weird because I am just a guy. But seriously, RIP Prodigy. It's a wonder when artists as young as the aforementioned Prodigy and Havoc are when they make something bigger than themselves. When I was their age, I was eating five-dollar footlongs and taking naps. And these dudes make a defining east coast hip hop album?! No, an important hip hop album, full stop. No, let's not split hairs... this is essential no matter how you cut it. If 36 Chambers walked right into a new sound, then Mobb Deep's The Infamous took that new sound and ran it right into the end zone, threw the ball directly into the ground so hard that only that dork in The Sword in the Stone could remove it. I think something that one of the many components that makes hip hop such a great genre of music is its energy. The best hip hop albums out there have this perpetual motion to them that doesn't let up. The opener in the hand holding the metal ball, letting it go and the rest of the album is constantly trading energy back and forth back and forth and back and forth over and over never letting up. It's often why the so-called 'lyrical miracle' stuff doesn't always work for me. The lyrics are there, sure, but the energy is an overthought, traded in for how fast they can rap and how many ten-dollar words they can stuff in it. Not to say this album has a lack of lyrical sharpness. 'God bless my soul before I put my foot down and begin to stroll into the drama I built and all unfinished beef, you will soon be killed', 'A dead man walking, not only that, he's still talking about how and what he did very often. You don't know how much I fiend to put his ass in a coffin' and 'Pour some beer for the ill, ain't no time to chill. Hit 'em up, 'cause I'm quick to erupt like dicks. Wet 'em up with the MAC, scratch 'em off my list'. Ok, that last one was for me. But that's why this album is one I come back to time and time again: It's fun, it's complex, and good lord does it still sound as if it came out yesterday. To my knowledge, this album never got a remaster or anything which is a testament to how much heart and care went into making this. RIP Prodigy.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "The Start of Your Ending (41st Side)",
+        "duration": "4:24"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "(The Infamous Prelude)",
+        "duration": "2:12"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Survival of the Fittest",
+        "duration": "3:44"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Eye for a Eye (Your Beef Is Mines) feat. Nas, Raekwon The Chef",
+        "duration": "4:48"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "(Just Step Prelude)",
+        "duration": "1:06"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Give Up the Goods (Just Step) feat. Big Noyd",
+        "duration": "4:03"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Temperature's Rising feat. Crystal Johnson",
+        "duration": "5:00"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Up North Trip",
+        "duration": "4:58"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Trife Life",
+        "duration": "5:20"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "Q.U. - Hectic",
+        "duration": "4:46"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "Right Back at You feat. Ghostface Killah, Raekwon, Big Noyd",
+        "duration": "4:53"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "(The Grave Prelude)",
+        "duration": "0:50"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Cradle to the Grave",
+        "duration": "4:57"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "Drink Away the Pain (Situations) feat. Q-Tip",
+        "duration": "4:45"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "Shook Ones, Pt. II",
+        "duration": "5:25"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Party Over feat. Big Noyd",
+        "duration": "5:41"
+      }
+    ]
   }
 ]
