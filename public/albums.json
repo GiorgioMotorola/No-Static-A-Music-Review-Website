@@ -3145,5 +3145,142 @@
         "duration": "6:10"
       }
     ]
+  },
+  {
+    "id": 37,
+    "entryNumber": "00037",
+    "artist": "They Might Be Giants",
+    "album": "John Henry",
+    "yearReleased": 1994,
+    "genre": "Indie Rock",
+    "subGenre": "Alt Rock, Geek Rock",
+    "image": "johnhenry.jpg",
+    "puremood": "Library",
+    "season": "Spring",
+    "party": "Yes",
+    "lyric": "Never to part since the day we met. Out on Interstate 91. I was bent metal you were a flaming wreck",
+    "review": "A massive mountaintop shoutout to They Might Be Giants. God bless them to the core. You don't find music like the music they have put out very often. On the surface, they are a couple of silly billies making silly billy music for fellow silly billies. But at the center of the giant Giant's universe is bookish, nerd pride. That's a tough thing to keep up with when you're famous. I imagine when you get rich and famous, most folk are going to want to cool themselves up especially if they were before part of the dorkisphere before people decided to like them. But these dudes keep it real. This is not a sneak diss at all. I am envious. I have been and am and always will be a huge fucking dork. If I somehow got famous and adored by millions of people, I would probably start wearing those weird ass Roblox boots that people got into a couple of years ago, stomping around all of the best clubs and eating the trendiest food. But They Might Be Giants kept to their roots. Some people will say that their best album is Apollo 18 or Flood or even Lincoln. And while any of those albums will remain contenders for being added to this prestigious list of essential albums by a dork like myself, I feel like TMBG were never better than they were on John Henry. They still retained their nerdy weirdness and sharp, smart songwriting but refined it to such a degree that any track could pass as a radio single. I often rail on about how important it is for an album to retain its energy throughout and this is no exception. Each track complements the last and the next. Just within the first 3 tracks, you have everything that makes this band special plus some really cool guitar solos which in my book is a winning concoction. But I think what makes this album essential above all other TMBG albums is its ability to throw 20 meaty tracks at you and each one still has the density of a neutron star. See, I can be a dork, too and I am cool. Just Kidding. I am not. If you haven't listened to They Might Be Giants at all, put the fucking New York Times crossword down for a minute and let your well wrinkled brain feel silly for a spell.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "Subliminal",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:13"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Snail Shell",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:11"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Sleeping in the Flowers",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "4:30"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Unrelated Thing",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:01"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "AKA Driver",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:41"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "I Should Be Allowed to Think",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:06"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Extra Savoir-Faire",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:31"
+      },
+      {
+        "trackNumber": 8,
+        "trackName": "Why Must I Be Sad?",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:19"
+      },
+      {
+        "trackNumber": 9,
+        "trackName": "Spy",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:33"
+      },
+      {
+        "trackNumber": 10,
+        "trackName": "O, Do Not Forsake Me",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:29"
+      },
+      {
+        "trackNumber": 11,
+        "trackName": "No One Knows My Plan",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:44"
+      },
+      {
+        "trackNumber": 12,
+        "trackName": "Dirt Bike",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:00"
+      },
+      {
+        "trackNumber": 13,
+        "trackName": "Destination Moon",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:21"
+      },
+      {
+        "trackNumber": 14,
+        "trackName": "A Self Called Nowhere",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "1:57"
+      },
+      {
+        "trackNumber": 15,
+        "trackName": "Meet James Ensor",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "1:36"
+      },
+      {
+        "trackNumber": 16,
+        "trackName": "Thermostat",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:28"
+      },
+      {
+        "trackNumber": 17,
+        "trackName": "Window",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "1:15"
+      },
+      {
+        "trackNumber": 18,
+        "trackName": "Out of Jail",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:48"
+      },
+      {
+        "trackNumber": 19,
+        "trackName": "Stomp Box",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "2:31"
+      },
+      {
+        "trackNumber": 20,
+        "trackName": "The End of the Tour",
+        "writer": "John Flansburgh, John Linnell",
+        "duration": "3:20"
+      }
+    ]
   }
 ]
