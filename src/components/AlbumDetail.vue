@@ -11,6 +11,9 @@
                     <img :src="album.image" alt="Album Cover">
                     <div class="genre">{{ album.genre }}, {{ album.subGenre }} &nbsp;&#8226;&nbsp;{{ album.yearReleased
                         }}</div>
+                <div class="album-cover-rating-container">
+                <div class="cover-rating">Album Cover Rating: <span :style="{ color: ratingColor }" style="font-family: 'Courier New', Courier, monospace;">{{ album.albumCoverRating }}</span>/10</div>
+            </div>
                 </div>
                 <div class="details">
                     <div class="album">{{ album.album }}</div>
@@ -25,7 +28,6 @@
                 <div class="season"><span style="color: #ECDBBA;">&#x2600; <router-link to="/albums/seasons">{{
                     album.season }}</router-link></span></div>
             </div>
-
             <div class="tracks">
                 <div v-for="track in album.tracks" :key="track.trackNumber" class="track-item">
                     <div class="track-details">
@@ -65,6 +67,20 @@ export default {
         return {
             album: null
         };
+    },
+    computed: {
+        ratingColor() {
+            const rating = parseInt(this.album.albumCoverRating);
+            if (rating >= 1 && rating <= 3) {
+                return '#D66C56'; 
+            } else if (rating >= 4 && rating <= 6) {
+                return '#ECDBBA'; 
+            } else if (rating >= 7 && rating <= 10) {
+                return '#47B878'; 
+            } else {
+                return 'white'; 
+            }
+        }
     },
     mounted() {
         this.fetchAlbum(this.id);
@@ -142,11 +158,24 @@ export default {
     align-items: center;
     font-size: 20px;
     margin-top: 5rem;
-    margin-bottom: 8rem;
     margin-left: 20rem;
     margin-right: 20rem;
+    margin-bottom: 8rem;
     border-top: 1px solid rgba(49, 49, 49, 0.398);
     border-bottom: 1px solid rgba(49, 49, 49, 0.398);
+}
+
+.album-cover-rating-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cover-rating {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .puremood,
