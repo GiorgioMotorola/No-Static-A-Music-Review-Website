@@ -430,5 +430,9 @@ img {
         font-size: 15px;
     }
 
+    .album-cover-rating-container {
+        font-size: 17px;
+    }
+
 }
 </style>
