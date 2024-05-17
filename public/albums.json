@@ -3475,5 +3475,66 @@
         "duration": "1:39"
       }
     ]
-  }  
+  },
+  {
+    "id": 39,
+    "entryNumber": "00039",
+    "artist": "Steve Winwood",
+    "album": "Arc of the Diver",
+    "yearReleased": 1980,
+    "genre": "Business Rock",
+    "subGenre": "Pop Rock",
+    "image": "stevearc.jpg",
+    "puremood": "Radio",
+    "season": "Spring",
+    "party": "No",
+    "lyric": "When you see a chance, take it.",
+    "albumCoverRating": "3",
+    "review": "Ladies and Gentleman, boys and girls, all road dawgs out there sitting in bumper to bumper jams I am here to let you know that traffic isn't just an inconvenience anymore! No no, it's a state of mind. It's a world. It's a feeling. Now... it's a band! Ok, I am already abandoning this bit. But there was a band called Traffic and Steve Winwood was in that band. That was where I was going with this. He has been around for a long time. Speaking of, you know who else has been around for a long time? Jesus. And Jesus is back and HE HAS RISEN. And he is ready to rock! No need for Blind Faith when it comes to Jesus and how he is back! Ok, yeah Steve Winwood was also in the supergroup Blind Faith. To come clean, I was just trying to figure out how to start this review because truthfully, I am not super familiar with Traffic or Blind Faith. But I am familiar with Arc of the Diver. Since we have already walked into the woods toward an unknown path, let me introduce you to a new genre: Business Rock. This genre was created recently by myself and best pal of 30 plus years TJ. The idea is if it sounds like music that a business person from the 80's (no sexism in the business tent) would listen to while talking on a landline in Chicago in a skyscraper while looking at a sunset on a Friday, then it's Business Rock. Yes, we are fully aware we are cribbing an idea from the Yacht Rock guys but the best ideas are formed from the best ideas so you can relax. Artists would include the aforementioned Steve Winwood, Robert Palmer, Huey Lewis, maybe Boz Scaggs and The Power Station. It's still a new idea and needs to be fleshed out but there is gold there. (Get ready for this slick, no nonsense transition) But what's truly gold and shines like a big gold brick is Arc of the Diver. There is loads of 80s cheeseball all over this bad boy but in the best way possible. When listening to this, you are one pack of Marlboro reds rolled into a loose fitting suit jacket sleeve away from racing to a business meeting in a speedboat. Is it the best album in the world? God no. But I think it's important to illustrate that not every album has to be an artistic achievement to be essential. Sometimes an album just needs to capture a mood or a sound and put you in a place that accepts well written goofy cheeseball music. We spend our lives working, working and working only to die thinking about all the work we did so why not let an album do the work for you. Just make sure the work it's doing is turned up as high as possible and as unabashedly fun as Arc of the Diver is.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "trackName": "While You See a Chance",
+        "writer": "Steve Winwood, Will Jennings",
+        "duration": "5:12"
+      },
+      {
+        "trackNumber": 2,
+        "trackName": "Arc of a Diver",
+        "writer": "Steve Winwood, Vivian Stanshall",
+        "duration": "5:29"
+      },
+      {
+        "trackNumber": 3,
+        "trackName": "Second-Hand Woman",
+        "writer": "Steve Winwood, Will Jennings",
+        "duration": "3:42"
+      },
+      {
+        "trackNumber": 4,
+        "trackName": "Slowdown Sundown",
+        "writer": "Steve Winwood, Will Jennings",
+        "duration": "5:28"
+      },
+      {
+        "trackNumber": 5,
+        "trackName": "Spanish Dancer",
+        "writer": "Steve Winwood, Will Jennings",
+        "duration": "6:00"
+      },
+      {
+        "trackNumber": 6,
+        "trackName": "Night Train",
+        "writer": "Steve Winwood, Will Jennings",
+        "duration": "7:51"
+      },
+      {
+        "trackNumber": 7,
+        "trackName": "Dust",
+        "writer": "Steve Winwood, Will Jennings",
+        "duration": "6:20"
+      }
+    ]
+  }
+  
 ]
