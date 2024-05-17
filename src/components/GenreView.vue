@@ -18,6 +18,7 @@ export default {
                 "Ambient",
                 "Business Rock",
                 "Country",
+                "Dream Pop",
                 "Electronic",
                 "Hip Hop",
                 "Indie Pop",
