@@ -23,12 +23,12 @@ export default {
             </a>
           </div>
           <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/27">
+            <a href="https://nostatic.mweatherford.rocks/37">
               <img src="/johnhenry.jpg" alt="">
             </a>
           </div>
           <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/26">
+            <a href="https://nostatic.mweatherford.rocks/36">
               <img src="/masters.png" alt="">
             </a>
           </div>
