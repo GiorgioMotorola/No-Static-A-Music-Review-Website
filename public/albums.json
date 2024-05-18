@@ -3828,7 +3828,74 @@
         "duration": "3:22"
     }
   ]
+},
+{
+  "id": 44,
+  "entryNumber": "00044",
+  "artist": "Hiroshi Yoshimura",
+  "album": "Green",
+  "yearReleased": 1986,
+  "genre": "Ambient",
+  "subGenre": "Environmental",
+  "image": "green.jpg",
+  "puremood": "Airport",
+  "season": "Autumn",
+  "party": "No",
+  "lyric": "------",
+  "albumCoverRating": "7",
+  "review": "I will say it until the day I die: Ambient music was sent here by God to save us all. It's really, really hard to get others into Ambient music. But I get it. Most folk love something with a hook, something with a driving beat and something with words that can speak directly to them and I am one of those people. But finding your favorite pop record can't compare to the first time you heard an Ambient album that was made for you. In 2008, I was at a crossroads. I was working a dead end job, overworked and underpaid and wondering if this was my lot in life. Now I can say I have happily moved into a slightly much better lot in life at this point but back then, I assumed I was destined to be an Operations Lead for a giant mailing warehouse where all of upper management would gas me up about how I was going to do big things. Those big things ended up happening but in a way that didn't come with a title or a pay increase. We have all been there and if you haven't been there, consider yourself lucky. I will say that one perk of the job was I could listen to music or podcasts. It led me to fall in love with podcasts like Uhh Yeah Dude, The Best Show on WFMU and music like Thee Oh Sees and non-Rumours Fleetwood Mac. But I still remember one specific day when I found out that I love Ambient music. It was a slowish day, I was getting things wrapped up so I could leave and I decided to throw on an artist I had heard about on the podcast Radio Lab. One of the hosts said their favorite band was Ambient duo Stars of the Lid. How could an Ambient artist be someone's favorite band? It seemed ridiculous and if I am being honest, a bit pretentious. So I decided to prove him wrong in my 20-something brain by putting on a Stars of the Lid album and hating the shit out of it. But that's not what happened. Something clicked in me. I was focused deeply on the rise and fall drone in the music that I almost got hit by a forklift. But it didn't matter. That forklift could have wrecked my shit and my next to-do would have been to explore every Ambient artist I had shrugged off all these years. Smash cut to a few years later, I found a cassette at a local record store with what looked like an illustration of leaves on a white background. Green by Hiroshi Yoshimura. This is one of the most locked-in albums of all time, genre aside. It's exactly what it means to be. I am not going to elaborate any further because I don't need to. Listen to this album, look at the cover, read the song titles, look at the album's name... for Christ's sake just listen. It's beautiful, tender and sounds like it smells like a forest after a rainstorm. This album will be the go-to for what being in the woods felt like when all nature is blurred out by global warming. I know I am appealing to either someone who agrees with me or someone who won't give this a chance but I don't care. Love was put into this album and I feel sorry for you if you don't get it.",
+  "tracks": [
+      {
+          "trackNumber": 1,
+          "trackName": "Creek",
+          "writer": "",
+          "duration": "6:02"
+      },
+      {
+          "trackNumber": 2,
+          "trackName": "Feel",
+          "writer": "",
+          "duration": "4:34"
+      },
+      {
+          "trackNumber": 3,
+          "trackName": "Sheep",
+          "writer": "",
+          "duration": "5:32"
+      },
+      {
+          "trackNumber": 4,
+          "trackName": "Sleep",
+          "writer": "",
+          "duration": "6:50"
+      },
+      {
+          "trackNumber": 5,
+          "trackName": "Green",
+          "writer": "",
+          "duration": "5:22"
+      },
+      {
+          "trackNumber": 6,
+          "trackName": "Feet",
+          "writer": "",
+          "duration": "6:19"
+      },
+      {
+          "trackNumber": 7,
+          "trackName": "Street",
+          "writer": "",
+          "duration": "7:30"
+      },
+      {
+          "trackNumber": 8,
+          "trackName": "Teevee",
+          "writer": "",
+          "duration": "3:49"
+      }
+  ]
 }
+
 
 
 ]
