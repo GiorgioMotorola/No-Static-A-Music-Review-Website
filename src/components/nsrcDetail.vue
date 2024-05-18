@@ -136,7 +136,7 @@ export default {
     margin-top: 0rem;
     font-size: 20px;
     padding: 6%;
-    margin: 10%;
+    margin: 1%;
     line-height: 1.2;
     border-top: 1px solid rgba(117, 114, 114, 0.164);
     border-bottom: 1px solid rgba(117, 114, 114, 0.164);
