@@ -146,31 +146,31 @@ export default {
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     text-indent: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .side-one {
     margin-bottom: 1.5rem;
     text-indent: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .side-two {
     margin-bottom: 1.5rem;
     text-indent: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .name-and-image-writeup {
     margin-bottom: 1.5rem;
     text-indent: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .wrap-up {
     margin-bottom: 1.5rem;
     text-indent: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .front-back-img {

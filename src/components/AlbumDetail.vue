@@ -274,7 +274,7 @@ export default {
 
 .review {
     color: #c9c8c8;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 
