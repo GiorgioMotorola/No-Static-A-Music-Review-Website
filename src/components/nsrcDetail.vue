@@ -10,11 +10,11 @@
     <div class="album-details-container">
         <div v-if="nsrc">
             <div class="img-container">
+                <img :src="nsrc.imageOne" alt="Album Cover">
                 <div class="artist-and-number">
                     <div class="artist">{{ nsrc.artistEntry }}</div>
                     <div class="album-number">#{{ nsrc.nsrcListing }}</div>
                 </div>
-                <img :src="nsrc.imageOne" alt="Album Cover">
             </div>
             <div class="write-up">
                 <div class="intro">{{ nsrc.introParagraph }}</div>
@@ -105,7 +105,7 @@ export default {
 }
 
 .img-container img {
-    border: 2.5px solid rgb(113, 113, 113);
+    border: 2.5px solid rgb(0, 0, 0);
     border-radius: 1.5%;
     max-width: 500px;
 }
@@ -115,6 +115,7 @@ export default {
     flex-direction: column;
     font-size: 40px;
     text-align: center;
+    margin-top: 5%
 }
 
 .artist {
@@ -133,10 +134,8 @@ export default {
 
 .write-up {
     color: #c9c8c8;
-    margin-top: 0rem;
     font-size: 20px;
-    padding: 6%;
-    margin: 1%;
+    margin: 10%;
     line-height: 1.2;
     border-top: 1px solid rgba(117, 114, 114, 0.164);
     border-bottom: 1px solid rgba(117, 114, 114, 0.164);
@@ -144,6 +143,7 @@ export default {
 
 .intro {
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     text-indent: 100px;
     font-family: 'Courier New', Courier, monospace;
 }
