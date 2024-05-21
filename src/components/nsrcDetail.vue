@@ -135,7 +135,8 @@ export default {
 .write-up {
     color: #c9c8c8;
     font-size: 20px;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     line-height: 1.2;
     border-top: 1px solid rgba(117, 114, 114, 0.164);
     border-bottom: 1px solid rgba(117, 114, 114, 0.164);
