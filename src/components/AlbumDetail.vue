@@ -275,6 +275,7 @@ export default {
 .review {
     color: #c9c8c8;
     font-family: "IBM Plex Mono", monospace;
+    line-height: 1.5;
 }
 
 
@@ -424,6 +425,8 @@ img {
     .review {
         margin-top: 30px;
         margin-bottom: 30px;
+        font-size: 13.9px;
+        line-height: 1.65;
     }
 
     .section-title {
