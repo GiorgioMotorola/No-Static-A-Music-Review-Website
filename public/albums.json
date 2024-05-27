@@ -3894,8 +3894,102 @@
           "duration": "3:49"
       }
   ]
+},
+{
+  "id": 45,
+  "entryNumber": "00045",
+  "artist": "Aphex Twin",
+  "album": "Selected Ambient Works 85-92",
+  "yearReleased": 1992,
+  "genre": "Electronic",
+  "subGenre": "Ambient, IDM",
+  "image": "saw1.png",
+  "puremood": "Airport",
+  "season": "Winter",
+  "party": "No",
+  "lyric": "------",
+  "albumCoverRating": "5/10",
+  "review": "Recently, Apple Music released a list of what they consider the top 100 albums of all time. While there was a decent amount of overlap between the stuff I am adding to this site and their list, there were a lot of additions that made me cock my head to the side. To be fair, I am sure the list was made in the spirit of half click farming and half trying to be forward-thinking and progressive, but I still need a medium to talk about it a bit, so here I go. First and foremost: Beyoncé's Lemonade over Baduizm, Homogenic, Remain In Light, Control, Aquemini, Illmatic, Pet Sounds, Rumours and a lot of records on their list is an incredibly bold and drunk choice. Look, I like Beyoncé just fine. I think Lemonade is a great pop record and certainly deserves to be in the conversation, but there are duds on that album. Do you know of any duds on the aforementioned records I named above? No. There are none. What are we doing here? Second: Good Kid, M.A.A.D City being in the top 10 and To Pimp a Butterfly not even showing up is an insane take. It's not even an interesting take. The committee who put this list together apparently started with Good Kid and stopped at Good Kid. Third: If you want a good hot take, then get a load of this: while Nevermind certainly deserves its spot, In Utero and Bleach are better. Fourth: Isn't the Taylor's Version of 1989 kind of bad? I don't know, I haven't listened to that version, but to completely replace the original release of 1989, which enabled the world of poptimism onto us, is crazy. I could go on, but I feel like I am belaboring the point of this write-up and getting further away from why I initially started shitting on this list. The biggest injustice of the entire list is the lack of your 'experimental, quote unquote IDM' albums of the world. Specifically, Aphex Twin. How many artists can you list that fit into the mold of someone making music by their own rules? Aphex Twin is the most 'punk rock' you can get while not incorporating any noisy guitars or d-beats whatsoever. Selected Ambient Works took the idea of what people thought of electronic music at that point and turned it into a universe to visit. It's blasphemous to think that absolutely NONE of his work deserves a spot and beyond ridiculous to leave off Boards of Canada, Air, Four Tet, etc. To be fair, they did include Burial, Kraftwerk, and Daft Punk, but adding AM by Arctic Monkeys without any further respect for the genre should be grounds for divorce. At the end of the day, it's just one list in a galaxy of lists put out by these companies who most likely compile the albums present by weighing out the top albums of Rate Your Music and whatever is going to give them more engagement, but I think it's important to give Aphex Twin the respect he deserves. His face is weird, and his music is timeless, and you can't ignore that.",
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "trackName": "Xtal",
+      "writer": "Richard D. James",
+      "duration": "4:51"
+    },
+    {
+      "trackNumber": 2,
+      "trackName": "Tha",
+      "writer": "Richard D. James",
+      "duration": "9:06"
+    },
+    {
+      "trackNumber": 3,
+      "trackName": "Pulsewidth",
+      "writer": "Richard D. James",
+      "duration": "3:47"
+    },
+    {
+      "trackNumber": 4,
+      "trackName": "Ageispolis",
+      "writer": "Richard D. James",
+      "duration": "5:23"
+    },
+    {
+      "trackNumber": 5,
+      "trackName": "i",
+      "writer": "Richard D. James",
+      "duration": "1:17"
+    },
+    {
+      "trackNumber": 6,
+      "trackName": "Green Calx",
+      "writer": "Richard D. James",
+      "duration": "6:02"
+    },
+    {
+      "trackNumber": 7,
+      "trackName": "Heliosphan",
+      "writer": "Richard D. James",
+      "duration": "4:51"
+    },
+    {
+      "trackNumber": 8,
+      "trackName": "We Are the Music Makers",
+      "writer": "Richard D. James",
+      "duration": "7:43"
+    },
+    {
+      "trackNumber": 9,
+      "trackName": "Schottkey 7th Path",
+      "writer": "Richard D. James",
+      "duration": "5:07"
+    },
+    {
+      "trackNumber": 10,
+      "trackName": "Ptolemy",
+      "writer": "Richard D. James",
+      "duration": "7:12"
+    },
+    {
+      "trackNumber": 11,
+      "trackName": "Hedphelym",
+      "writer": "Richard D. James",
+      "duration": "6:02"
+    },
+    {
+      "trackNumber": 12,
+      "trackName": "Delphium",
+      "writer": "Richard D. James",
+      "duration": "5:34"
+    },
+    {
+      "trackNumber": 13,
+      "trackName": "Actium",
+      "writer": "Richard D. James",
+      "duration": "7:35"
+    }
+  ]
 }
-
-
 
 ]
