@@ -3990,6 +3990,73 @@
       "duration": "7:35"
     }
   ]
+},
+{
+  "id": 46,
+  "entryNumber": "00046",
+  "artist": "New Order",
+  "album": "Power, Corruption & Lies",
+  "yearReleased": 1983,
+  "genre": "New Wave",
+  "subGenre": "Synth-Pop",
+  "image": "neworder.jpg",
+  "puremood": "Warehouse",
+  "season": "Spring",
+  "party": "yes",
+  "lyric": "When a new life turns towards you and the night becomes the day we shall remain forever. Everyone who meets this way",
+  "albumCoverRating": "8",
+  "review": "I think there is something beautiful about pain blooming into something beautiful. I don't have to tell anyone over the age of 15 that life can be hard, disappointing and overall depressing at times. It happens. Most people die unfulfilled and alone. I say this from a place of a realistic cavern instead of a dark den of depression. It's just the hand we are dealt. We are meant to live with only survival in mind. But if you want cool music, cold beers and a bank account with enough money to have cold air blow through your four walls and adobe slabs, you gotta suffer a little. So you pour your time into things you love. For some, it's a family. For others, it's a lifelong hobby or something they can leave behind as a mark in the history books. It's all we have and that's ok. I don't think this should be interpreted in a way where we should all give up and lie on the floor until death shows up to eat our black souls in case that's how you were reading it. This isn't a 'life is meaningless and nothing matters :(' but instead it's 'life is meaningless and nothing matters! :D'. It's all about perspective at the end of the day because we are all marching to the earthworm Gods we serve one way or another so we may as well eat shit, live decent and make things. For me, it's this stupid website. For others with bigger ambitions, it's making the music that is canvased all over this website. Ian Curtis wasn't a healthy-minded person and unfortunately instead of making the most of it, his brain made him march a different set of orders. But after Joy Division ended due to his ending, out sprung the life of two greats: Depeche Mode (more on Violator in the future) and New Order. While the former wrote music that belongs in a dark den of depression but with a disco ball, the latter seemed to take the idea of life, death and everything in between to make joyful, dancey and catchy beauty. Power, Corruption and Lies sneaks up on you. The opener Age of Consent is as perfect as a song gets. From there, it's a scaffolding of ideas that only inspire joy. I would love to see a list of artists inspired by New Order. Hell, I would settle for artists inspired specifically by Power, Corruption and Lies. Even listening to this day, I am gobsmacked at this album's inspiration on something as simple as getting up and getting the day started. This is a sunrise album that thrives on the depression life has to offer and in turn, makes it something beautiful.",
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "trackName": "Age of Consent",
+      "writer": "New Order",
+      "duration": "5:15"
+    },
+    {
+      "trackNumber": 2,
+      "trackName": "We All Stand",
+      "writer": "New Order",
+      "duration": "5:13"
+    },
+    {
+      "trackNumber": 3,
+      "trackName": "The Village",
+      "writer": "New Order",
+      "duration": "4:37"
+    },
+    {
+      "trackNumber": 4,
+      "trackName": "5 8 6",
+      "writer": "New Order",
+      "duration": "7:31"
+    },
+    {
+      "trackNumber": 5,
+      "trackName": "Your Silent Face",
+      "writer": "New Order",
+      "duration": "6:00"
+    },
+    {
+      "trackNumber": 6,
+      "trackName": "Ultraviolence",
+      "writer": "New Order",
+      "duration": "4:50"
+    },
+    {
+      "trackNumber": 7,
+      "trackName": "Ecstasy",
+      "writer": "New Order",
+      "duration": "4:25"
+    },
+    {
+      "trackNumber": 8,
+      "trackName": "Leave Me Alone",
+      "writer": "New Order",
+      "duration": "4:40"
+    }
+  ]
 }
+
 
 ]
