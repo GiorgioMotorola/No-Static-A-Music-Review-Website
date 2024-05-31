@@ -4056,7 +4056,110 @@
       "duration": "4:40"
     }
   ]
+},
+{
+  "id": 47,
+  "entryNumber": "00047",
+  "artist": "Lana Del Rey",
+  "album": "Ultraviolence",
+  "yearReleased": 2014,
+  "genre": "Pop",
+  "subGenre": "Dream Pop",
+  "image": "ldr.jpg",
+  "puremood": "Radio",
+  "season": "Autumn",
+  "party": "no",
+  "lyric": "I'm churning out novels like beat poetry on amphetamines",
+  "albumCoverRating": "8",
+  "review": "There is not a harder slap reality can give you than someone apparently cooler than you eating your life force and then floating away in black and grey smoke. Now, before you think this is some nerdy D&D shit, I mean literally. (Also, how dare you? Tabletop RPGs are our last bastion of creativity in this godforsaken world and you'd be smart in showing it some respect.) But also, I don't mean literally in a literal sense but literally in a figurative sense. I promise you I will land this plane. Think back to when you were in your 20s. Think back to when you pounded a couple drinks and then walked a half mile to the bars only to walk in and see the most alluring person on the planet. They are standing in the middle of a half circle entertaining everyone by doing nothing but breathing and existing. This person is not only beautiful but somehow radiates charisma and charm and love without saying a goddamn word. They are a beautiful lich radiating magic at every angle. (Again, D&D rocks and you should be ashamed of yourself for knocking it.) And before you can drink your 3rd drink of the night in order to stuff the courage inside of your throat to speak to this 'Wicked Lich of the Best' type beat of a person, they are gone and all that's left are dark shadows and grey cigarette smoke. All that is left is dark and grey. All that is left to do is to stew in the air. See, I told you I would land the plane. Just to be clear, I am not talking about seeing Lana Del Rey at a bar. As a matter of fact, I am not talking about anyone in particular. No one in the world exists who possesses these powers intentionally. Yes, there are people out there that can hold court and yes some people are so beautiful and easy on the eyes that their entire life is attention from anyone and everyone. But deep down, I would hazard to guess these people are just as insecure and confused about life as you are. They are just better at hiding it. I feel this way about Lana Del Rey. She is beautiful, talented, enchanting, mysterious and at the same time, very damaged on the inside. I don't know anything about her world outside of her music but if I were to make a guess, I would imagine she feels the same way. I would think she has been that person at the bar looking at another person in the bar thinking 'good lord where do I find THAT confidence?!'. That's the feeling I get when I listen to Ultraviolence with its lush strings backed with some of the most melodramatic pop music you can think of. But just like all of us, she makes the best of it all. She has 'a boyfriend in the band and she gets high on hydroponic weed'. Sometimes, she is at her lowest and she is 'a sad girl' and sometimes a 'bad girl'. But she tries to balance it all out and even at her saddest moments, she is 'prettiest when she cries'. There are a range of human emotions on Lana's albums and while she isn't a Leonard Cohen or a Joanna Newsom when it comes to her prose, she can convey what it's like to be human, to be insecure and to be the birthday candle in a circle of adoring admirers before they are blown away into a puff of black and grey smoke.",
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "trackName": "Cruel World",
+      "writer": "Lana Del Rey, Blake Stranathan",
+      "duration": "6:39"
+    },
+    {
+      "trackNumber": 2,
+      "trackName": "Ultraviolence",
+      "writer": "Lana Del Rey, Daniel Heath",
+      "duration": "4:11"
+    },
+    {
+      "trackNumber": 3,
+      "trackName": "Shades of Cool",
+      "writer": "Lana Del Rey, Rick Nowels",
+      "duration": "5:42"
+    },
+    {
+      "trackNumber": 4,
+      "trackName": "Brooklyn Baby",
+      "writer": "Lana Del Rey, Barrie O'Neill",
+      "duration": "5:51"
+    },
+    {
+      "trackNumber": 5,
+      "trackName": "West Coast",
+      "writer": "Lana Del Rey, Rick Nowels",
+      "duration": "4:16"
+    },
+    {
+      "trackNumber": 6,
+      "trackName": "Sad Girl",
+      "writer": "Lana Del Rey, Rick Nowels",
+      "duration": "5:17"
+    },
+    {
+      "trackNumber": 7,
+      "trackName": "Pretty When You Cry",
+      "writer": "Lana Del Rey, Blake Stranathan",
+      "duration": "3:54"
+    },
+    {
+      "trackNumber": 8,
+      "trackName": "Money Power Glory",
+      "writer": "Lana Del Rey, Greg Kurstin",
+      "duration": "4:30"
+    },
+    {
+      "trackNumber": 9,
+      "trackName": "Fucked My Way Up to the Top",
+      "writer": "Lana Del Rey, Dan Heath",
+      "duration": "3:32"
+    },
+    {
+      "trackNumber": 10,
+      "trackName": "Old Money",
+      "writer": "Lana Del Rey, Rick Nowels",
+      "duration": "4:31"
+    },
+    {
+      "trackNumber": 11,
+      "trackName": "The Other Woman",
+      "writer": "Jessie Mae Robinson",
+      "duration": "3:01"
+    },
+    {
+      "trackNumber": 12,
+      "trackName": "Black Beauty",
+      "writer": "Lana Del Rey, Rick Nowels",
+      "duration": "5:14"
+    },
+    {
+      "trackNumber": 13,
+      "trackName": "Guns and Roses",
+      "writer": "Lana Del Rey, Rick Nowels",
+      "duration": "4:29"
+    },
+    {
+      "trackNumber": 14,
+      "trackName": "Florida Kilos",
+      "writer": "Lana Del Rey, Harmony Korine, Dan Auerbach",
+      "duration": "4:14"
+    }
+  ]
 }
+
 
 
 ]
