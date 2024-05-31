@@ -13,6 +13,28 @@ export default {
         </div>
         <div class="review-line">
           <div class="most-recent-review-1">
+            <a href="https://nostatic.mweatherford.rocks/47">
+              <img src="/ldr.jpg" alt="">
+            </a>
+          </div>
+          <div class="most-recent-review-2">
+            <a href="https://nostatic.mweatherford.rocks/46">
+              <img src="/neworder.jpg" alt="">
+            </a>
+          </div>
+          <div class="most-recent-review-3">
+            <a href="https://nostatic.mweatherford.rocks/45">
+              <img src="/saw1.png" alt="">
+            </a>
+          </div>
+          <div class="most-recent-review-4">
+            <a href="https://nostatic.mweatherford.rocks/44">
+              <img src="/green.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="review-line">
+          <div class="most-recent-review-1">
             <a href="https://nostatic.mweatherford.rocks/43">
               <img src="/bonito.jpg" alt="">
             </a>
@@ -30,28 +52,6 @@ export default {
           <div class="most-recent-review-4">
             <a href="https://nostatic.mweatherford.rocks/40">
               <img src="/earth.jpg" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="review-line">
-          <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/39">
-              <img src="/stevearc.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/38">
-              <img src="/beastiepaul.png" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/37">
-              <img src="/johnhenry.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/36">
-              <img src="/masters.png" alt="">
             </a>
           </div>
         </div>
