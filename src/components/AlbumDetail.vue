@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="lyrics">
-                &ldquo; {{ album.lyric }} &rdquo;
+                &ldquo;{{ album.lyric }}&rdquo;
             </div>
             <div class="review-section">
                 <div class="review">{{ album.review }}</div>

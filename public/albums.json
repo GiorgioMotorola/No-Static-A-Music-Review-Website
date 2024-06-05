@@ -4158,8 +4158,95 @@
       "duration": "4:14"
     }
   ]
+},
+{
+  "id": 48,
+  "entryNumber": "00048",
+  "artist": "Todd Rundgren",
+  "album": "Runt: The Ballad of Todd Rundgren",
+  "yearReleased": 1971,
+  "genre": "Rock",
+  "subGenre": "Singer/Songwritter",
+  "image": "runt.jpg",
+  "puremood": "Cookout",
+  "season": "Summer",
+  "party": "no",
+  "lyric": "I feel too good to go to work today.",
+  "albumCoverRating": "8",
+  "review": "I currently live in a pretty nice apartment with two roommates and a dog. It's big enough to allow us enough space for privacy but we all get along and the dog is very sweet. I figured I would always live in an apartment when I was a younger adult because I always loved the idea of living in a city with enough to do that I wouldn't need to spend much time cooped up in any space. And for the longest time, that's how I lived my life. But now that I am looking at my 40s in a few short years, I find myself more of a homebody than anything. I like living and being surrounded by things I like. I like sitting on my porch drinking beer and listening to music. Sure I still go to bars on occasion but especially in 2024, it can get super expensive very quickly and most of the patrons are 10 plus years younger than me. Such is life. And now that house prices require you to make a million dollars and sell off body parts, I seem to be destined to live in apartments for the rest of my life. This feeling of wanting a backyard, a finished basement and a driveway in the suburbs really hit me when my best pal of 30 plus years asked me to dog-sit for his family for a week. When I wasn't at work, I spent most of that week running around the neighborhood, grilling ghost pepper mets, watching dumbass YouTube videos in the aforementioned finished basement, playing with his incredible dogs and listening to music. One of the albums that I got heavy into (especially while grilling delicious ghost pepper mets) was Runt: The Ballad of Todd Rundgren by Todd Rundgren. This album is the perfect mix of backyard grilling dad music in the summer and just enough experimentation to keep an old weirdo like me entertained. I know a lot of people tend to lean on his albums 'Something/Anything' and 'A Wizard/A True Star' and while those albums are great in their own right, this one was a lock in for me for that week. It's heartfelt and fun but just enough to get you thinking about where you are in life and to reaffirm a possible better life in the future.",
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "trackName": "Long Flowing Robe",
+      "writer": "Todd Rundgren",
+      "duration": "3:28"
+    },
+    {
+      "trackNumber": 2,
+      "trackName": "The Ballad (Denny & Jean)",
+      "writer": "Todd Rundgren",
+      "duration": "3:00"
+    },
+    {
+      "trackNumber": 3,
+      "trackName": "Bleeding",
+      "writer": "Todd Rundgren",
+      "duration": "4:05"
+    },
+    {
+      "trackNumber": 4,
+      "trackName": "Wailing Wall",
+      "writer": "Todd Rundgren",
+      "duration": "3:05"
+    },
+    {
+      "trackNumber": 5,
+      "trackName": "The Range War",
+      "writer": "Todd Rundgren",
+      "duration": "2:39"
+    },
+    {
+      "trackNumber": 6,
+      "trackName": "Chain Letter",
+      "writer": "Todd Rundgren",
+      "duration": "5:00"
+    },
+    {
+      "trackNumber": 7,
+      "trackName": "A Long Time, A Long Way to Go",
+      "writer": "Todd Rundgren",
+      "duration": "2:11"
+    },
+    {
+      "trackNumber": 8,
+      "trackName": "Boat on the Charles",
+      "writer": "Todd Rundgren",
+      "duration": "4:29"
+    },
+    {
+      "trackNumber": 9,
+      "trackName": "Be Nice to Me",
+      "writer": "Todd Rundgren",
+      "duration": "3:27"
+    },
+    {
+      "trackNumber": 10,
+      "trackName": "Hope I'm Around",
+      "writer": "Todd Rundgren",
+      "duration": "4:55"
+    },
+    {
+      "trackNumber": 11,
+      "trackName": "Parole",
+      "writer": "Todd Rundgren",
+      "duration": "4:23"
+    },
+    {
+      "trackNumber": 12,
+      "trackName": "Remember Me",
+      "writer": "Todd Rundgren",
+      "duration": "0:51"
+    }
+  ]
 }
-
-
-
 ]
