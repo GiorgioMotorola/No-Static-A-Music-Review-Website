@@ -4398,6 +4398,79 @@
       "duration": "6:46"
     }
   ]
+},
+{
+  "id": 51,
+  "entryNumber": "00051",
+  "artist": "Leonard Cohen",
+  "album": "Various Positions",
+  "yearReleased": 1984,
+  "genre": "Singer-Songwriter",
+  "subGenre": "Sophisti-Pop",
+  "image": "various-pos.jpg",
+  "puremood": "Library",
+  "season": "Autumn",
+  "party": "no",
+  "lyric": "I'm gonna miss you forever, though it's not what I planned. There's a law, there's an arm, there's a hand",
+  "albumCoverRating": "7",
+  "review": "I think I could cut it in NYC. I know that’s something every ol' chunk of coal says, but I mean it. High rising buildings tucked for miles and miles next to each other let you hide in plain sight, there are plenty of options for public transportation including walking, running, and biking, amazing food, fast walkers (that’s a HUGE one for me), and unique cultures to experience from block to block. Honestly, the only thing stopping me is not having a lot of money. But once I get a lot of money... boy oh boy New York, New York here I come! Maybe I am being overconfident. Maybe the city would swallow me whole and spit me out on that body of water that Tom Hanks crashed a plane into. But in my heart of hearts, I know I would be up for the adventure.\n\nI want to walk around aimlessly in a long peacoat with a fluffy, wide scarf stepping on orange, red, and yellow fallen leaves looking for the best dim sum restaurant that happens to be located in an alleyway. I want to run the NYC marathon. I want to die in a mahogany-covered apartment surrounded by books I have never read, looking at some guy robbing another guy at knifepoint. Either that or a cabin in the woods. I have a lot of aspirations, dreams, and goals. But frankly, that’s what keeps a person moving on. In my deepest fantasy, I am on that walk, I find that dim sum restaurant, and strike up a conversation with the person next to me who mentions a tiny bar a few blocks away that makes the best bourbon-based cocktail and has the best music playing. He takes me there, and if he doesn’t rob me at knifepoint, we drink an old-fashioned and talk about how Leonard Cohen aged better than whatever year bourbon poison was sitting in our guts.\n\nEven though Leonard Cohen is from Quebec, he always sounded like an autumn sunset in a huge city. He always sounded like stomping your fancy boots onto colorful fallen leaves looking for something to do. He sounds like dusty old beautiful books surrounding a snooty apartment on the 3rd floor in the best neighborhood in Brooklyn. A thin old bicycle hangs near the door, begging to be derusted, and some exotic soup simmers on a stove that could use a scrub. That’s not to say that Leonard Cohen is a stuffy serious artist. Listen to any of his live albums, and you’ll soon recognize his humor and charm as something that is earned over years of not taking life too seriously. His kitschy drum machine-accompanied ballads and dry deadpan delivery should remind you more of They Might Be Giants than Giant Sand. I know those two artists aren’t necessarily related and this analogy doesn’t quite work, but I am keeping it because it looks good in print.\n\nAs for the album in question, Various Positions, I will say this: there are a handful of Cohen albums that people would put over this one, but this one needs a reevaluation. Maybe Songs of Love and Hate and You Want it Darker could topple it, but this thing is full of some of the most ear-pleasing, deep, and dark ballads that can be put on while you stir your exotic soup, saying to yourself, \"I should really read that dusty tome on my shelf one day.\"",
+  "tracks": [
+    {
+      "trackNumber": 1,
+      "trackName": "Dance Me to the End of Love",
+      "writer": "Leonard Cohen",
+      "duration": "4:40"
+    },
+    {
+      "trackNumber": 2,
+      "trackName": "Coming Back to You",
+      "writer": "Leonard Cohen",
+      "duration": "3:30"
+    },
+    {
+      "trackNumber": 3,
+      "trackName": "The Law",
+      "writer": "Leonard Cohen",
+      "duration": "4:27"
+    },
+    {
+      "trackNumber": 4,
+      "trackName": "Night Comes On",
+      "writer": "Leonard Cohen",
+      "duration": "4:40"
+    },
+    {
+      "trackNumber": 5,
+      "trackName": "Hallelujah",
+      "writer": "Leonard Cohen",
+      "duration": "4:39"
+    },
+    {
+      "trackNumber": 6,
+      "trackName": "The Captain",
+      "writer": "Leonard Cohen",
+      "duration": "4:06"
+    },
+    {
+      "trackNumber": 7,
+      "trackName": "Hunter's Lullaby",
+      "writer": "Leonard Cohen",
+      "duration": "2:23"
+    },
+    {
+      "trackNumber": 8,
+      "trackName": "Heart with No Companion",
+      "writer": "Leonard Cohen",
+      "duration": "3:04"
+    },
+    {
+      "trackNumber": 9,
+      "trackName": "If It Be Your Will",
+      "writer": "Leonard Cohen",
+      "duration": "3:43"
+    }
+  ]
 }
+
 
 ]

@@ -30,6 +30,7 @@ export default {
                 "Power Pop",
                 "Punk",
                 "Rock",
+                "Singer-Songwriter",
                 "Sophisti-Pop",
                 "Soul",
                 "Vaporwave",
