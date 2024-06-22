@@ -147,7 +147,7 @@ export default {
               <a href="https://nostatic.mweatherford.rocks/albums/seasons/Winter">
                 Winter&nbsp;&nbsp;&nbsp;&nbsp;
               </a>
-              <a href="https://nostatic.mweatherford.rocks/albums/puremoods/">
+              <a href="https://nostatic.mweatherford.rocks/albums/seasons/">
                 <span style="color: #D66C56;">go to seasons...</span>
               </a>
             </div>
