@@ -1,22 +1,20 @@
 <template>
   <div id="app">
+    <nav class="nav-link">
+      <router-link to="/">Home</router-link> &#5869; 
+      <router-link to="/albums">Albums</router-link> &#5869; 
+      <router-link to="/albums/genres">Genres</router-link> &#5869; 
+      <router-link to="/albums/seasons">Seasons</router-link> &#5869; 
+      <router-link to="/albums/puremoods">Pure Moods</router-link> &#5869; 
+      <router-link to="/nsrc">NSRC</router-link>
+    </nav>
     <div class="title">
-      <div class="image-container">
-        <img src="../public/cassette-logo.jpg" alt="Image">
-      </div>
       <div class="title-text">
-        <span>NO STATIC RECORDS</span>
+        No Static <br> Records
         <div class="title-second">The most essential albums of all time, according to one guy.</div>
       </div>
     </div>
-    <nav class="nav-link">
-      <router-link to="/">Home</router-link>
-      <router-link to="/albums">Albums</router-link>
-      <router-link to="/albums/genres">Genres</router-link>
-      <router-link to="/albums/seasons">Seasons</router-link>
-      <router-link to="/albums/puremoods">Pure Moods</router-link>
-      <router-link to="/nsrc">NSRC</router-link>
-    </nav>
+    <div class="border"></div>
     <router-view></router-view>
   </div>
   <footer>
@@ -48,12 +46,11 @@ template {
 }
 
 .title {
-  color: white;
-  text-align: center;
-  font-size: 60px;
+  text-align: start;
+  font-size: 120px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   margin-right: 4.5%;
 }
 
@@ -62,33 +59,42 @@ template {
 }
 
 .title-text {
+  color: #1E1E1E;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+  padding: 10px;
 }
 
 .title-second {
-  font-size: 14px;
+  font-size: 25px;
   text-align: center;
-  color: #D66C56;
+  color: #1E1E1E;
+}
+
+.border {
+  border-bottom: .5px solid;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 10px;
 }
 
 .nav-link {
   overflow: hidden;
-  background-color: #191919;
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 300px;
-  gap: 20px;
-  background-color: #52515139;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  border-bottom: 1.75px solid #000000;
 }
 
 .nav-link a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   margin: 0 10px;
-  background-color: #52515139;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .nav-link a:hover {
@@ -102,30 +108,29 @@ a {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  color: #1E1E1E;
   padding: 15px;
   width: calc(100% - 30px);
   bottom: 0;
 }
 
 .footer-content {
+  color: #1E1E1E;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
 }
 
 .footer-content p {
+  color: #1E1E1E;
   margin: 0;
-  background-color: #333;
 }
 
 .footer-content ul {
+  color: #1E1E1E;
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #333;
   margin-right: 30px;
 }
 
@@ -140,9 +145,8 @@ footer {
 }
 
 .footer-content ul li a {
-  color: #fff;
+  color: #1E1E1E;
   text-decoration: none;
-  background-color: #333;
 }
 
 @media (max-width: 1300px) {
@@ -157,44 +161,38 @@ footer {
   }
 
   .nav-link {
-    overflow: hidden;
-    background-color: #191919;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 8px 80px;
-    gap: 10px;
-    background-color: #52515139;
-  }
+  overflow: hidden;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
-  .nav-link a {
-    text-decoration: none;
-    font-size: 12px;
-    margin: 0 30px;
-    color: rgb(255, 255, 255);
-    background-color: #52515139;
-  }
+.nav-link a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+}
 
 }
 
 @media (max-width: 1000px) {
 
   .nav-link {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 8px 100px;
-    gap: 15px;
-    background-color: #52515139;
-  }
+  overflow: hidden;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
+.nav-link a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+}
   .title {
     font-size: 50px;
-  }
-
-  .nav-link a {
-    font-size: 12px;
-    margin: 0 8.5px;
-    background-color: #52515139;
   }
 }
 
@@ -214,19 +212,18 @@ footer {
   }
 
   .nav-link {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0px 6px;
-    gap: 20px;
-    background-color: #52515139;
-  }
+  overflow: hidden;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
-  .nav-link a {
-    font-size: 9px;
-    margin: 10px 0px;
-    background-color: #52515139;
-  }
+.nav-link a {
+  text-decoration: none;
+  font-size: 10px;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+}
 
   .footer-content ul {
     font-size: 10px;

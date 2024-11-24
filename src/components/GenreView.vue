@@ -44,7 +44,8 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: #D66C56;
+    color: #1E1E1E;
+    font-weight: 900;
 }
 
 .section-title {
@@ -92,7 +93,7 @@ a {
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: #D66C56;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }

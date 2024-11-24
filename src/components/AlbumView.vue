@@ -1,16 +1,16 @@
 <template>
-  <div class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span> albums</div>
+  <div class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;;">|</span> albums</div>
   <div class="container">
     <div class="album-list">
       <div v-for="album in albums" :key="album.id" class="album-list-item">
         <router-link :to="{ name: 'AlbumDetail', params: { id: album.id } }">
-          <div class="album-entry">
-            <img :src="album.image" alt="Album Cover">
-            <div class="album-details">
+          <div class="album-details">
               <div class="artist-name">{{ album.artist }}</div>
               <div class="album-name">{{ album.album }}</div>
               <div class="album-entry-number">&#x2116; {{ album.entryNumber }}</div>
             </div>
+          <div class="album-entry">
+            <img :src="album.image" alt="Album Cover">
           </div>
         </router-link>
       </div>
@@ -52,7 +52,7 @@ export default {
 .album-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 30px;
   justify-items: center;
 }
 
@@ -73,7 +73,7 @@ export default {
   padding: 10px;
   margin-left: 1rem;
   font-size: 30px;
-  color: #ECDBBA;
+  color: #1E1E1E;
 }
 
 .section-title a {
@@ -86,29 +86,38 @@ a {
 }
 
 .artist-name {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-style:normal;
+  font-size: 20px;
+  border-bottom: 1px solid;
 }
 
 .album-name {
-  color: #D66C56;
+  color: #1E1E1E;
+  font-weight: 900;
   font-style: italic;
+  font-size: 15px;
 }
 
 .album-entry-number {
-  color: rgb(190, 190, 190);
-  font-size: 11px;
+  color: #D66C56;
+  font-size: 15px;
+  font-weight: 900;
 }
 
 .album-entry img {
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 200px;
-  max-height: 200px;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height: 400px;
   transition: box-shadow 0.2s ease;
+  border: 2px double;
+  border-color: #1E1E1E;
 }
 
 .album-entry img:hover {
-  box-shadow: rgba(223, 223, 223, 0.78) 0px 0px 0.25em, rgba(143, 150, 163, 0.471) 0px 0.25em 1em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
