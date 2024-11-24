@@ -200,7 +200,7 @@ footer {
   .title {
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 50px;
   }
 
   .image-container img {
@@ -208,7 +208,7 @@ footer {
   }
 
   .title-second {
-    font-size: 7px;
+    font-size: 12px;
   }
 
   .nav-link {
@@ -220,7 +220,7 @@ footer {
 
 .nav-link a {
   text-decoration: none;
-  font-size: 7px;
+  font-size: 10px;
   margin: 0 10px;
   color: rgb(0, 0, 0);
 }
