@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <nav class="nav-link">
-      <router-link to="/">Home</router-link> &#5869; 
-      <router-link to="/albums">Albums</router-link> &#5869; 
-      <router-link to="/albums/genres">Genres</router-link> &#5869; 
-      <router-link to="/albums/seasons">Seasons</router-link> &#5869; 
-      <router-link to="/albums/puremoods">Pure Moods</router-link> &#5869; 
-      <router-link to="/nsrc">NSRC</router-link>
+      <router-link to="/">Home &#5869; </router-link>
+      <router-link to="/albums">Albums &#5869; </router-link>
+      <router-link to="/albums/genres">Genres &#5869; </router-link>
+      <router-link to="/albums/seasons">Seasons &#5869; </router-link>
+      <router-link to="/albums/puremoods">Pure Moods &#5869; </router-link>
+      <router-link to="/nsrc">NSRC  &#5869; </router-link>
     </nav>
     <div class="title">
       <div class="title-text">
