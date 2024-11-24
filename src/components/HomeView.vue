@@ -462,5 +462,11 @@ export default {
 .puremood a {
   font-size: 12px;
 }
+
+.genre-title,
+.seasons-title,
+.puremood-title {
+  font-size: 25px;
+}
 }
 </style>
