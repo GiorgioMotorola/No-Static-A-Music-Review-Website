@@ -448,6 +448,11 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
+
+  .album-list {
+    margin-right: 5%;
+  }
+
   .album-entry {
   font-size: 12px;
 }
