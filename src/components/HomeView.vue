@@ -1,37 +1,3 @@
-<script>
-import axios from "axios"; 
-
-export default {
-  name: "Home",
-  data() {
-    return {
-      albums: [],
-      isReversed: false,
-    };
-  },
-  mounted() {
-    this.fetchAlbums();
-  },
-  methods: {
-    fetchAlbums() {
-      axios.get("albums.json").then((response) => {
-        this.albums = response.data;
-      }).catch(error => {
-        console.error("Error fetching albums:", error);
-      });
-    },
-    toggleOrder() {
-      this.isReversed = !this.isReversed;
-    }
-  },
-  computed: {
-    sortedAlbums() {
-      return this.isReversed ? [...this.albums].reverse() : this.albums;
-    }
-  },
-};
-</script>
-
 <template>
   <div class="container">
     <div class="body">
@@ -86,9 +52,11 @@ export default {
           <div class="album-list">
   <div class="genre-title">
     + albums +&nbsp;&nbsp;
+    <div class="toggle-button">
     <button @click="toggleOrder">
-      Switch Order
+      {{ orderIcon }}
     </button>
+  </div>
   </div>
   <div v-for="album in sortedAlbums" :key="album.id" class="album-list-item">
     <router-link :to="{ name: 'AlbumDetail', params: { id: album.id } }">
@@ -159,6 +127,44 @@ export default {
     </div>
   </div>
 </template>
+
+<script>
+import axios from "axios"; 
+
+export default {
+  name: "Home",
+  data() {
+    return {
+      albums: [],
+      isReversed: false,
+    };
+  },
+  mounted() {
+    this.fetchAlbums();
+  },
+  methods: {
+    fetchAlbums() {
+      axios.get("albums.json").then((response) => {
+        this.albums = response.data;
+      }).catch(error => {
+        console.error("Error fetching albums:", error);
+      });
+    },
+    toggleOrder() {
+      this.isReversed = !this.isReversed;
+    }
+  },
+  computed: {
+    sortedAlbums() {
+      return this.isReversed ? [...this.albums].reverse() : this.albums;
+    }, 
+    orderIcon() {
+      return this.isReversed ? '↓' : '↑';
+    }
+  },
+};
+</script>
+
 
 <style scoped>
 * {
@@ -338,6 +344,10 @@ export default {
 
 .go-to-link a:hover {
   background-color: #F8F4F4;
+}
+
+.toggle-button button {
+  font-size: 15px;
 }
 
 
