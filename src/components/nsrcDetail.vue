@@ -1,10 +1,10 @@
 <template>
     <div v-if="nsrc" class="section-title">
         <router-link to="/">home</router-link>
-        <span style="color: white;"> |</span>
+        <span style="color: #5479b4;"> |</span>
         <router-link to="/nsrc"> no static record catalogue</router-link>
-        <span style="color: white;"> | </span>
-        <router-link to="/"><span style="color: #ECDBBA; text-transform: lowercase;">#{{ nsrc.nsrcListing
+        <span style="color: #5479b4;"> | </span>
+        <router-link to="/"><span style="color: black; text-transform: lowercase;">#{{ nsrc.nsrcListing
                 }}</span></router-link>
     </div>
     <div class="album-details-container">
@@ -133,7 +133,7 @@ export default {
 }
 
 .write-up {
-    color: #c9c8c8;
+    color: #1e1e1e;
     font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -222,7 +222,6 @@ export default {
     }
 
     .write-up {
-        color: #c9c8c8;
         margin-top: 0rem;
         font-size: 20px;
         padding: 6%;
@@ -287,7 +286,6 @@ export default {
     }
 
     .write-up {
-        color: #c9c8c8;
         margin-top: 0rem;
         font-size: 16px;
         padding: 6%;

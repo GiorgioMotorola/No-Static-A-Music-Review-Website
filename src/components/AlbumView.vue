@@ -1,5 +1,5 @@
 <template>
-  <div class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;;">|</span> albums</div>
+  <div class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;">|</span> albums</div>
   <div class="container">
     <div class="album-list">
       <div v-for="album in albums" :key="album.id" class="album-list-item">

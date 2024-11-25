@@ -1,7 +1,7 @@
 <template>
-    <div v-if="album" class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span>
-        <router-link to="/albums"> albums</router-link> <span style="color: white;">|</span> <router-link
-            to="/albums"><span style="color: #ECDBBA; text-transform: lowercase;">{{
+    <div v-if="album" class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;">|</span>
+        <router-link to="/albums"> albums</router-link> <span style="color: #5479b4;">|</span> <router-link
+            to="/albums"><span style="color: black; text-transform: lowercase;">{{
                 album.album }}</span></router-link>
     </div>
     <div class="album-details-container">
@@ -21,11 +21,11 @@
                 </div>
             </div>
             <div class="feeling">
-                <div class="entry-number"><span style="color: #ECDBBA;">&#x2116; <router-link to="/albums">{{
+                <div class="entry-number"><span style="color: #1e1e1e;">&#x2116; <router-link to="/albums">{{
                     album.entryNumber }}</router-link></span></div>
-                <div class="puremood"><span style="color: #ECDBBA;">&#127796; <router-link to="/albums/puremoods">{{
+                <div class="puremood"><span style="color: #1e1e1e;">&#127796; <router-link to="/albums/puremoods">{{
                     album.puremood }}</router-link></span></div>
-                <div class="season"><span style="color: #ECDBBA;">&#x2600; <router-link to="/albums/seasons">{{
+                <div class="season"><span style="color: #1e1e1e;">&#x2600; <router-link to="/albums/seasons">{{
                     album.season }}</router-link></span></div>
             </div>
             <div class="tracks">
@@ -72,11 +72,11 @@ export default {
         ratingColor() {
             const rating = parseInt(this.album.albumCoverRating);
             if (rating >= 1 && rating <= 3) {
-                return '#D66C56'; 
+                return '#1e1e1e'; 
             } else if (rating >= 4 && rating <= 6) {
-                return '#ECDBBA'; 
+                return '#1e1e1e'; 
             } else if (rating >= 7 && rating <= 10) {
-                return '#47B878'; 
+                return '#1e1e1e'; 
             } else {
                 return 'white'; 
             }
@@ -107,14 +107,14 @@ export default {
 * {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #1e1e1e;
 }
 
 .section-title {
     padding: 10px;
     margin-left: 1rem;
     font-size: 30px;
-    color: #ECDBBA;
+    color: #5479b4;
 }
 
 .section-title a {
@@ -137,7 +137,7 @@ export default {
 
 .album {
     font-size: 45px;
-    text-decoration: underline 2px #ECDBBA;
+    text-decoration: underline 2px #5479b4;
     text-underline-offset: 5px;
     text-align: center;
     color: #D66C56;
@@ -147,7 +147,7 @@ export default {
     font-size: 14px;
     text-align: center;
     font-style: italic;
-    color: #ffffff;
+    color: #1E1E1E;
     margin-top: 1px;
     font-size: 12px;
 }
@@ -181,7 +181,7 @@ export default {
 .puremood,
 .season,
 .entry-number {
-    color: #fafafa;
+    color: #1E1E1E;
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -226,12 +226,12 @@ export default {
 }
 
 .track-name {
-    color: #D66C56;
+    color: #1e1e1e;
 }
 
 .track-number {
     font-size: 30px;
-    color: #ECDBBA;
+    color: #5479b4;
 }
 
 .track-info {
@@ -273,7 +273,7 @@ export default {
 }
 
 .review {
-    color: #c9c8c8;
+    color: #1e1e1e;
     font-family: "IBM Plex Mono", monospace;
     line-height: 1.5;
 }
@@ -286,6 +286,8 @@ img {
     min-height: 350px;
     min-width: 350px;
     max-width: 350px;
+    border: 2px double;
+    border-color: #1E1E1E;
 }
 
 
@@ -331,12 +333,10 @@ img {
     .artist {
         font-size: 25px;
         text-align: center;
-        color: rgb(86, 97, 97);
     }
 
     .album {
         font-size: 30px;
-        text-decoration: underline 2px #ECDBBA;
         text-underline-offset: 5px;
     }
 
@@ -356,7 +356,6 @@ img {
 
     img {
         border-radius: 0%;
-        border: 5px #333 solid;
         margin-bottom: 1rem;
         max-height: 250px;
         min-height: 200px;
@@ -392,7 +391,6 @@ img {
 
     .track-number {
         font-size: 25px;
-        color: #ECDBBA;
     }
 
     .track-info {
@@ -406,7 +404,6 @@ img {
     .track-duration {
         margin-right: 5px;
         font-size: 13px;
-        color: #5479b4;
     }
 
     .lyrics {

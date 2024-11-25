@@ -1,16 +1,10 @@
 <template>
     <div v-if="nsrc" class="section-title">
         <router-link to="/">home</router-link>
-        <span style="color: white;"> |</span>
-        <router-link to="/nsrc"><span style="color: #ECDBBA; "> no static record catalogue</span></router-link>
+        <span style="color: #5479b4;"> |</span>
+        <router-link to="/nsrc"><span style="color: black"> no static record catalogue</span></router-link>
         <span style="color: white;"></span>
     </div>
-    <!-- <div class="title">
-        The No Static Record Catalogue is not real. But it's really fun. Artists with sizeable discographies have a
-        secret album inside of them. NSRC aims to gather 10 tracks from these artists albums with senquencing, theme and
-        mood in mind and deliver an album name, what the album cover may look like and a Spotify playlist if you choose
-        to listen. Click an artist below to read.
-    </div> -->
     <div class="container">
         <div class="album-list-item">
             <div v-for="album in nsrc" :key="album.id" class="album-list">
@@ -53,7 +47,8 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: #D66C56;
+    color: #1E1E1E;
+    font-weight: 900;
 }
 
 .title {
@@ -109,7 +104,7 @@ a {
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: #D66C56;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }

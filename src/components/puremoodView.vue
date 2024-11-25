@@ -1,6 +1,6 @@
 <template>
     <div class="section-title">
-        <router-link to="/">home</router-link> <span style="color: white;">|</span> pure moods
+        <router-link to="/">home</router-link> <span style="color: #5479b4;">|</span> pure moods
     </div>
     <div class="container">
         <div class="puremood-list-item">
@@ -16,12 +16,6 @@
                 </span>
             </div>
         </div>
-        <!-- <div class="disclaimer-container">
-            <div class="disclaimer">Note: I am aware that a lot of albums could fit in more than one category so I
-                placed an
-                album in the category I thought was the best fit. If you have an argument why one album belongs in a
-                different category, please reach out. You can find my contact info in the footer link "PORTFOLIO".</div>
-        </div> -->
     </div>
 </template>
 
@@ -80,7 +74,8 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: #D66C56;
+    color: #1E1E1E;
+    font-weight: 900;
 }
 
 .tooltip-icon {
@@ -89,13 +84,13 @@ export default {
     position: relative;
     font-size: 25px;
     line-height: 1.2;
-    color: #ffffff;
+    color: black;
 }
 
 .tooltip-text {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: black;
     padding: 5px 10px;
     border-radius: 5px;
     top: -30px;
@@ -108,7 +103,7 @@ export default {
     padding: 10px;
     margin-left: 1rem;
     font-size: 30px;
-    color: #ECDBBA;
+    color: black;
 }
 
 .section-title a {
@@ -149,7 +144,7 @@ a {
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: #D66C56;
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }

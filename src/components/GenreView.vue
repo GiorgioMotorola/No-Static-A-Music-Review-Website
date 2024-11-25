@@ -1,5 +1,5 @@
 <template>
-    <div class="section-title"><router-link to="/">home</router-link> <span style="color: white;">|</span> genres</div>
+    <div class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;">|</span> genres</div>
     <div class="container">
         <div class="genre-list-item">
             <div v-for="genre in genres" :key="genre" class="genre-list">
@@ -52,7 +52,7 @@ export default {
     padding: 10px;
     margin-left: 1rem;
     font-size: 30px;
-    color: #ECDBBA;
+    color: black;
 }
 
 .section-title a {
