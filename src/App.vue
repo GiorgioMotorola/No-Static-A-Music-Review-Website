@@ -10,7 +10,7 @@
     </nav>
     <div class="title">
       <div class="title-text">
-        No Static <br> Records
+        [ No Static ] Records
         <div class="title-second">The most essential albums of all time, according to one guy.</div>
       </div>
     </div>
@@ -47,11 +47,11 @@ template {
 
 .title {
   text-align: start;
-  font-size: 120px;
+  font-size: 90px;
   display: flex;
   align-items: start;
   justify-content: start;
-  margin-right: 4.5%;
+  color: rgb(43,46,40);
 }
 
 .image-container img {
@@ -59,17 +59,18 @@ template {
 }
 
 .title-text {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 10px;
+  padding-top: 3%;
+  padding-bottom: 1%;
 }
 
 .title-second {
-  font-size: 25px;
-  text-align: center;
-  color: #1E1E1E;
+  font-size: 20px;
+  color: rgb(73, 73, 68);
+  padding: 1.5%;
 }
 
 .border {
@@ -87,14 +88,14 @@ template {
   position: sticky;
   top: 0;
   overflow: hidden;
-  border-bottom: 1.75px solid #000000;
+  border-bottom: 1.75px solid rgb(43,46,40);
 }
 
 .nav-link a {
   text-decoration: none;
   font-size: 20px;
   margin: 0 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(43,46,40);
 }
 
 .nav-link a:hover {
@@ -103,31 +104,31 @@ template {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(43,46,40);
   text-transform: uppercase;
 }
 
 footer {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   padding: 15px;
   width: calc(100% - 30px);
   bottom: 0;
 }
 
 .footer-content {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .footer-content p {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   margin: 0;
 }
 
 .footer-content ul {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -145,7 +146,7 @@ footer {
 }
 
 .footer-content ul li a {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   text-decoration: none;
 }
 
@@ -155,9 +156,12 @@ footer {
   }
 
   .title {
-    color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
+  }
+
+  .title-second {
+    font-size: 17px;
   }
 
   .nav-link {
@@ -171,7 +175,7 @@ footer {
   text-decoration: none;
   font-size: 20px;
   margin: 0 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(43,46,40);
 }
 
 }
@@ -189,16 +193,19 @@ footer {
   text-decoration: none;
   font-size: 20px;
   margin: 0 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(43,46,40);
 }
   .title {
-    font-size: 50px;
+    font-size: 70px;
+  }
+
+  .title-second {
+    font-size: 17px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .title {
-    color: white;
     text-align: center;
     font-size: 50px;
   }
@@ -220,9 +227,9 @@ footer {
 
 .nav-link a {
   text-decoration: none;
-  font-size: 10px;
-  margin: 0 10px;
-  color: rgb(0, 0, 0);
+  font-size: 8px;
+  margin: 0 7.5px;
+  color: rgb(43,46,40);
 }
 
   .footer-content ul {

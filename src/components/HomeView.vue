@@ -193,7 +193,7 @@ export default {
 .latest-reviews {
   text-align: start;
   font-size: 25px;
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   margin-left: 1.25%;
 }
 
@@ -224,7 +224,7 @@ export default {
 .most-recent-review-2 img:hover,
 .most-recent-review-3 img:hover,
 .most-recent-review-4 img:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgb(43,46,40);
 }
 
 .border {
@@ -253,7 +253,7 @@ export default {
 }
 
 .album-list-item {
-  border-bottom: 1px solid #1E1E1E;
+  border-bottom: 1px solid rgb(43,46,40);
 }
 
 .album-list-item:last-child {
@@ -282,13 +282,13 @@ export default {
 
 
 .album-details {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   font-size: 20px;
 }
 
 .artist-name {
   font-size: 25px;
-  color: #1E1E1E;
+  color: rgb(43,46,40);
 }
 
 

@@ -1,7 +1,7 @@
 <template>
-    <div v-if="album" class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;">|</span>
-        <router-link to="/albums"> albums</router-link> <span style="color: #5479b4;">|</span> <router-link
-            to="/albums"><span style="color: black; text-transform: lowercase;">{{
+    <div v-if="album" class="section-title"><router-link to="/">home</router-link> <span style="color: rgb(43,46,40);">|</span>
+        <router-link to="/albums"> albums</router-link> <span style="color: rgb(43,46,40);">|</span> <router-link
+            to="/albums"><span style="color: rgb(43,46,40); text-transform: lowercase;">{{
                 album.album }}</span></router-link>
     </div>
     <div class="album-details-container">
@@ -114,7 +114,7 @@ export default {
     padding: 10px;
     margin-left: 1rem;
     font-size: 30px;
-    color: #5479b4;
+    color: rgb(43,46,40);
 }
 
 .section-title a {
@@ -137,7 +137,7 @@ export default {
 
 .album {
     font-size: 45px;
-    text-decoration: underline 2px #5479b4;
+    text-decoration: underline 2px rgb(43,46,40);
     text-underline-offset: 5px;
     text-align: center;
     color: #D66C56;
@@ -147,7 +147,7 @@ export default {
     font-size: 14px;
     text-align: center;
     font-style: italic;
-    color: #1E1E1E;
+    color: rgb(43,46,40);
     margin-top: 1px;
     font-size: 12px;
 }
@@ -161,8 +161,8 @@ export default {
     margin-left: 20rem;
     margin-right: 20rem;
     margin-bottom: 8rem;
-    border-top: 1px solid rgba(49, 49, 49, 0.398);
-    border-bottom: 1px solid rgba(49, 49, 49, 0.398);
+    border-top: 1px solid rgb(43,46,40);
+    border-bottom: 1px solid rgb(43,46,40);
 }
 
 .album-cover-rating-container {
@@ -181,7 +181,7 @@ export default {
 .puremood,
 .season,
 .entry-number {
-    color: #1E1E1E;
+    color: rgb(43,46,40);
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -226,7 +226,7 @@ export default {
 }
 
 .track-name {
-    color: #1e1e1e;
+    color: rgb(43,46,40);
 }
 
 .track-number {
@@ -268,12 +268,12 @@ export default {
     margin-left: 15%;
     margin-right: 15%;
     line-height: 1.2;
-    border-top: 1px solid rgba(117, 114, 114, 0.164);
-    border-bottom: 1px solid rgba(117, 114, 114, 0.164);
+    border-top: 1px solid rgb(43,46,40);
+    border-bottom: 1px solid rgb(43,46,40);
 }
 
 .review {
-    color: #1e1e1e;
+    color: rgb(43,46,40);
     font-family: "IBM Plex Mono", monospace;
     line-height: 1.5;
 }
@@ -287,7 +287,7 @@ img {
     min-width: 350px;
     max-width: 350px;
     border: 2px double;
-    border-color: #1E1E1E;
+    border-color: rgb(43,46,40);
 }
 
 
