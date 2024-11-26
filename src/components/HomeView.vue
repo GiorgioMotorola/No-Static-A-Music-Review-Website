@@ -6,44 +6,9 @@
           Latest Reviews
         </div>
         <div class="review-line">
-          <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/46">
-              <img src="/neworder.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/45">
-              <img src="/saw1.png" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/44">
-              <img src="/green.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/43">
-              <img src="/bonito.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-1">
-            <a href="https://nostatic.mweatherford.rocks/50">
-              <img src="/let-go.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-2">
-            <a href="https://nostatic.mweatherford.rocks/49">
-              <img src="/black-saint.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-3">
-            <a href="https://nostatic.mweatherford.rocks/48">
-              <img src="/runt.jpg" alt="">
-            </a>
-          </div>
-          <div class="most-recent-review-4">
-            <a href="https://nostatic.mweatherford.rocks/47">
-              <img src="/ldr.jpg" alt="">
+          <div v-for="(album, index) in mostRecentAlbums" :key="index" class="most-recent-review">
+            <a :href="album.id">
+              <img :src="album.image" alt="Album cover">
             </a>
           </div>
         </div>
@@ -160,6 +125,9 @@ export default {
     }, 
     orderIcon() {
       return this.isReversed ? '↓' : '↑';
+    },
+    mostRecentAlbums() {
+      return [...this.albums].sort((a, b) => b.id - a.id).slice(0, 8);
     }
   },
 };
@@ -204,10 +172,7 @@ export default {
   margin-top: 1rem;
 }
 
-.most-recent-review-1 img,
-.most-recent-review-2 img,
-.most-recent-review-3 img,
-.most-recent-review-4 img {
+.most-recent-review img {
   margin: auto;
   display: block;
   min-width: 150px;
@@ -220,10 +185,7 @@ export default {
   border:1px double;
 }
 
-.most-recent-review-1 img:hover,
-.most-recent-review-2 img:hover,
-.most-recent-review-3 img:hover,
-.most-recent-review-4 img:hover {
+.most-recent-review img:hover {
   box-shadow: 0 2px 8px rgb(43,46,40);
 }
 
@@ -388,10 +350,7 @@ export default {
   margin-top: 1rem;
 }
 
-.most-recent-review-1 img,
-.most-recent-review-2 img,
-.most-recent-review-3 img,
-.most-recent-review-4 img {
+.most-recent-review img {
   margin: auto;
   display: block;
   min-width: 125px;
@@ -430,17 +389,11 @@ export default {
     margin-top: 1rem;
   }
 
-  .most-recent-review-1,
-  .most-recent-review-2,
-  .most-recent-review-3,
-  .most-recent-review-4 {
+  .most-recent-review {
     flex-basis: calc(25% - 1rem);
   }
 
-  .most-recent-review-1 img,
-  .most-recent-review-2 img,
-  .most-recent-review-3 img,
-  .most-recent-review-4 img {
+  .most-recent-review {
     min-width: 150px;
     max-width: 150px;
     min-height: 150px;
