@@ -270,8 +270,8 @@ export default {
     margin-top: 50px;
     font-size: 20px;
     padding: 6%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
     line-height: 1.2;
     border-top: 1px solid rgb(43,46,40);
     border-bottom: 1px solid rgb(43,46,40);
