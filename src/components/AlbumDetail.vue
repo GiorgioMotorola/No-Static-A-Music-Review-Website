@@ -133,6 +133,7 @@ export default {
     font-size: 30px;
     text-align: center;
     color: rgb(86, 97, 97);
+    font-weight: 500;
 }
 
 .album {
@@ -141,6 +142,7 @@ export default {
     text-underline-offset: 5px;
     text-align: center;
     color: #D66C56;
+    font-weight: 600;
 }
 
 .genre {
@@ -223,6 +225,7 @@ export default {
 .track-details {
     display: flex;
     align-items: center;
+    font-weight: 500;
 }
 
 .track-name {
@@ -232,6 +235,7 @@ export default {
 .track-number {
     font-size: 30px;
     color: #5479b4;
+    font-weight: 500;
 }
 
 .track-info {
@@ -246,6 +250,7 @@ export default {
     margin-right: 5px;
     font-size: 13px;
     color: #5479b4;
+    font-weight: 500;
 }
 
 .lyrics {
@@ -270,11 +275,12 @@ export default {
     line-height: 1.2;
     border-top: 1px solid rgb(43,46,40);
     border-bottom: 1px solid rgb(43,46,40);
+    font-weight: 500;
 }
 
 .review {
     color: rgb(43,46,40);
-    font-family: "IBM Plex Mono", monospace;
+    /* font-family: "IBM Plex Mono", monospace; */
     line-height: 1.5;
 }
 
