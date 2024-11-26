@@ -1,5 +1,5 @@
 <template>
-  <div class="section-title"><router-link to="/">home</router-link> <span style="color: #5479b4;">|</span> albums</div>
+  <div class="section-title"><router-link to="/">home</router-link> <span style="color: rgb(43,46,40);">|</span> albums</div>
   <div class="container">
     <div class="album-list">
       <div v-for="album in albums" :key="album.id" class="album-list-item">
@@ -66,14 +66,13 @@ export default {
   text-overflow: ellipsis;
   white-space: wrap;
   font-size: 12px;
-  color: white;
 }
 
 .section-title {
   padding: 10px;
   margin-left: 1rem;
   font-size: 30px;
-  color: #1E1E1E;
+  color: rgb(43,46,40);
 }
 
 .section-title a {
@@ -86,7 +85,7 @@ a {
 }
 
 .artist-name {
-  color: rgb(0, 0, 0);
+  color: rgb(43,46,40);
   font-weight: 900;
   font-style:normal;
   font-size: 20px;
@@ -94,7 +93,7 @@ a {
 }
 
 .album-name {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   font-weight: 900;
   font-style: italic;
   font-size: 15px;
@@ -113,11 +112,11 @@ a {
   max-height: 400px;
   transition: box-shadow 0.2s ease;
   border: 2px double;
-  border-color: #1E1E1E;
+  border-color: rgb(43,46,40);
 }
 
 .album-entry img:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgb(43,46,40);
 }
 
 @media (max-width: 600px) {

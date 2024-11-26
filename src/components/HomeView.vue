@@ -277,7 +277,8 @@ export default {
 }
 
 .artist {
-  color: #D66C56;         
+  color: #D66C56;    
+  font-weight: 700;     
 }
 
 
@@ -339,7 +340,7 @@ export default {
 .genres a:hover,
 .seasons a:hover,
 .puremood a:hover  {
-  background-color: #5479b4;
+  background-color: #6c85af;
 }
 
 .go-to-link a:hover {
@@ -454,13 +455,15 @@ export default {
   }
 
   .album-entry {
-  font-size: 12px;
+  font-size: 11.5px;
+  padding: 2%;
 }
 
 .genres a,
 .seasons a,
 .puremood a {
-  font-size: 12px;
+  font-size: 11.5px;
+  padding: 2%;
 }
 
 .genre-title,

@@ -1,8 +1,8 @@
 <template>
     <div class="section-title"><router-link to="/">home</router-link>
-        <span style="color: #5479b4;"> |</span>
-        <router-link to="/albums/seasons"> seasons</router-link> <span style="color: #5479b4;">|</span>
-        <span style="color: black; text-transform: lowercase;">&nbsp;{{
+        <span style="color: rgb(43,46,40);"> |</span>
+        <router-link to="/albums/seasons"> seasons</router-link> <span style="color: rgb(43,46,40);">|</span>
+        <span style="color: rgb(43,46,40); text-transform: lowercase;">&nbsp;{{
             season }}
         </span>
     </div>
@@ -57,7 +57,7 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: #1E1E1E;
+    color: rgb(43,46,40);
     font-weight: 900;
 }
 
@@ -65,7 +65,7 @@ export default {
     padding: 10px;
     margin-left: 1rem;
     font-size: 30px;
-    color: black;
+    color: rgb(43,46,40);
 }
 
 .section-title a {

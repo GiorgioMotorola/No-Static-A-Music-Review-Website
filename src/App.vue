@@ -227,8 +227,8 @@ footer {
 
 .nav-link a {
   text-decoration: none;
-  font-size: 8px;
-  margin: 0 7.5px;
+  font-size: 9px;
+  margin: 0 5px;
   color: rgb(43,46,40);
 }
 

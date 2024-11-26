@@ -1,8 +1,8 @@
 <template>
     <div v-if="nsrc" class="section-title">
         <router-link to="/">home</router-link>
-        <span style="color: #5479b4;"> |</span>
-        <router-link to="/nsrc"><span style="color: black"> no static record catalogue</span></router-link>
+        <span style="color: rgb(43,46,40);"> |</span>
+        <router-link to="/nsrc"><span style="color: rgb(43,46,40);"> no static record catalogue</span></router-link>
         <span style="color: white;"></span>
     </div>
     <div class="container">
@@ -47,7 +47,7 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: #1E1E1E;
+    color: rgb(43,46,40);
     font-weight: 900;
 }
 

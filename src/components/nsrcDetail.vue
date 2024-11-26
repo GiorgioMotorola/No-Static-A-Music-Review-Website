@@ -1,10 +1,10 @@
 <template>
     <div v-if="nsrc" class="section-title">
         <router-link to="/">home</router-link>
-        <span style="color: #5479b4;"> |</span>
+        <span style="color: rgb(43,46,40);"> |</span>
         <router-link to="/nsrc"> no static record catalogue</router-link>
-        <span style="color: #5479b4;"> | </span>
-        <router-link to="/"><span style="color: black; text-transform: lowercase;">#{{ nsrc.nsrcListing
+        <span style="color: rgb(43,46,40);"> | </span>
+        <router-link to="/"><span style="color: rgb(43,46,40); text-transform: lowercase;">#{{ nsrc.nsrcListing
                 }}</span></router-link>
     </div>
     <div class="album-details-container">
@@ -105,7 +105,7 @@ export default {
 }
 
 .img-container img {
-    border: 2.5px solid rgb(0, 0, 0);
+    border: 2.5px solid rgb(43,46,40);
     border-radius: 1.5%;
     max-width: 500px;
 }
@@ -133,7 +133,7 @@ export default {
 }
 
 .write-up {
-    color: #1e1e1e;
+    color: rgb(43,46,40);
     font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -227,8 +227,8 @@ export default {
         padding: 6%;
         margin: 1%;
         line-height: 1.2;
-        border-top: 1px solid rgba(117, 114, 114, 0.164);
-        border-bottom: 1px solid rgba(117, 114, 114, 0.164);
+        border-top: 1px solid rgb(43,46,40);
+        border-bottom: 1px solid rgb(43,46,40);
     }
 
     .spotify-wrapper {
@@ -291,8 +291,8 @@ export default {
         padding: 6%;
         margin: 1%;
         line-height: 1.2;
-        border-top: 1px solid rgba(117, 114, 114, 0.164);
-        border-bottom: 1px solid rgba(117, 114, 114, 0.164);
+        border-top: 1px solid rgb(43,46,40);
+        border-bottom: 1px solid rgb(43,46,40);
     }
 
     .spotify-wrapper {

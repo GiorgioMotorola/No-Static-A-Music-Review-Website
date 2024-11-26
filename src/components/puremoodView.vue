@@ -1,6 +1,6 @@
 <template>
     <div class="section-title">
-        <router-link to="/">home</router-link> <span style="color: #5479b4;">|</span> pure moods
+        <router-link to="/">home</router-link> <span style="color: rgb(43,46,40);">|</span> pure moods
     </div>
     <div class="container">
         <div class="puremood-list-item">
@@ -74,7 +74,7 @@ export default {
 <style scoped>
 * {
     text-decoration: none;
-    color: #1E1E1E;
+    color: rgb(43,46,40);
     font-weight: 900;
 }
 
@@ -84,13 +84,13 @@ export default {
     position: relative;
     font-size: 25px;
     line-height: 1.2;
-    color: black;
+    color: rgb(43,46,40);
 }
 
 .tooltip-text {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    color: black;
+    color: rgb(43,46,40);
     padding: 5px 10px;
     border-radius: 5px;
     top: -30px;
@@ -103,7 +103,7 @@ export default {
     padding: 10px;
     margin-left: 1rem;
     font-size: 30px;
-    color: black;
+    color: rgb(43,46,40);
 }
 
 .section-title a {
