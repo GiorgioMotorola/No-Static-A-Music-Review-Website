@@ -86,7 +86,7 @@ a {
 
 .artist-name {
   color: rgb(43,46,40);
-  font-weight: 900;
+  font-weight: 600;
   font-style:normal;
   font-size: 20px;
   border-bottom: 1px solid;
@@ -94,7 +94,7 @@ a {
 
 .album-name {
   color: rgb(43,46,40);
-  font-weight: 900;
+  font-weight: 600;
   font-style: italic;
   font-size: 15px;
 }
@@ -102,7 +102,7 @@ a {
 .album-entry-number {
   color: #D66C56;
   font-size: 15px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .album-entry img {

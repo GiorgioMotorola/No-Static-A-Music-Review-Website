@@ -239,8 +239,10 @@ export default {
 }
 
 .artist {
-  color: #D66C56;    
-  font-weight: 700;     
+  color: #C96868;   
+  font-weight: 500;   
+  background-color: black;  
+  padding-left: 1.25%;
 }
 
 
