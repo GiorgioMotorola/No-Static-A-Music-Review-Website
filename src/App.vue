@@ -10,7 +10,7 @@
     </nav>
     <div class="title">
       <div class="title-text">
-        [ No Static ] Records
+        [no-static] records
         <div class="title-second">The most essential albums of all time, according to one guy.</div>
       </div>
     </div>
