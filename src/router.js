@@ -10,6 +10,7 @@ import puremoodAlbums from './components/puremoodAlbums.vue';
 import puremoodView from './components/puremoodView.vue';
 import nsrcView from './components/nsrcView.vue';
 import nsrcDetail from './components/nsrcDetail.vue';
+import TopAlbums2024 from './components/TopAlbums2024.vue';
 
 const routes = [
   { path: '/', component: HomeView },
@@ -46,6 +47,13 @@ const routes = [
     path: '/nsrc/:id',
     name: 'nsrcDetail',
     component: nsrcDetail,
+    props: true,
+  },
+  { path: '/top2024', component: TopAlbums2024 },
+  {
+    path: '/top2024/',
+    name: 'TopAlbums2024',
+    component: TopAlbums2024,
     props: true,
   },
 ];

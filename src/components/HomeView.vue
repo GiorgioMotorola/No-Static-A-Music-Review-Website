@@ -3,7 +3,7 @@
     <div class="body">
       <div class="review-container">
         <div class="latest-reviews">
-          Latest Reviews
+          latest reviews
         </div>
         <div class="review-line">
           <div v-for="(album, index) in mostRecentAlbums" :key="index" class="most-recent-review">
@@ -163,6 +163,7 @@ export default {
   font-size: 25px;
   color: rgb(43,46,40);
   margin-left: 1.25%;
+  padding-bottom: 2%;
 }
 
 .review-line {
@@ -231,11 +232,12 @@ export default {
 }
 
 .album-entry:hover {
-  background-color:#5479b4;
+  background-color:#5b6b72;
 }
 
 .album-entry:hover .artist {
     background-color: inherit; 
+    border-bottom: 1.5px solid black;
 }
 
 .artist {
@@ -244,7 +246,6 @@ export default {
   background-color: black;  
   padding-left: 1.25%;
 }
-
 
 .album-details {
   color: rgb(43,46,40);
@@ -280,7 +281,7 @@ export default {
 .genre-title,
 .seasons-title,
 .puremood-title {
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   font-size: 50px;
   margin-bottom: .5rem;
   margin-top: .5rem;
@@ -292,7 +293,7 @@ export default {
 .seasons a,
 .puremood a {
   text-decoration: none;
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -304,11 +305,11 @@ export default {
 .genres a:hover,
 .seasons a:hover,
 .puremood a:hover  {
-  background-color: #6c85af;
+  background-color:#bfc5ce;
 }
 
 .go-to-link a:hover {
-  background-color: #F8F4F4;
+  border-bottom: 1.5px solid #bfc5ce;
 }
 
 .toggle-button button {
@@ -333,7 +334,7 @@ export default {
 .seasons a,
 .puremood a {
   text-decoration: none;
-  color: #1E1E1E;
+  color: rgb(43,46,40);
   font-size: 15px;
   display: flex;
   flex-direction: column;

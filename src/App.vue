@@ -11,7 +11,7 @@
     <div class="title">
       <div class="title-text">
         [no-static] records
-        <div class="title-second">The most essential albums of all time, according to one guy.</div>
+        <div class="title-second">the most essential albums of all time, according to one guy.</div>
       </div>
     </div>
     <div class="border"></div>
@@ -59,7 +59,7 @@ template {
 }
 
 .title-text {
-  color: rgb(43,46,40);
+  color: rgb(106, 110, 102);
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -68,9 +68,9 @@ template {
 }
 
 .title-second {
-  font-size: 20px;
-  color: rgb(73, 73, 68);
-  padding: 1.5%;
+  font-size: 22px;
+  color: rgb(43,46,40);
+  padding: 2%;
 }
 
 .border {
@@ -89,6 +89,7 @@ template {
   top: 0;
   overflow: hidden;
   border-bottom: 1.75px solid rgb(43,46,40);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .nav-link a {
