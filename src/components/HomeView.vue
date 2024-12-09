@@ -242,7 +242,7 @@ export default {
 
 .artist {
   color: #41799e; 
-  font-weight: 900;   
+  font-weight: 400;   
   /* background-color: rgb(31, 29, 29);   */
   padding-left: 1.25%;
 }
