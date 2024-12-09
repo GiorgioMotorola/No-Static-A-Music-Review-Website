@@ -265,8 +265,8 @@ export default {
 }
 
 .ranking {
-  font-size: 55px;
-  margin-right: 10%;
+  font-size: 70px;
+  text-align: center;
 }
 
 .genre {
@@ -276,13 +276,18 @@ export default {
 
 .desc {
   font-size: 15px;
+  margin-right: 0%;
 }
 
 .music-for {
   font-size: 15px;
+  margin-right: 0%;
 }
 
-
+.rank-title-artist {
+  display: flex;
+  flex-direction: column
+}
 
 }
 
