@@ -232,7 +232,7 @@ export default {
 }
 
 .album-entry:hover {
-  background-color:#5b6b72;
+  background-color:#bbc6ca;
 }
 
 .album-entry:hover .artist {
@@ -241,9 +241,9 @@ export default {
 }
 
 .artist {
-  color: #C96868;   
-  font-weight: 500;   
-  background-color: black;  
+  color: #41799e; 
+  font-weight: 900;   
+  /* background-color: rgb(31, 29, 29);   */
   padding-left: 1.25%;
 }
 
