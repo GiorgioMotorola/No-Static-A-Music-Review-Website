@@ -197,7 +197,7 @@ export default {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
@@ -234,8 +234,9 @@ export default {
 }
 
 @media only screen and (max-width: 1000px) {
+
   .main-title {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 10%;
   }
 
@@ -254,6 +255,35 @@ export default {
   .video-wrapper {
     max-width: 400px;
   }
+
+  .title {
+  font-size: 20px;
+}
+
+.artist {
+  font-size: 20px;
+}
+
+.ranking {
+  font-size: 55px;
+  margin-right: 10%;
+}
+
+.genre {
+  font-size: 12px;
+  margin-bottom: 6%;
+}
+
+.desc {
+  font-size: 15px;
+}
+
+.music-for {
+  font-size: 15px;
+}
+
+
+
 }
 
 
