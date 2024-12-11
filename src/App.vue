@@ -7,6 +7,7 @@
       <router-link to="/albums/seasons">Seasons &#5869; </router-link>
       <router-link to="/albums/puremoods">Pure Moods &#5869; </router-link>
       <router-link to="/nsrc">NSRC  &#5869; </router-link>
+      <router-link to="/top2024"><span style="color:steelblue;">TOP ALBUMS OF 2024</span> &#5869; </router-link>
     </nav>
     <div class="title">
       <div class="title-text">
@@ -43,6 +44,10 @@ export default defineComponent({
 template {
   margin: 0;
   box-sizing: border-box;
+}
+
+.top-of-year {
+  font-size: 20px;
 }
 
 .title {
@@ -230,7 +235,7 @@ footer {
 
 .nav-link a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 9px;
   margin: 0 5px;
   color: rgb(43,46,40);
 }
