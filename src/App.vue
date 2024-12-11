@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <nav class="nav-link">
-      <router-link to="/">Home &#5869; </router-link>
-      <router-link to="/albums">Albums &#5869; </router-link>
-      <router-link to="/albums/genres">Genres &#5869; </router-link>
-      <router-link to="/albums/seasons">Seasons &#5869; </router-link>
-      <router-link to="/albums/puremoods">Pure Moods &#5869; </router-link>
-      <router-link to="/nsrc">NSRC  &#5869; </router-link>
-      <router-link to="/top2024"><span style="color:steelblue;">TOP ALBUMS OF 2024</span> &#5869; </router-link>
+      <router-link to="/">Home </router-link>
+      <router-link to="/albums">Albums </router-link>
+      <router-link to="/albums/genres">Genres </router-link>
+      <router-link to="/albums/seasons">Seasons </router-link>
+      <router-link to="/albums/puremoods">Pure Moods </router-link>
+      <router-link to="/nsrc">NSRC </router-link>
+      <router-link to="/top2024"><span style="color:steelblue;">TOP ALBUMS OF 2024</span></router-link>
     </nav>
     <div class="title">
       <div class="title-text">
