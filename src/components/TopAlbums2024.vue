@@ -256,8 +256,13 @@ export default {
     max-width: 400px;
   }
 
+  .main-title {
+    font-size: 25px;
+  }
+
+
   .title {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .artist {
