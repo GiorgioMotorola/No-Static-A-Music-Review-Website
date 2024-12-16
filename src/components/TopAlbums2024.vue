@@ -2,7 +2,7 @@
   <div class="album-list">
     <div class="main-title">TOP 50 ALBUMS OF 2024</div>
     <div>
-      <div v-for="(album, index) in reversedAlbums" :key="index" class="album-entry">
+      <div v-for="(album, index) in paginatedAlbums" :key="index" class="album-entry">
         <div class="rank-title-artist">
           <div class="ranking">{{ album.rank }}</div>
           <div class="title-artist">
@@ -30,8 +30,14 @@
         <div class="divide"></div>
       </div>
     </div>
+    <div class="pagination">
+      <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
+      <button v-for="page in totalPages" :key="page" @click="goToPage(page)" :class="{ active: page === currentPage }">{{ page }}</button>
+      <button @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+    </div>
   </div>
 </template>
+
 
 
 <script>
@@ -91,14 +97,48 @@ export default {
         { rank: '3',cover: './albums2024/magda.jpg', title: 'Imaginal Disk', artist: 'Magdalena Bay', videoId: 'PE6yDzNQ0Ac', genre: 'Synthpop, Neo-Psychedelia', soundsLike:'the pop music that lives deep in your heart',  desc: 'Magdalena Bay is a force to be reckoned with. There isn\'t a band going right now that is doing pop music as good as they are and I mean that with my entire chest. The duo has been writing music for mix cd\'s for a few years now and they already sound like they have been at it for 50 years. In a world where Glitchpop and Hyperpop have essentially become mainstream thanks to Charli XCX (yes I like that album but it\'s been a great year, cut me some slack that it isn\'t going to make the list), these two are instead distilling what makes those microgenres so engaging and putting them together with a swirl of Psychedelia. There is NO ONE that sounds like them and they make music sound extraordinary.' },
         { rank: '2',cover: './albums2024/vampire.png', title: 'Only God Was Above Us', artist: 'Vampire Weekend', videoId: 'Ns7umApdwOY', genre: 'Indie Rock, Chamber Pop', soundsLike:'wandering a city you love but have never been to',  desc: 'I have been a huge Vampire Weekend fan since their beginning days. I remember finding leaks of their demos just before their first full length and already knowing I was going to ride with this band for the rest of my life. But I assumed their peak had already passed. Boy was I wrong. I first heard this album with my best friend TJ at a cabin the minute it was released. At first, I didn\'t know what to make of it. Sure, it was good but after a couple more listens, it was pretty apparent this was their best record by a long shot. It\'s just experimental enough not to lose the plot, nostalgic enough to keep everything on the tracks and all out what I was not expecting for a band that has already done so much. An Instant classic.' },
         { rank: '1',cover: './albums2024/newsound.png', title: 'The New Sound', artist: 'Geordie Greep', videoId: 'A4EU_0vFzuU', genre: 'Jazz-Rock, Progressive Rock, Art Rock', soundsLike:'a smoky dive bar where everyone needs to be investigated',  desc: 'And here we have it. The best album of 2024. Honestly, I wasn\'t surprised I love this album as much as I did after the first listen. Geordie Greep has been impressing us for a few years with his work in Black MIDI but after they broke up and he announced his solo album, it could have gone sideways very easily. This is an internet band. The internet weirdos love this band and if he screwed up even just a little, it would have been over. But instead, he took Steely Dan and turned it up to 11. All the perv deadbeats that Donald Fagen sang about for years would be grossed out by Geordie\'s lowlifes. This album is full of so many ideas that it\'s about to pop but somehow it pulls it off. It\'s so close to the line of disaster that it has to be respected. Geordie Greep may go on to release a career of middling material but this album will go down as a perfect debut from an already impressive artist. But let\'s be honest: I think we all know we can expect huge things from this kid for years to come.' },
-      ]
+      ],
+      currentPage: 1,
+      itemsPerPage: 10
     };
   },
   computed: {
     reversedAlbums() {
       return this.albums.slice();
+    },
+    paginatedAlbums() {
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      const end = start + this.itemsPerPage;
+      return this.reversedAlbums.slice(start, end);
+    },
+    totalPages() {
+      return Math.ceil(this.albums.length / this.itemsPerPage);
     }
   },
+  methods: {
+    goToPage(page) {
+      this.currentPage = page;
+      this.scrollToTop();
+    },
+    nextPage() {
+      if (this.currentPage < this.totalPages) {
+        this.currentPage++;
+        this.scrollToTop();
+      }
+    },
+    prevPage() {
+      if (this.currentPage > 1) {
+        this.currentPage--;
+        this.scrollToTop();
+      }
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  }
 };
 </script>
 
@@ -233,6 +273,31 @@ export default {
   width: 100%;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgb(43,46,40);
+  color: #0d0d0e;
+  background-color: aliceblue;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .main-title {
@@ -293,6 +358,16 @@ export default {
   display: flex;
   flex-direction: column
 }
+
+.pagination button {
+  margin: 0 5px;
+  padding: 3px 7px;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgb(43,46,40);
+  color: #0d0d0e;
+  background-color: aliceblue;
+}
+
 
 }
 
