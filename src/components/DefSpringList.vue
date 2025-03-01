@@ -438,7 +438,7 @@ button {
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .calendar-grid {
     grid-template-columns: repeat(7, minmax(30px, 1fr)); 
   }
@@ -451,9 +451,9 @@ button {
   .album-cover {
     max-width: 60px;
   }
-}
+} */
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .calendar-grid {
     grid-template-columns: repeat(7, minmax(15px, 1fr)); 
   }
