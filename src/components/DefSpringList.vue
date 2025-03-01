@@ -467,17 +467,16 @@ button {
 
 .calendar-day {
   padding-top: .3rem;
-  max-height: 100px;
+  max-height: 90px;
   border: 1px solid #ddd;
   text-align: center;
   /* padding: 5px; */
   max-width: 200px;
-  height: 150px;
   background-color: white;
 }
 
 .day-date {
-  font-size: 12px;
+  font-size: 11px;
   padding-bottom: .5rem;
 }
 
@@ -489,6 +488,7 @@ button {
 
 .weather-type {
   padding-bottom: .5rem;
+  font-size: 7px;
 }
 
 .day-temp {
