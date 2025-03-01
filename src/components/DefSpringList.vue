@@ -40,7 +40,7 @@
               <div class="selected-day-date">{{ selectedAlbum?.date }} | Day</div>
               <div class="selected-temp-day">{{ selectedAlbum?.high }}°</div>
               <div class="selected-day-write-up">{{ selectedAlbum?.daywriteup }}</div>
-            </div>
+        </div>
         <div class="night-box">
           <div class="selected-day-date">{{ selectedAlbum?.date }} | Night</div>
           <div class="selected-temp-night">{{ selectedAlbum?.low }}°</div>
@@ -62,6 +62,14 @@
             <div class="selected-album-genre">{{ selectedAlbum?.genre }}</div>
             <img v-if="selectedAlbum?.chart" :src="selectedAlbum.chart" alt="Album cover" class="selected-chart"/>
           </div>
+          <div v-if="youtubeEmbedUrl" class="youtube-mobile">
+              <iframe
+                :src="youtubeEmbedUrl"
+                frameborder="0"
+                allowfullscreen
+                class="youtube-video-mobile"
+              ></iframe>
+            </div>
         </div>
       </template>
     </div>
@@ -229,19 +237,11 @@ button {
   background-color: white;
 }
 
-.calendar-weekdays {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  background-color: white;
-  font-weight: bold;
-  padding: 0px 0;
-  text-align: center;
-}
-
 .calendar-weekdays, .calendar-row {
   display: grid;
   grid-template-columns: repeat(7, minmax(50px, 1fr));
   width: 100%;
+  background-color: #ffffff;
 }
 
 .weekday-header {
@@ -250,8 +250,8 @@ button {
   font-weight: 300;
   padding: 10px;
   font-size: 20px;
-  background-color: white;
   color: #af0606;
+  background-color: #ffffff;
 }
 
 .calendar-grid {
@@ -262,26 +262,18 @@ button {
   background-color: #ffffff;
 }
 
-.calendar-row {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 1px;
-  background-color: white;
-}
-
 .calendar-day {
   padding-top: .3rem;
   min-height: 80px;
   border: 1px solid #ddd;
   text-align: center;
-  /* padding: 5px; */
   max-width: 200px;
   height: 200px;
   background-color: white;
+  cursor: pointer;
 }
 
 .calendar-day:hover {
-  /* background-color: #f1f1f1; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -289,15 +281,15 @@ button {
   font-family: "IBM Plex Sans", serif;
   font-size: 20px;
   font-weight: 300;
-  background-color: #ffffff;
   padding-bottom: 2rem;
+  background-color: #ffffff;
 }
 
 .day-temp {
   font-size: 12px;
   color: gray;
-  background-color: #ffffff;
   font-family: "IBM Plex Sans", serif;
+  background-color: #ffffff;
 }
 
 .weather-icon {
@@ -315,14 +307,12 @@ button {
   background-color: #ffffff;
 }
 
-.album-details-left {
+.album-details-left, .album-details-right {
   flex: 1;
-  text-align: left;
   background-color: #ffffff;
 }
 
 .album-details-right {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -333,48 +323,45 @@ button {
   max-width: 250px;
   height: auto;
   border: solid 3px black;
+  background-color: #ffffff;
 }
 
 .selected-chart {
   max-width: 400px;
   height: auto;
   margin-top: 1.5rem;
+  background-color: #ffffff;
 }
 
 .selected-album-title-and-artist {
   font-size: 25px;
-  margin-top: 1px;
-  background-color: #ffffff;
+  margin-bottom: 0rem;
   font-family: "IBM Plex Sans", serif;
   font-style: italic;
   letter-spacing: .5px;
   font-weight: 400;
   border-bottom: 1px solid black;
+  background-color: #ffffff;
+  text-align: start;
+}
+
+.selected-album-year, .selected-album-genre {
+  font-family: "IBM Plex Sans", serif;
+  font-style: italic;
+  background-color: #ffffff;
 }
 
 .selected-album-year {
-  margin-top: .1rem;
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
   font-size: 15px;
-  font-style: italic;
+  background-color: #ffffff;
 }
-
 
 .selected-album-genre {
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
   font-size: 18px;
-}
-
-
-.weather-type {
   background-color: #ffffff;
-  padding-bottom: 3rem;
-  font-family: "IBM Plex Sans", serif;
 }
 
-.date-temp-container {
+.weather-type, .date-temp-container {
   background-color: #ffffff;
 }
 
@@ -383,220 +370,160 @@ button {
   display: flex;
   justify-content: center;
   border: solid 3px black;
+  background-color: #ffffff;
 }
 
 .youtube-video {
-  width: 100%;
   width: 700px;
   height: 400px;
 }
 
 .selected-day-container {
   display: flex;
-  gap: 16px; 
-  background-color: #ffffff;
+  gap: 16px;
   font-family: "IBM Plex Sans", serif;
+  background-color: #ffffff;
 }
 
 .day-box, .night-box {
   flex: 1;
   padding: 15px;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgb(0, 0, 0);
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
+  border: 1px solid black;
   margin-top: 2rem;
+  background-color: #ffffff;
 }
 
-.selected-temp-day {
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
+.selected-temp-day, .selected-temp-night {
   font-size: 40px;
   color: #af0606;
+  background-color: #ffffff;
+  text-align: start;
 }
 
-.selected-temp-night {
-  background-color: #ffffff;
+.selected-day-date, .selected-day-write-up, .selected-night-write-up {
   font-family: "IBM Plex Sans", serif;
-  font-size: 40px;
-  color: #af0606;
-}
-
-
-.selected-day-date {
-  margin-bottom: 8px;
   background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
 }
 
 .selected-day-write-up, .selected-night-write-up {
-  font-size: 15px;
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
+  text-align: start;
 }
 
-
-@media (max-width: 1000px) {
-  .calendar-grid {
-    grid-template-columns: repeat(7, minmax(15px, 1fr)); 
-  }
-
-  .calendar-container {
-  margin-left: 0%;
-  margin-right: 0%;
-  border: none;
-  box-shadow: none;
+.youtube-mobile, .youtube-video-mobile {
+  display: none;
 }
 
-.calendar-day {
-  padding-top: .3rem;
-  max-height: 90px;
-  border: 1px solid #ddd;
-  text-align: center;
-  max-width: 220px;
-  background-color: white;
-}
-
-.header-current-month {
-  font-size: 17px;
-}
-
-.day-date {
-  font-size: 11px;
-  padding-bottom: .5rem;
-}
-
-.weather-icon {
-  width: 20px;
-  height: 20px;
-  background-color: #ffffff;
-}
-
-.weather-type {
-  padding-bottom: .5rem;
-  font-size: 7px;
-}
-
-.day-temp {
-  font-size: 9px;
-  font-weight: 500;
-}
-
-.calendar-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  background-color: white;
-}
-
-.calendar-weekdays {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  background-color: white;
-  font-weight: bold;
-  padding: 0px 0;
-  text-align: center;
-}
-
-.calendar-weekdays, .calendar-row {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(50px, 1fr));
-  width: 100%;
-}
-
-.calendar-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  width: 95%;
-  background-color: #ffffff;
-}
-
-.calendar-row {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 1px;
-  background-color: white;
-}
-
-  .weekday-header {
-    font-size: 9px;
-    padding: 3px;
-  }
-
-  .calendar-day {
-    min-height: 40px;
-    font-size: 10px;
-  }
-
-  .album-cover {
-    max-width: 50px;
-  }
-
-  .selected-album-title-and-artist {
-  font-size: 15px;
-  margin-top: 0px;
-}
-
-.album-details-row {
-  flex-direction: column;
-  padding: .5rem;
-  gap: 10px;
-}
-
-.selected-day-container {
-  display: flex;
-  gap: 11px; 
-  flex-direction: column;
-}
-
-.day-box, .night-box {
-  flex: 1;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgb(0, 0, 0);
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
+@media (max-width: 1500px){
+  .day-box, .night-box {
+  padding: 8px;
   margin-top: .5rem;
 }
 
 .selected-temp-day {
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
-  font-size: 10px;
-  color: #af0606;
+  font-size: 22px;
 }
 
 .selected-temp-night {
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
-  font-size: 10px;
-  color: #af0606;
+  font-size: 22px;
 }
 
 .selected-day-write-up, .selected-night-write-up {
-  font-size: 10px;
-  background-color: #ffffff;
-  font-family: "IBM Plex Sans", serif;
+  font-size: 13px;
 }
 
 .youtube-video {
   width: 100%;
-  width: 350px;
-  height: 200px;
+  width: 475px;
+  height: 250px;
 }
 
 .selected-chart {
-  max-width: 300px;
-  height: auto;
+  max-width: 350px;
   margin-top: 1.5rem;
 }
 
+.selected-album-cover {
+  max-width: 200px;
+}
+
+.youtube-mobile, .youtube-video-mobile {
+  display: none;
+}
 
 }
+
+
+@media (max-width: 1140px) {
+  .calendar-container {
+    margin-left: 0%;
+    margin-right: 0%;
+    border: none;
+    box-shadow: none;
+  }
+  .calendar-day {
+    max-height: 90px;
+    max-width: 220px;
+  }
+  .header-current-month {
+    font-size: 17px;
+  }
+  .day-date {
+    font-size: 11px;
+    padding-bottom: .5rem;
+  }
+  .weather-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .weather-type {
+    padding-bottom: .5rem;
+    font-size: 7px;
+  }
+  .day-temp {
+    font-size: 9px;
+  }
+  .weekday-header {
+    font-size: 9px;
+    padding: 3px;
+  }
+  .selected-album-title-and-artist {
+    font-size: 15px;
+  }
+  .album-details-row {
+    flex-direction: column;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  .selected-day-container {
+    flex-direction: column;
+    gap: 11px;
+    text-align: start;
+  }
+  .selected-temp-day, .selected-temp-night {
+    font-size: 25px;
+  }
+  .selected-day-write-up, .selected-night-write-up {
+    font-size: 12px;
+  }
+
+  .youtube-mobile, .youtube-video-mobile {
+    display: flex;
+    width: 375px;
+    height: 200px;
+  }
+
+  .youtube {
+    display: none;
+  }
+
+  .selected-album-cover {
+  max-width: 250px;
+}
+
+.day-box, .night-box {
+  border: none;
+}
+}
 </style>
+
