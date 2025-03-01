@@ -85,6 +85,7 @@ const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frida
 const currentMonthIndex = ref(0);
 const selectedAlbum = ref(null);
 const selectedWeekIndex = ref(null);
+const selectedDateIndex = ref(null); 
 const days = ref({ April: [], May: [], June: [] });
 
 const monthStartDays = {
@@ -154,10 +155,11 @@ const weeks = computed(() => {
   return weeksArr;
 });
 
-const selectAlbum = (day, weekIndex) => {
+const selectAlbum = (day, weekIndex, dayIndex) => {
   if (!day) return;
   selectedAlbum.value = day.album;
   selectedWeekIndex.value = weekIndex;
+  selectedDateIndex.value = dayIndex; 
 };
 
 const prevMonth = () => {
@@ -165,6 +167,7 @@ const prevMonth = () => {
     currentMonthIndex.value--;
     selectedAlbum.value = null;
     selectedWeekIndex.value = null;
+    selectedDateIndex.value = null;
   }
 };
 
@@ -173,6 +176,7 @@ const nextMonth = () => {
     currentMonthIndex.value++;
     selectedAlbum.value = null;
     selectedWeekIndex.value = null;
+    selectedDateIndex.value = null;
   }
 };
 
@@ -182,7 +186,6 @@ const youtubeEmbedUrl = computed(() => {
   const videoId = videoIdMatch ? videoIdMatch[1] : null;
   return videoId ? `https://www.youtube.com/embed/${videoId}` : "";
 });
-
 </script>
 
 
@@ -478,7 +481,7 @@ button {
   }
   .weather-type {
     padding-bottom: .5rem;
-    font-size: 7px;
+    font-size: 6.5px;
   }
   .day-temp {
     font-size: 9px;

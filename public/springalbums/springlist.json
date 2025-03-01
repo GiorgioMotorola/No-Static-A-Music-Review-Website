@@ -46,8 +46,8 @@
         "weathericon": "/springalbums/weather.png",
         "chart": "/springalbums/chart-sam.PNG",
         "youtube": "https://www.youtube.com/watch?v=Yh6YnsfAsOQ",
-        "daywriteup": "",
-        "nightwriteup": "",
+        "daywriteup": "Cloudy skies early, followed by partial clearing. High 72F. Winds WNW at 10 to 20 mph.",
+        "nightwriteup": "Partly cloudy. Low 46F. Winds W at 5 to 10 mph",
         "selected": "false"
     },
     {
@@ -62,8 +62,8 @@
         "weathertype": "Overcast",
         "weathericon": "/springalbums/clouds.png",
         "youtube": "https://www.youtube.com/watch?v=VhwbiwR0VMk",
-        "daywriteup": "",
-        "nightwriteup": "",
+        "daywriteup": "Overcast. High 77F. Winds S at 10 to 20 mph.",
+        "nightwriteup": "Potential for rain. Low 56F. Winds SSE at 10 to 20 mph.",
         "selected": "false"
     },
     {
