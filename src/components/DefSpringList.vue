@@ -470,8 +470,7 @@ button {
   max-height: 90px;
   border: 1px solid #ddd;
   text-align: center;
-  /* padding: 5px; */
-  max-width: 200px;
+  max-width: 220px;
   background-color: white;
 }
 
@@ -521,16 +520,6 @@ button {
   width: 100%;
 }
 
-.weekday-header {
-  text-align: center;
-  font-family: "IBM Plex Sans", serif;
-  font-weight: 300;
-  padding: 10px;
-  font-size: 20px;
-  background-color: white;
-  color: #af0606;
-}
-
 .calendar-grid {
   display: flex;
   flex-direction: column;
@@ -547,8 +536,8 @@ button {
 }
 
   .weekday-header {
-    font-size: 10px;
-    padding: 5px;
+    font-size: 9px;
+    padding: 3px;
   }
 
   .calendar-day {
