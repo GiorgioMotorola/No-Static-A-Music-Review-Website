@@ -95,7 +95,8 @@ template {
   overflow: hidden;
   border-bottom: 1.75px solid rgb(43,46,40);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  z-index: 999;
 }
 
 .nav-link a {
@@ -103,7 +104,7 @@ template {
   font-size: 20px;
   margin: 0 10px;
   color: rgb(43,46,40);
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .nav-link a:hover {
@@ -120,6 +121,9 @@ footer {
   color: rgb(43,46,40);
   padding: 15px;
   width: calc(100% - 30px);
+  bottom: 0;
+  position: relative;
+  left: 0;
   bottom: 0;
 }
 

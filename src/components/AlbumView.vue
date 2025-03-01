@@ -119,6 +119,34 @@ a {
   box-shadow: 0 2px 8px rgb(43,46,40);
 }
 
+@media (max-width: 1350px) {
+  .album-entry img {
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .album-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+}
+
+
+@media (max-width: 1700px) {
+  .album-entry img {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    transition: box-shadow 0.2s ease;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     margin-top: 19%;
