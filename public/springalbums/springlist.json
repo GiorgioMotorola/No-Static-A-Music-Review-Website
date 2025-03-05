@@ -381,7 +381,7 @@
         "genre": "Singer-Songwriter, Nature Recordings, Ambient, New Age",
         "weathertype": "Cloudy",
         "weathericon": "/springalbums/cloud.png",
-        "youtube": "https://www.youtube.com/watch?v=2L3OCqW76hE",
+        "youtube": "https://www.youtube.com/watch?v=pNT-ZNBwlfo",
         "daywriteup": "Mostly cloudy. Temps nearly steady in the low 70s. Winds NW at 10 to 20 mph.",
         "nightwriteup": "A few clouds. Low 44F. Winds NNW at 10 to 20 mph.",
         "selected": "false"
@@ -847,7 +847,7 @@
             "weathericon": "/springalbums/sun.png",
             "youtube": "https://www.youtube.com/watch?v=d639SjYUX30",
             "daywriteup": "Sunny with a high of 81F. Winds light and variable.",
-            "nightwriteup": "Clear skies and cool temperatures. Low 50F. Winds light and variable.",
+            "nightwriteup": "Clear skies and cool temperatures. Low 50F. Winds light and variable. Happy Birthday, TJ.",
             "selected": "false"
         },
         {
@@ -1428,22 +1428,6 @@
         },
         {
             "date": "June 29",
-            "high": "86",
-            "low": "59",
-            "title": "The Grand Tour",
-            "artist": "George Jones",
-            "year": "1974",
-            "cover": "/springalbums/grand.png",
-            "genre": "Country",
-            "weathertype": "Sunny",
-            "weathericon": "/springalbums/sun.png",
-            "youtube": "https://www.youtube.com/watch?v=9-hBAwaH6CI",
-            "daywriteup": "Sunny and warm, with a high of 86°F. Winds from the west at 5-10 mph.",
-            "nightwriteup": "Clear skies and a low of 59°F. Winds light from the northwest at 5 mph.",
-            "selected": "false"
-        },
-        {
-            "date": "June 30",
             "high": "87",
             "low": "62",
             "title": "Pop",
@@ -1457,8 +1441,23 @@
             "daywriteup": "A warm and sunny day with highs reaching 87°F. Light winds from the southeast at 5 mph.",
             "nightwriteup": "Clear skies with a low of 62°F. Winds light and calm, creating a peaceful night.",
             "selected": "false"
-        }
-        ,
+        },
+        {
+            "date": "June 30",
+            "high": "86",
+            "low": "59",
+            "title": "Gaucho",
+            "artist": "Steely Dan",
+            "year": "1980",
+            "cover": "/springalbums/gaucho.png",
+            "genre": "Jazz-Rock, Yacht Rock",
+            "weathertype": "Sunny",
+            "weathericon": "/springalbums/sun.png",
+            "youtube": "https://www.youtube.com/watch?v=GesEA9MJuII",
+            "daywriteup": "Sunny and warm, with a high of 86°F. Winds from the west at 5-10 mph.",
+            "nightwriteup": "Clear skies and a low of 59°F. Winds light from the northwest at 5 mph.",
+            "selected": "false"
+        },
     {
         "date": "",
         "high": "",
