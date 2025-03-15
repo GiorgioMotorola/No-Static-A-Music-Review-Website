@@ -524,7 +524,7 @@ button {
     max-width: 220px;
   }
   .calendar-day:hover {
-    pointer-events: none;
+  box-shadow: white 0px 0px 0px;
 }
   .header-current-month {
     font-size: 17px;
