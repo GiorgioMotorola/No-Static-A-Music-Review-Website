@@ -523,6 +523,9 @@ button {
     max-height: 80px;
     max-width: 220px;
   }
+  .calendar-day:hover {
+    pointer-events: none;
+}
   .header-current-month {
     font-size: 17px;
   }
