@@ -30,7 +30,7 @@
           </div>
         </div>
         
-        <div v-if="selectedWeekIndex === weekIndex" class="album-details-row">
+        <div :class="['album-details-row', { active: selectedWeekIndex === weekIndex }]">
           <div class="album-details-left">
             <div class="selected-album-title-and-artist">
               {{ selectedAlbum?.title }} by {{ selectedAlbum?.artist }}
@@ -155,12 +155,16 @@ const weeks = computed(() => {
   return weeksArr;
 });
 
-const selectAlbum = (day, weekIndex, dayIndex) => {
+const selectAlbum = (day, weekIndex) => {
   if (!day) return;
-  selectedAlbum.value = day.album;
-  selectedWeekIndex.value = weekIndex;
-  selectedDateIndex.value = dayIndex; 
+  if (selectedWeekIndex.value !== weekIndex) {
+    selectedAlbum.value = day.album;
+    selectedWeekIndex.value = weekIndex;
+  } else {
+    selectedAlbum.value = day.album;
+  }
 };
+
 
 const prevMonth = () => {
   if (currentMonthIndex.value > 0) {
@@ -226,6 +230,7 @@ button {
   margin-right: 10%;
   border: 1px solid black;
   margin-top: 2%;
+  padding-bottom: 20px;
   border-radius: .4%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -305,9 +310,21 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem;
   gap: 20px;
   background-color: #ffffff;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out, opacity 0.4s ease-in-out;
+  pointer-events: none;
+}
+
+.album-details-row.active {
+  max-height: 2500px;
+  opacity: 1;
+  pointer-events: all;
+  padding: 1rem;
 }
 
 .album-details-left, .album-details-right {
@@ -465,14 +482,14 @@ button {
     box-shadow: none;
   }
   .calendar-day {
-    max-height: 90px;
+    max-height: 80px;
     max-width: 220px;
   }
   .header-current-month {
     font-size: 17px;
   }
   .day-date {
-    font-size: 11px;
+    font-size: 9px;
     padding-bottom: .5rem;
   }
   .weather-icon {
@@ -481,7 +498,7 @@ button {
   }
   .weather-type {
     padding-bottom: .5rem;
-    font-size: 6.5px;
+    font-size: 6px;
   }
   .day-temp {
     font-size: 9px;
@@ -495,9 +512,13 @@ button {
   }
   .album-details-row {
     flex-direction: column;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
+
+  .album-details-row.active {
+  padding: .3rem;
+}
   .selected-day-container {
     flex-direction: column;
     gap: 11px;
