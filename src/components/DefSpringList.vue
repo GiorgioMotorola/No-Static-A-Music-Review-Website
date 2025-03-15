@@ -18,6 +18,7 @@
             :key="dayIndex"
             class="calendar-day"
             @click="selectAlbum(day, weekIndex)"
+            :class="{ active: day && day === selectedDay }"
           >
             <template v-if="day">
               <div class="date-temp-container">
@@ -86,6 +87,7 @@ const currentMonthIndex = ref(0);
 const selectedAlbum = ref(null);
 const selectedWeekIndex = ref(null);
 const selectedDateIndex = ref(null); 
+const selectedDay = ref(null);
 const days = ref({ April: [], May: [], June: [] });
 
 const monthStartDays = {
@@ -163,8 +165,8 @@ const selectAlbum = (day, weekIndex) => {
   } else {
     selectedAlbum.value = day.album;
   }
+  selectedDay.value = day;
 };
-
 
 const prevMonth = () => {
   if (currentMonthIndex.value > 0) {
@@ -172,6 +174,7 @@ const prevMonth = () => {
     selectedAlbum.value = null;
     selectedWeekIndex.value = null;
     selectedDateIndex.value = null;
+    selectedDay.value = null;
   }
 };
 
@@ -181,6 +184,7 @@ const nextMonth = () => {
     selectedAlbum.value = null;
     selectedWeekIndex.value = null;
     selectedDateIndex.value = null;
+    selectedDay.value = null; 
   }
 };
 
@@ -191,6 +195,7 @@ const youtubeEmbedUrl = computed(() => {
   return videoId ? `https://www.youtube.com/embed/${videoId}` : "";
 });
 </script>
+
 
 
 <style scoped>
@@ -280,6 +285,12 @@ button {
   background-color: white;
   cursor: pointer;
 }
+
+.calendar-day.active {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+
 
 .calendar-day:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
