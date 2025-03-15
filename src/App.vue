@@ -8,8 +8,12 @@
       <router-link to="/albums/puremoods">Pure Moods </router-link>
       <router-link to="/nsrc">NSRC </router-link>
       <router-link to="/top2024"><span style="color:steelblue;">TOP ALBUMS OF 2024</span></router-link>
-      <router-link to="/listspring"><span style="color:#ff8356; font-weight: 600;">&nbsp;&#9728;&nbsp;THE 2025 SPRING ALBUMS CALENDAR&nbsp;&#9728;</span></router-link>
     </nav>
+    <div class="banner">
+      <router-link to="/listspring">
+        <span style="color:#1ECBE1; font-weight: 300; background-color: #636363;">&nbsp;&#9728;&nbsp;The 2025 Spring Album Calendar is now available! Click here to check it out.&nbsp;&#9728;</span>
+      </router-link>
+    </div>
     <div class="title">
       <div class="title-text">
         [no-static] records
@@ -163,6 +167,20 @@ footer {
   text-decoration: none;
 }
 
+.banner {
+  background-color: #636363;
+  padding: 12px 0;
+  text-align: center;
+  margin-top: .2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.banner a {
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 @media (max-width: 1300px) {
   .nav-link a {
     margin: 5px 0px;
@@ -189,6 +207,18 @@ footer {
   font-size: 20px;
   margin: 0 10px;
   color: rgb(43,46,40);
+}
+
+.banner {
+  background-color: #636363;
+  padding: 9px 0;
+  text-align: center;
+}
+
+.banner a {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 }
@@ -221,6 +251,17 @@ footer {
   .title {
     text-align: center;
     font-size: 50px;
+  }
+  .banner {
+    background-color: #636363;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .banner a {
+    font-size: 10.5px;
+    text-decoration: none;
+    text-transform: capitalize;
   }
 
   .image-container img {
