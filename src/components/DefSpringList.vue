@@ -1,16 +1,15 @@
 <template>
+  <div class="desc-title">Winter is over. Spring is here. To celebrate shaking off the frost, here are 91 albums that represent our favorite season. Treat this like an advent calendar or click through the days to see if you're favorite Spring album(s) made the list and/or potentially find new music to listen to.</div>
   <div class="calendar-container">
     <div class="calendar-header">
       <button @click="prevMonth">< prev</button>
       <div class="header-current-month">{{ months[currentMonthIndex] }}</div>
       <button @click="nextMonth">next ></button>
     </div>
-
     <div class="calendar-grid">
       <div class="calendar-weekdays">
         <div v-for="day in weekdays" :key="day" class="weekday-header">{{ day }}</div>
       </div>
-      
       <template v-for="(week, weekIndex) in weeks" :key="weekIndex">
         <div class="calendar-row">
           <div
@@ -30,7 +29,6 @@
             </template>
           </div>
         </div>
-        
         <div :class="['album-details-row', { active: selectedWeekIndex === weekIndex }]">
           <div class="album-details-left">
             <div class="selected-album-title-and-artist">
@@ -214,6 +212,16 @@ const youtubeEmbedUrl = computed(() => {
   text-transform: uppercase;
 }
 
+.desc-title {
+  margin: 1rem;
+  padding-left: 11rem;
+  padding-right: 11rem;
+  font-size: 14px;
+  text-align: center;
+  color:#774b3a;
+  font-weight: 500;
+}
+
 button {
   background-color: #ffffff;
   font-family: "IBM Plex Sans", serif;
@@ -287,7 +295,7 @@ button {
 }
 
 .calendar-day.active {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   transform: scale(1.05); 
 }
 
@@ -451,6 +459,16 @@ button {
   margin-top: .5rem;
 }
 
+.desc-title {
+  margin: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  font-size: 11px;
+  text-align: center;
+  color:#774b3a;
+  font-weight: 500;
+}
+
 .selected-temp-day {
   font-size: 22px;
 }
@@ -492,6 +510,15 @@ button {
     border: none;
     box-shadow: none;
   }
+  .desc-title {
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 10.5px;
+  text-align: center;
+  color:#774b3a;
+  font-weight: 500;
+}
   .calendar-day {
     max-height: 80px;
     max-width: 220px;

@@ -8,6 +8,7 @@
       <router-link to="/albums/puremoods">Pure Moods </router-link>
       <router-link to="/nsrc">NSRC </router-link>
       <router-link to="/top2024"><span style="color:steelblue;">TOP ALBUMS OF 2024</span></router-link>
+      <router-link to="/listspring"><span style="color:#ff8356; font-weight: 600;">&nbsp;&#9728;&nbsp;THE 2025 SPRING ALBUMS CALENDAR&nbsp;&#9728;</span></router-link>
     </nav>
     <div class="title">
       <div class="title-text">
