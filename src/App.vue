@@ -1,38 +1,42 @@
 <template>
   <div id="app">
-    <nav class="nav-link">
-      <router-link to="/">Home </router-link>
-      <router-link to="/albums">Albums </router-link>
-      <router-link to="/albums/genres">Genres </router-link>
-      <router-link to="/albums/seasons">Seasons </router-link>
-      <router-link to="/albums/puremoods">Pure Moods </router-link>
-      <router-link to="/nsrc">NSRC </router-link>
-      <router-link to="/top2024"><span style="color:steelblue;">TOP ALBUMS OF 2024</span></router-link>
-    </nav>
-    <div class="banner">
-      <router-link to="/listspring">
-        <span style="color:#1ECBE1; font-weight: 300; background-color: #636363;">&nbsp;&#9728;&nbsp;The 2025 Spring Album Calendar is now available! Click here to check it out.&nbsp;&#9728;</span>
-      </router-link>
+    <div id="mySidebar" class="sidebar right">
+      <a href="javascript:void(0)" class="closebtn" @click="closeNav">×</a>
+      <router-link to="/">Home</router-link>
+      <router-link to="/albums">Albums</router-link>
+      <router-link to="/albums/genres">Genres</router-link>
+      <router-link to="/albums/seasons">Seasons</router-link>
+      <router-link to="/albums/puremoods">Pure Moods</router-link>
+      <router-link to="/nsrc">NSRC</router-link>
+      <router-link to="/top2024">Best Albums of 2024</router-link>
+      <router-link to="/listspring">2025 Spring Calendar</router-link>
     </div>
-    <div class="title">
-      <div class="title-text">
-        [no-static] records
-        <div class="title-second">the most essential albums of all time, according to one guy.</div>
+
+    <div id="main">
+      <button class="openbtn right" @click="openNav">
+  <img src="/public/cassette-logo.jpg" alt="Sidebar Icon" class="sidebar-icon" />
+</button>
+      <div class="title">
+        <div class="title-text">
+          [no-static] records
+          <div class="title-second">the most essential albums of all time, according to one guy.</div>
+        </div>
       </div>
+      <div class="border"></div>
+      <router-view></router-view>
     </div>
-    <div class="border"></div>
-    <router-view></router-view>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Mike Weatherford</p>
+        <ul>
+          <li><a href="https://github.com/GiorgioMotorola" target="_blank">GITHUB</a></li>
+          <li><a href="https://www.linkedin.com/in/michael-weatherford-10a3ab220/" target="_blank">LINKEDIN</a></li>
+          <li><a href="https://www.mweatherford.rocks/" target="_blank">PORTFOLIO</a></li>
+        </ul>
+      </div>
+    </footer>
   </div>
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2024 Mike Weatherford</p>
-      <ul>
-        <li><a href="https://github.com/GiorgioMotorola" target="_blank">GITHUB</a></li>
-        <li><a href="https://www.linkedin.com/in/michael-weatherford-10a3ab220/" target="_blank">LINKEDIN</a></li>
-        <li><a href="https://www.mweatherford.rocks/" target="_blank">PORTFOLIO</a></li>
-      </ul>
-    </div>
-  </footer>
 </template>
 
 <script>
@@ -41,18 +45,81 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'App',
   setup() {
+    const openNav = () => {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginRight = "250px";
+    };
+
+    const closeNav = () => {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginRight = "0";
+    };
+
+    return { openNav, closeNav };
   }
 });
 </script>
 
 <style scoped>
-template {
-  margin: 0;
-  box-sizing: border-box;
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #eee2e2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
 }
 
-.top-of-year {
-  font-size: 20px;
+.sidebar a {
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #41799e;
+  background-color: #eee2e2;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #2e2d2d;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+.openbtn {
+  cursor: pointer;
+  border: none;
+}
+
+.openbtn.right {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.sidebar-icon {
+  width: 75x;
+  height: 75px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
 }
 
 .title {
@@ -61,11 +128,7 @@ template {
   display: flex;
   align-items: start;
   justify-content: start;
-  color: rgb(43,46,40);
-}
-
-.image-container img {
-  width: 100px;
+  color: rgb(43, 46, 40);
 }
 
 .title-text {
@@ -73,13 +136,13 @@ template {
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding-top: 3%;
+  padding-top: .5%;
   padding-bottom: 1%;
 }
 
 .title-second {
   font-size: 22px;
-  color: rgb(43,46,40);
+  color: rgb(43, 46, 40);
   padding: 2%;
 }
 
@@ -90,209 +153,89 @@ template {
   padding-top: 10px;
 }
 
-.nav-link {
-  overflow: hidden;
-  display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  border-bottom: 1.75px solid rgb(43,46,40);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  /* background-color: transparent; */
-  z-index: 999;
-}
-
-.nav-link a {
-  text-decoration: none;
-  font-size: 20px;
-  margin: 0 10px;
-  color: rgb(43,46,40);
-  /* background-color: transparent; */
-}
-
-.nav-link a:hover {
-  text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(43,46,40);
-  text-transform: uppercase;
-}
-
-footer {
-  color: rgb(43,46,40);
-  padding: 15px;
-  width: calc(100% - 30px);
-  bottom: 0;
-  position: relative;
-  left: 0;
-  bottom: 0;
-}
-
 .footer-content {
-  color: rgb(43,46,40);
+  color: rgb(43, 46, 40);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-content p {
-  color: rgb(43,46,40);
-  margin: 0;
-}
-
 .footer-content ul {
-  color: rgb(43,46,40);
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-right: 30px;
 }
 
 .footer-content ul li {
   display: inline;
   margin-right: 15px;
-
-}
-
-.footer-content ul li:last-child {
-  margin-right: 0;
 }
 
 .footer-content ul li a {
-  color: rgb(43,46,40);
+  color: rgb(43, 46, 40);
   text-decoration: none;
-}
-
-.banner {
-  background-color: #636363;
-  padding: 12px 0;
-  text-align: center;
-  margin-top: .2rem;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.banner a {
-  font-size: 19px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-@media (max-width: 1300px) {
-  .nav-link a {
-    margin: 5px 0px;
-  }
-
-  .title {
-    text-align: center;
-    font-size: 70px;
-  }
-
-  .title-second {
-    font-size: 17px;
-  }
-
-  .nav-link {
-  overflow: hidden;
-  display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.nav-link a {
-  text-decoration: none;
-  font-size: 20px;
-  margin: 0 10px;
-  color: rgb(43,46,40);
-}
-
-.banner {
-  background-color: #636363;
-  padding: 9px 0;
-  text-align: center;
-}
-
-.banner a {
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
 }
 
 @media (max-width: 1000px) {
 
-  .nav-link {
-  overflow: hidden;
-  display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
+.nav-link {
+overflow: hidden;
+display: flex;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 .nav-link a {
-  text-decoration: none;
-  font-size: 20px;
-  margin: 0 10px;
-  color: rgb(43,46,40);
+text-decoration: none;
+font-size: 20px;
+margin: 0 10px;
+color: rgb(43,46,40);
 }
-  .title {
-    font-size: 70px;
-  }
-
-  .title-second {
-    font-size: 17px;
-  }
+.title {
+  font-size: 70px;
+}
+.title-second {
+  font-size: 17px;
+}
+.sidebar-icon {
+  width: 50x;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
 }
 
 @media (max-width: 800px) {
-  .title {
-    text-align: center;
-    font-size: 50px;
-  }
-  .banner {
-    background-color: #636363;
-    padding: 5px 0;
-    text-align: center;
-  }
-
-  .banner a {
-    font-size: 10.5px;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-
-  .image-container img {
-    width: 50px;
-  }
-
-  .title-second {
-    font-size: 12px;
-  }
-
-  .nav-link {
-  overflow: hidden;
-  display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+.title-text {
+  padding-top: 6%;
 }
 
-.nav-link a {
-  text-decoration: none;
-  font-size: 9px;
-  margin: 0 5px;
-  color: rgb(43,46,40);
+.image-container img {
+  width: 50px;
 }
 
-  .footer-content ul {
-    font-size: 10px;
-  }
+.title-second {
+  font-size: 12px;
+}
 
-  .footer-content p {
-    font-size: 10px;
-  }
+.sidebar-icon {
+  width: 35x;
+  height: 35px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.footer-content ul {
+  font-size: 10px;
+}
+
+.footer-content p {
+  font-size: 10px;
+}
 
 }
 </style>
