@@ -13,9 +13,7 @@
     </div>
 
     <div id="main">
-      <button class="openbtn right" @click="openNav">
-  <img src="/public/cassette-logo.jpg" alt="Sidebar Icon" class="sidebar-icon" />
-</button>
+      <button class="openbtn right" @click="openNav">☰ MENU</button>
       <div class="title">
         <div class="title-text">
           [no-static] records
@@ -107,6 +105,10 @@ body {
   position: absolute;
   right: 10px;
   top: 10px;
+  font-size: 30px;
+  background-color: #9cc0d8;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: .2rem;
 }
 
 .sidebar-icon {
@@ -196,11 +198,8 @@ color: rgb(43,46,40);
 .title-second {
   font-size: 17px;
 }
-.sidebar-icon {
-  width: 50x;
-  height: 50px;
-  vertical-align: middle;
-  border-radius: 50%;
+.openbtn.right {
+  font-size: 20px;
 }
 }
 
@@ -210,7 +209,7 @@ color: rgb(43,46,40);
   font-size: 50px;
 }
 .title-text {
-  padding-top: 6%;
+  padding-top: 4%;
 }
 
 .image-container img {
@@ -221,13 +220,6 @@ color: rgb(43,46,40);
   font-size: 12px;
 }
 
-.sidebar-icon {
-  width: 35x;
-  height: 35px;
-  vertical-align: middle;
-  border-radius: 50%;
-}
-
 .footer-content ul {
   font-size: 10px;
 }
@@ -235,6 +227,8 @@ color: rgb(43,46,40);
 .footer-content p {
   font-size: 10px;
 }
-
+.openbtn.right {
+  font-size: 15px;
+}
 }
 </style>
