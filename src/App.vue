@@ -105,10 +105,10 @@ body {
   position: absolute;
   right: 10px;
   top: 10px;
-  font-size: 30px;
-  background-color: #9cc0d8;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: .2rem;
+  font-size: 22px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+  border: 1.75px solid black;
 }
 
 .sidebar-icon {
