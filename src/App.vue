@@ -9,6 +9,7 @@
       <router-link to="/albums/puremoods">Pure Moods</router-link>
       <router-link to="/nsrc">NSRC</router-link>
       <router-link to="/top2024">Best Albums of 2024</router-link>
+      <router-link to="/top2025">Best Albums of 2025</router-link>
       <router-link to="/listspring">2025 Spring Calendar</router-link>
     </div>
 

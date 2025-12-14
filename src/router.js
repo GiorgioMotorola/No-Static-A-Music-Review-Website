@@ -11,6 +11,7 @@ import puremoodView from './components/puremoodView.vue';
 import nsrcView from './components/nsrcView.vue';
 import nsrcDetail from './components/nsrcDetail.vue';
 import TopAlbums2024 from './components/TopAlbums2024.vue';
+import TopAlbums2025 from './components/TopAlbums2025.vue';
 import DefSpringList from './components/DefSpringList.vue';
 
 const routes = [
@@ -55,6 +56,12 @@ const routes = [
     path: '/top2024/',
     name: 'TopAlbums2024',
     component: TopAlbums2024,
+    props: true,
+  },
+    {
+    path: '/top2025/',
+    name: 'TopAlbums2025',
+    component: TopAlbums2025,
     props: true,
   },
   { path: '/listspring', component: DefSpringList },
