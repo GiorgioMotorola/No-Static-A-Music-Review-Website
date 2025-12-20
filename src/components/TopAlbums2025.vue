@@ -339,11 +339,11 @@ export default {
   }
 
   .title {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .artist {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .ranking {
@@ -352,12 +352,12 @@ export default {
   }
 
   .genre {
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 6%;
   }
 
   .desc {
-    font-size: 15px;
+    font-size: 17px;
     margin-right: 0%;
   }
 
